@@ -1,0 +1,36 @@
+{#-
+  Blog index and category pages. Lists the titles of the posts under one
+  heading per category, in the order of extra.blog_categories in mkdocs.yml,
+  instead of the excerpts that the theme shows by default. Categories missing
+  from that list follow in the order they first appear.
+-#}
+{% extends "main.html" %}
+{% block container %}
+  <div class="md-content" data-md-component="content">
+    <div class="md-content__inner md-typeset">
+      {{ page.content }}
+      {% set names = (config.extra.blog_categories or []) | list %}
+      {% for post in posts %}
+        {% for name in post.config.categories if name not in names %}
+          {% set _ = names.append(name) %}
+        {% endfor %}
+      {% endfor %}
+      {% for name in names %}
+        {% set group = [] %}
+        {% for post in posts if name in post.config.categories %}
+          {% set _ = group.append(post.post) %}
+        {% endfor %}
+        {% if group %}
+          {% if name != page.title %}
+            <h2 id="{{ name | lower | replace(' ', '-') }}">{{ name }}</h2>
+          {% endif %}
+          <ul class="post-list">
+            {% for post in group %}
+              <li><a href="{{ post.url | url }}">{{ post.title }}</a></li>
+            {% endfor %}
+          </ul>
+        {% endif %}
+      {% endfor %}
+    </div>
+  </div>
+{% endblock %}

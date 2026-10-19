@@ -51,7 +51,7 @@ plugins:
       blog_dir: blog
       post_url_format: "{slug}"
       archive: false
-      categories_toc: true
+      pagination: false
   - gen-files:
       scripts:
         - scripts/gen_codebook.py
@@ -81,6 +81,16 @@ markdown_extensions:
 
 extra_css:
   - assets/extra.css
+
+hooks:
+  - scripts/blog_categories.py
+
+extra:
+  # Order of the categories on the Working with the data page and in its sidebar
+  blog_categories:
+    - Getting started
+    - Measurement
+    - Caveats
 
 validation:
   links:
