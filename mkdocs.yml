@@ -84,6 +84,7 @@ extra_css:
 
 hooks:
   - scripts/blog_categories.py
+  - scripts/seo.py
 
 extra:
   # Order of the categories on the Working with the data page and in its sidebar

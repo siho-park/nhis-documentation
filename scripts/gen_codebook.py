@@ -223,7 +223,15 @@ def render_variable(v: dict, t: dict, ds: dict, index: dict, by_name: dict) -> s
     short = ds.get("short", ds["title"])
     lines = [
         "---",
-        "title: " + json.dumps(f"{v['name']} ({short}, {t['title']})", ensure_ascii=False),
+        "title: " + json.dumps(
+            f"{v['name']} {cell(v['label_ko'])} ({short}, {t['title']})", ensure_ascii=False
+        ),
+        "description: " + json.dumps(
+            f"{v['name']} {cell(v['label_ko'])} ({cell(v['label_en'])}), a variable in the "
+            f"{t['title']} table ({cell(t['title_ko'])}) of the Korean NHIS {ds['title']} "
+            f"({ds['title_ko']}).",
+            ensure_ascii=False,
+        ),
         "---",
         "",
         f"[Variables](../../index.md) › [{ds['title']}](../index.md) › "
@@ -276,7 +284,18 @@ def render_variable(v: dict, t: dict, ds: dict, index: dict, by_name: dict) -> s
 
 
 def render_code_list(name: str, lst: dict, ds: dict, users: list) -> str:
+    title = code_list_title(name, lst)
+    short = ds.get("short", ds["title"])
     lines = [
+        "---",
+        "title: " + json.dumps(f"{title}, {short}", ensure_ascii=False),
+        "description: " + json.dumps(
+            f"{title}, a code list of the Korean NHIS {ds['title']} ({ds['title_ko']}), "
+            "with the Korean and English label of each code.",
+            ensure_ascii=False,
+        ),
+        "---",
+        "",
         f"[Variables](../../index.md) › [{ds['title']}](../index.md) › Code lists",
         "",
         f"# {code_list_title(name, lst)}",
@@ -316,6 +335,10 @@ def variable_rows(t: dict, ds: dict) -> list[str]:
 def render_dataset(ds: dict, code_users: dict) -> str:
     n_vars = sum(len(t["variables"]) for t in ds["tables"])
     lines = [
+        "---",
+        "title: " + json.dumps(f"{ds['title']} variables ({ds['title_ko']})", ensure_ascii=False),
+        "---",
+        "",
         "[Variables](../index.md) › " + ds["title"],
         "",
         f"# {ds['title']} ({ds['title_ko']})",

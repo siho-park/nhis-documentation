@@ -1,1 +1,12 @@
 {% extends "base.html" %}
+
+{#- The home page sits inside the Home section, so the theme would repeat
+    the site name in its title. Search results show this title, and "Korean"
+    separates the site from the US National Health Interview Survey. -#}
+{% block htmltitle %}
+  {% if page.file and page.file.src_uri == "index.md" %}
+    <title>Korean NHIS Data Documentation</title>
+  {% else %}
+    {{ super() }}
+  {% endif %}
+{% endblock %}
