@@ -12,10 +12,6 @@ The papers below describe the official design of each database and are the stand
 !!! note "To be checked"
     Author lists and page numbers were entered from memory and should be checked against the journal pages before the site is announced.
 
-## Methods and validation
-
-TODO. Validation studies of diagnosis-based definitions, and methodological papers on using NHIS data.
-
 ## Official documentation
 
 The NHIS distributes a user manual (사용자 매뉴얼) for each sample database, column layouts for the customized research DB, and guides to the application process through the [NHISS portal](https://nhiss.nhis.or.kr). The site follows the versions below, and the [sources and versions](datasets/sources.md) page lists superseded documents and the conflicts found between documents.

@@ -33,12 +33,8 @@ ROOT = Path(__file__).resolve().parent.parent
 CODEBOOK = ROOT / "codebook"
 OUT = Path("variables")
 
-STATUSES = {
-    "documented": "Documented",
-    "verified": "Verified",
-    "unverified": "Unverified",
-    "disputed": "Disputed",
-}
+# Status is kept in the YAML for the importer but is not shown on the site.
+STATUSES = ("documented", "verified", "unverified", "disputed")
 DATASET_REQUIRED = ["id", "title", "title_ko", "years"]
 TABLE_REQUIRED = ["id", "title", "title_ko", "variables"]
 VARIABLE_REQUIRED = ["name", "label_ko", "label_en", "status"]
@@ -83,10 +79,6 @@ def cell(text) -> str:
     if text is None:
         return ""
     return " ".join(str(text).split()).replace("|", "\\|").replace("<", "&lt;")
-
-
-def badge(status: str) -> str:
-    return f'<span class="status status-{status}">{STATUSES[status]}</span>'
 
 
 # --- Loading ----------------------------------------------------------------
@@ -239,7 +231,7 @@ def render_variable(v: dict, t: dict, ds: dict, index: dict, by_name: dict) -> s
         "",
         f"# {v['name']}",
         "",
-        f"**{cell(v['label_ko'])}** · {cell(v['label_en'])} {badge(v['status'])}",
+        f"**{cell(v['label_ko'])}** · {cell(v['label_en'])}",
         "",
         f"- **Dataset** {ds['title']} ({ds['title_ko']})",
         f"- **Table** {t['title']} · {cell(t['title_ko'])}",
@@ -249,8 +241,6 @@ def render_variable(v: dict, t: dict, ds: dict, index: dict, by_name: dict) -> s
     if v.get("years"):
         lines.append(f"- **Years** {cell(v['years'])}")
     lines.append(f"- **Source** {cell(t.get('source', ''))}")
-    if v["status"] == "verified":
-        lines.append(f"- **Verified** {v['verified_by']}, {v['verified_on']}")
     lines.append("")
 
     if v.get("notes"):
@@ -316,10 +306,9 @@ def render_code_list(name: str, lst: dict, ds: dict, users: list) -> str:
 def variable_rows(t: dict, ds: dict) -> list[str]:
     lines = ["| Variable | 한글 | English | Years |", "|---|---|---|---|"]
     for v in t["variables"]:
-        status = "" if v["status"] == "documented" else " " + badge(v["status"])
         lines.append(
             f"| [`{v['name']}`]({t['id']}/{slug(v['name'])}.md) | {cell(v['label_ko'])} | "
-            f"{cell(v['label_en'])}{status} | {cell(v.get('years'))} |"
+            f"{cell(v['label_en'])} | {cell(v.get('years'))} |"
         )
     return lines + [""]
 
@@ -387,11 +376,6 @@ def render_dataset(ds: dict, code_users: dict) -> str:
 
 def render_index(datasets: list[dict]) -> str:
     n_vars = sum(len(t["variables"]) for ds in datasets for t in ds["tables"])
-    counts = defaultdict(int)
-    for ds in datasets:
-        for t in ds["tables"]:
-            for v in t["variables"]:
-                counts[v["status"]] += 1
     lines = [
         "# Variables",
         "",
@@ -410,19 +394,6 @@ def render_index(datasets: list[dict]) -> str:
             f"{cell(ds['years'])} | {len(ds['tables'])} | {n:,} |"
         )
     lines += [
-        "",
-        "## Status of entries",
-        "",
-        "Each entry carries a status badge, and the counts below cover the whole codebook.",
-        "",
-        f"- {badge('documented')} The entry is imported from the NHIS layout files and manuals "
-        f"and translated, but not checked against the data ({counts['documented']:,} entries).",
-        f"- {badge('verified')} The entry has been checked against the data, and the person and "
-        f"date are recorded ({counts['verified']:,} entries).",
-        f"- {badge('unverified')} The entry is drafted from published papers or other secondary "
-        f"sources ({counts['unverified']:,} entries).",
-        f"- {badge('disputed')} Sources or users disagree, and the notes describe the conflict "
-        f"({counts['disputed']:,} entries).",
         "",
         "The English names and descriptions are translations made for this site. The Korean "
         "original is shown next to each translation, and it is the authoritative text. "

@@ -49,7 +49,7 @@ The YAML files are produced by the importer in `tools/importer/`, which reads th
 |---|---|---|
 | `name` | yes | Variable name as it appears in the data |
 | `label_ko`, `label_en` | yes | Korean label from the official documentation and an English translation |
-| `status` | yes | `documented`, `verified`, `unverified`, or `disputed` |
+| `status` | yes | `documented`, `verified`, `unverified`, or `disputed`, used by the importer and not shown on the site |
 | `verified_by`, `verified_on` | if verified | Name of the person who checked the entry and the date, as `YYYY-MM-DD` |
 | `type`, `years` | no | Storage type and the years in which the variable exists |
 | `notes` | no | List of notes in English, shown in a box at the top of the page |
@@ -58,10 +58,6 @@ The YAML files are produced by the importer in `tools/importer/`, which reads th
 | `keep` | no | `true` to protect a hand-edited entry from the importer |
 
 Each period has `years`, `label_ko`, and `label_en`, and optionally a `description` and `notes` (lists of items with `en` and `ko`), `codes` (a list with `code`, `label_ko`, and `label_en`), and `code_list` (the name of a list in `_codes.yml`).
-
-### Status
-
-An entry imported from the NHIS documentation has the status `documented`. An entry is `verified` when someone with access to an extract checks its label, type, and value codes against the data and records their name and the date. Verification does not certify the notes, which reflect the experience of users. If the sources or the data contradict an entry, set the status to `disputed` and describe the conflict in the notes.
 
 ## Previewing the site locally
 

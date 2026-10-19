@@ -64,7 +64,7 @@ A shared concept does not guarantee a shared coding. For example, `SGG` and `SID
 
 ## Page template
 
-A new dataset page should use the following sections, leaving a section in place with a TODO note when the information is not yet known.
+A new dataset page should use the following sections, leaving out a section when the information is not yet known.
 
 - **Overview.** What population the database covers and what it is typically used for.
 - **Sample design.** How the sample was drawn, including the base year, strata, and sampling fraction.

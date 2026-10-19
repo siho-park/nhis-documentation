@@ -11,6 +11,7 @@ codebook/                 variable documentation as YAML, one folder per dataset
     _codes.yml            shared code lists
     <table>.yml           one file per table
 docs/                     hand-written pages
+docs/blog/posts/          posts in the Working with the data tab, one file per post
 scripts/gen_codebook.py   turns codebook/ into the Variables section at build time
 tools/importer/           reads the NHIS layout files and manuals into codebook/
 tools/translations.tsv    English translations of every Korean string in the codebook
@@ -32,6 +33,10 @@ python tools/importer/build_codebook.py ir tools/translations.tsv codebook
 ```
 
 The second step writes the untranslated strings to `todo.tsv`. Add their translations to `tools/translations.tsv` (Korean, a tab, then English) before running the third step, which stops if any string is missing. Variables marked `verified` or `keep: true` in `codebook/` are not overwritten.
+
+## Writing a post
+
+Posts in the Working with the data tab are Markdown files in `docs/blog/posts/`. Copy an existing post, change the front matter at the top, and write the text below the title. The `date` sets the order on the index page, with the newest post first and posts of the same date in the order of their file names. The `slug` sets the address of the post, and `categories` places it under Caveats, Getting started, Measurement, or a new category. The paragraph above the `<!-- more -->` line is the excerpt shown on the index page. A post by another author needs an entry for that author in `docs/blog/.authors.yml`.
 
 ## Previewing locally
 

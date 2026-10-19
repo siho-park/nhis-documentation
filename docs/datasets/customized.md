@@ -95,9 +95,4 @@ The application form of 2026 lets applicants request data through 2024, while th
 
 Researchers analyze customized extracts at NHIS analysis centers (분석센터). The cohort manuals add that research on the diagnoses and procedures they mask can be carried out without masking in designated analysis rooms, using customized data.
 
-## Still to be documented
-
-!!! note "To be written"
-    The fees, the time from application to access, and whether remote analysis is possible.
-
 [^drugs]: The guide asks applicants to request drugs at the coarsest level that serves the study, such as groups or the first four digits of the ingredient code.

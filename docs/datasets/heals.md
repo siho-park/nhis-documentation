@@ -22,9 +22,6 @@ The cohort is closed, so it ages and shrinks over time. Membership falls from 51
 
 The manual describes the current data through 2023 but does not record earlier releases. The files are split into the periods 2002 to 2015, 2016 to 2019, and 2020 to 2023, and several variables differ in the files from 2016 onward, as listed under known issues.
 
-!!! note "To be written"
-    Release history, with the years covered by each release and the changes between them.
-
 ## Tables
 
 The database has 46 files in seven groups of tables.

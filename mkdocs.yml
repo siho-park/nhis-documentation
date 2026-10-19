@@ -47,6 +47,11 @@ plugins:
       lang:
         - en
         - ko
+  - blog:
+      blog_dir: blog
+      post_url_format: "{slug}"
+      archive: false
+      categories_toc: true
   - gen-files:
       scripts:
         - scripts/gen_codebook.py
@@ -101,12 +106,6 @@ nav:
       - Sources and versions: datasets/sources.md
   - Variables: variables/
   - Working with the data:
-      - guides/index.md
-      - How the tables fit together: guides/table-structure.md
-      - Constructing an analysis sample: guides/sample-construction.md
-      - Identifying conditions: guides/identifying-conditions.md
-      - Utilization and spending: guides/utilization-spending.md
-      - Code examples: guides/code-examples.md
-  - Caveats: caveats.md
+      - blog/index.md
   - Glossary: glossary.md
   - References: references.md

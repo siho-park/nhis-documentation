@@ -96,7 +96,7 @@ The long-term care tables cover applicants for long-term care insurance (노인�
 
 ## Linkage
 
-Every table except the provider table carries the person identifier, so most merges use `RN_INDI` (개인고유번호, person identifier) together with a year. The identifiers below replace the original administrative numbers.
+Every table except the two provider tables, INST and T05, carries the person identifier, so most merges use `RN_INDI` (개인고유번호, person identifier) together with a year. The identifiers below replace the original administrative numbers.
 
 | Variable | 한글 | English | Format | Links |
 |---|---|---|---|---|

@@ -12,15 +12,9 @@ The population falls into three groups, and the group a person belongs to determ
 
 Low-income households are covered by Medical Aid (의료급여) rather than health insurance. Medical Aid is financed by the government and has its own cost-sharing rules, but its beneficiaries also appear in the NHIS eligibility data.
 
-!!! note "To be written"
-    How Medical Aid beneficiaries and their claims appear in each database, and in which years.
-
 ## Benefits and cost sharing
 
 Services are divided into covered services (급여), which are billed to the insurer with patient cost sharing, and non-covered services (비급여), which patients pay for entirely out of pocket. Only covered services are billed to the insurer, so non-covered services do not appear in the claims data. This matters for any measure of total spending, since the share of non-covered services varies across conditions, provider types, and years.
-
-!!! note "To be written"
-    Cost-sharing rates by provider type and setting, the out-of-pocket ceiling (본인부담상한제), and the special co-payment reduction program (산정특례).
 
 ## The NHIS and HIRA
 
@@ -38,12 +32,6 @@ Two public agencies handle claims, and both release research data. Providers sub
 
 The NHIS runs the national health screening program (국가건강검진), and screening results are available in several research databases. Most adults are invited for a general health screening every two years, while non-office workers are screened every year, and separate programs cover cancer screening and infants and children.
 
-!!! note "To be written"
-    Eligibility rules by year, the content of each screening, and the cancer screening schedule.
-
 ## Long-term care
 
 The NHIS also administers long-term care insurance for older adults (노인장기요양보험), introduced in July 2008.
-
-!!! note "To be written"
-    Which databases include long-term care eligibility and use.
