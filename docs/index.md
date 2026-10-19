@@ -20,6 +20,6 @@ This site is not affiliated with or endorsed by the NHIS. Entries are written by
 
 ## Contributing
 
-Corrections and additions are welcome from anyone who has worked with the data. The [contributing page](about/contributing.md) explains how to suggest a change and how the codebook files are organized.
+Corrections, additions, and blog posts are welcome from anyone who has worked with the data, and the easiest way to send them is an email to [sihopark@kdischool.ac.kr](mailto:sihopark@kdischool.ac.kr?subject=NHIS%20Data%20Documentation). The [contributing page](about/contributing.md) explains what to include and how the codebook files are organized.
 
 Maintained by Siho Park, KDI School of Public Policy and Management.

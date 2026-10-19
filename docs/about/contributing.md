@@ -2,12 +2,20 @@
 
 Contributions from researchers who have used the data are what make this site useful. A correction to a single value code saves the next user the same afternoon of detective work.
 
-## Ways to contribute
+## Suggesting a correction
 
-There are two ways to suggest a change, depending on how comfortable you are with GitHub.
+The simplest way to suggest a change is an email to [sihopark@kdischool.ac.kr](mailto:sihopark@kdischool.ac.kr?subject=NHIS%20Data%20Documentation). Please include the link to the page, the change you propose, and its source if there is one, such as a manual, a published paper, or your own experience with the data.
 
-- **Open an issue.** Describe the problem or the missing information in a [GitHub issue](https://github.com/siho-park/nhis-documentation/issues). No technical knowledge is needed.
-- **Edit the page.** Every page has an edit button at the top right that opens the source file on GitHub, where you can propose the change directly.
+## Writing a post
+
+Researchers who have worked with the data are welcome to write a post for [Working with the data](../blog/index.md). A post can be short and cover a single pitfall, a way of constructing a variable, or a lesson from the application or export process. Send the draft by email to [sihopark@kdischool.ac.kr](mailto:sihopark@kdischool.ac.kr?subject=NHIS%20Data%20Documentation%20post) in any format, such as Word, Google Docs, or plain text, together with your name and affiliation as they should appear on the post. The draft is then formatted for the site and published under your name.
+
+## Using GitHub
+
+Contributors who use GitHub can also suggest a change there directly.
+
+- **Open an issue.** Describe the problem or the missing information in a [GitHub issue](https://github.com/siho-park/nhis-documentation/issues).
+- **Edit the page.** Every page has an edit button at the top right that opens its source file on GitHub, where you can propose the change as a pull request. On a variable page, the button opens the file for the whole table, and the fields of each entry are described [below](#how-the-variable-pages-are-built).
 
 ## What not to post
 
