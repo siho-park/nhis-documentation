@@ -14,7 +14,7 @@ docs/                     hand-written pages
 scripts/gen_codebook.py   turns codebook/ into the Variables section at build time
 tools/importer/           reads the NHIS layout files and manuals into codebook/
 tools/translations.tsv    English translations of every Korean string in the codebook
-overrides/                theme overrides (the draft banner)
+overrides/                theme overrides
 mkdocs.yml                site configuration and navigation
 ```
 
