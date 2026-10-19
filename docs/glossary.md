@@ -10,9 +10,10 @@ The official documentation and variable labels are written in Korean administrat
 | 건강보험심사평가원 | Health Insurance Review and Assessment Service (HIRA) | Reviews claims |
 | 자격 | Eligibility | Enrollment status in a given year |
 | 가입자 | Insured person | |
-| 직장가입자 | Employee insured | Wage workers |
+| 직장가입자 | Employee insured | Wage workers and owners of businesses with at least one employee |
 | 지역가입자 | Self-employed insured | Everyone not covered through an employer or as a dependent |
-| 세대주 | Head of household | Used for self-employed insured |
+| 세대주 | Head of household | Used for self-employed insured and Medical Aid |
+| 세대원 | Household member | Used for self-employed insured and Medical Aid |
 | 피부양자 | Dependent | Family member covered through an employee insured |
 | 보험료 | Premium | Contribution |
 | 보험료분위 | Premium decile | Common proxy for income |

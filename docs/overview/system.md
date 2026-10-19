@@ -4,13 +4,16 @@ Korea has a single public insurer, the National Health Insurance Service (NHIS),
 
 ## Who is covered
 
-The population falls into three groups, and the group a person belongs to determines how their premium is set and how they appear in the data.
+The population falls into six groups, and the group a person belongs to determines how their premium is set and how they appear in the data.
 
-- **Employee insured (직장가입자)** are wage workers and their employers, who pay premiums based on wages.
-- **Self-employed insured (지역가입자)** are everyone else not covered as a dependent, who pay premiums based on income and property.
-- **Dependents (피부양자)** are family members of employee insured who meet income and property conditions, and who pay no premium of their own.
+- **Employee insured (직장가입자)** are wage workers and their employers, who pay premiums based on wages. A business owner with at least one employee is an employee insured, while an owner without employees is a self-employed insured.
+- **Dependents of employee insured (직장피부양자)** are family members of employee insured who meet income and property conditions, and who pay no premium of their own.
+- **Self-employed heads of household (지역세대주)** head the households of everyone not covered as an employee insured, as a dependent, or by Medical Aid. These households are self-employed insured (지역가입자), and their premium is set for the household as a whole, based on its income and property.
+- **Self-employed household members (지역세대원)** are the other members of these households, whose income and property count toward the household premium.
+- **Medical Aid heads of household (의료급여세대주)** head low-income households that are covered by Medical Aid (의료급여) rather than health insurance, and pay no premium.
+- **Medical Aid household members (의료급여세대원)** are the other members of these households.
 
-Low-income households are covered by Medical Aid (의료급여) rather than health insurance. Medical Aid is financed by the government and has its own cost-sharing rules, but its beneficiaries also appear in the NHIS eligibility data.
+Medical Aid is financed by the government and has its own cost-sharing rules, but its beneficiaries also appear in the NHIS eligibility data. The six groups are the codes of the insurance type variable in the eligibility tables, such as [`GAIBJA_TYPE`](../variables/nsc/bnc/gaibja_type.md) (건강보험 가입자격 구분, insurance type) in the National Sample Cohort.
 
 ## Benefits and cost sharing
 

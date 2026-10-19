@@ -112,7 +112,7 @@ nav:
           - National Sample Cohort: datasets/nsc.md
           - Health Screening Cohort: datasets/heals.md
           - Senior Cohort: datasets/senior.md
-          - Low-Risk Cohort: datasets/low-risk.md
+          - Low-Risk Sample Dataset: datasets/low-risk.md
       - Customized Database:
           - Customized Research DB: datasets/customized.md
       - Sources and versions: datasets/sources.md

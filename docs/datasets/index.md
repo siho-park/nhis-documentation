@@ -7,7 +7,7 @@ The NHIS offers several research databases that differ in population, sampling, 
     - [National Sample Cohort](nsc.md) (표본코호트DB)
     - [Health Screening Cohort](heals.md) (건강검진코호트DB)
     - [Senior Cohort](senior.md) (노인코호트DB)
-    - [Low-Risk Cohort](low-risk.md) (저위험 표본데이터셋)
+    - [Low-Risk Sample Dataset](low-risk.md) (저위험 표본데이터셋)
 
 2. Customized Database
     - [Customized Research DB](customized.md) (맞춤형연구DB)
@@ -18,7 +18,7 @@ The documents each page follows, and the conflicts found between them, are liste
 
 The table compares the four ready-made samples on the features that most often decide which one fits a study.
 
-| | National Sample Cohort | Health Screening Cohort | Senior Cohort | Low-Risk Cohort |
+| | National Sample Cohort | Health Screening Cohort | Senior Cohort | Low-Risk Sample Dataset |
 |---|---|---|---|---|
 | 한글 | 표본코호트DB | 건강검진코호트DB | 노인코호트DB | 저위험 표본데이터셋 |
 | Current release | 2.2 | Manual version 2.3 | 2.0 | Single release |

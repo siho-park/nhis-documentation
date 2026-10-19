@@ -1,12 +1,12 @@
 # NHIS Data Documentation
 
-Welcome! This site is an unofficial guide to the research databases of the Korean National Health Insurance Service (NHIS, 국민건강보험공단). 
+Welcome! This site is an unofficial guide to the research databases of the Korean National Health Insurance Service (NHIS, 국민건강보험공단).
 
 ## Motivation
 
 The NHIS releases these databases through its [data sharing service](https://nhiss.nhis.or.kr), but the documentation that comes with them is patchy, not version-controlled, and often limited to short variable lists. Many variables are self-explanatory, while others mean something different from what their names suggest, and researchers usually learn these differences by trial and error.
 
-The goal of this website is to collect all the public information and knowledge on NHIs, combined with hands-on experience working with the dataset in one place, including variable definitions, guidance on constructing analysis samples, and known caveats. 
+The goal of this website is to collect all the public information and knowledge on the NHIS databases, combined with hands-on experience working with the data, in one place, including variable definitions, guidance on constructing analysis samples, and known caveats.
 
 It is modeled on the documentation that the [Research Data Assistance Center (ResDAC)](https://resdac.org) provides for Medicare data and on Kyle Barron's [Medicare documentation](https://kylebarron.dev/medicare-documentation/).
 

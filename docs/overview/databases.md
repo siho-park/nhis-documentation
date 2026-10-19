@@ -11,7 +11,7 @@ The sample databases (표본연구DB) are fixed samples, and three of them follo
 | [National Sample Cohort (NHIS-NSC)](../datasets/nsc.md) | 표본코호트DB | Enrolled throughout 2006, all ages | 1,000,000 | 2002-2023 | Lee et al. (2017)[^profile] |
 | [Health Screening Cohort (NHIS-HEALS)](../datasets/heals.md) | 건강검진코호트DB | Aged 40 to 79 and screened in 2002 or 2003 | 514,866 | 2002-2023 | Seong et al. (2017) |
 | [Senior Cohort (NHIS-Senior)](../datasets/senior.md) | 노인코호트DB | Aged 60 to 80 and enrolled in 2008 | 511,953 | 2002-2023 | Kim et al. (2019)[^profile] |
-| [Low-Risk Cohort](../datasets/low-risk.md) | 저위험 표본데이터셋 | Used medical care in 2014 to 2023 | 1,000,000 | 2014-2023 | None |
+| [Low-Risk Sample Dataset](../datasets/low-risk.md) | 저위험 표본데이터셋 | Used medical care in 2014 to 2023 | 1,000,000 | 2014-2023 | None |
 
 The NHISS portal also lists an educational sample research DB (교육용 표본연구DB), which is not yet documented here. The [Datasets](../datasets/index.md) section compares the databases in detail.
 
