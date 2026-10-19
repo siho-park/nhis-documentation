@@ -42,7 +42,7 @@ DATASETS = {
         "sources": [{"file": "노인코호트DB 매뉴얼v1.4.hwp", "title": "Senior cohort manual, v1.4"}],
     },
     "lowrisk": {
-        "title": "Low-Risk Sample Dataset", "title_ko": "저위험 표본데이터셋", "short": "Low-risk",
+        "title": "Low-Risk Cohort", "title_ko": "저위험 표본데이터셋", "short": "Low-risk",
         "years": "2014-2023", "order": 4, "page": "datasets/low-risk.md",
         "sources": [{"file": "저위험 표본데이터셋 매뉴얼.hwp", "title": "Low-risk sample dataset manual"}],
     },

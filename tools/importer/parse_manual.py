@@ -1,6 +1,6 @@
 """Parse the layout appendices of the HWP user manuals (via hwp2md text) into IR.
 
-Used for the Health Screening Cohort, the Senior Cohort, and the Low-Risk Sample Dataset,
+Used for the Health Screening Cohort, the Senior Cohort, and the Low-Risk Cohort,
 whose variable layouts exist only inside the manuals.
 """
 

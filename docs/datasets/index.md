@@ -2,19 +2,23 @@
 
 The NHIS offers several research databases that differ in population, sampling, and variable names. Each has its own page with the same sections, namely sample design, versions, tables, linkage, and known issues.
 
-- [National Sample Cohort](nsc.md) (표본코호트DB)
-- [Health Screening Cohort](heals.md) (건강검진코호트DB)
-- [Senior Cohort](senior.md) (노인코호트DB)
-- [Low-Risk Sample Dataset](low-risk.md) (저위험 표본데이터셋)
-- [Customized Research DB](customized.md) (맞춤형연구DB)
+1. Sample Database
 
-The documents each page follows, and the conflicts found between them, are listed on the [sources and versions](sources.md) page. The NHISS portal also lists an educational sample research DB (교육용 표본연구DB), which is not yet documented here.
+    - [National Sample Cohort](nsc.md) (표본코호트DB)
+    - [Health Screening Cohort](heals.md) (건강검진코호트DB)
+    - [Senior Cohort](senior.md) (노인코호트DB)
+    - [Low-Risk Cohort](low-risk.md) (저위험 표본데이터셋)
+
+2. Customized Database
+    - [Customized Research DB](customized.md) (맞춤형연구DB)
+
+The documents each page follows, and the conflicts found between them, are listed on the [sources and versions](sources.md) page. The NHISS portal also lists an educational sample research DB (교육용 표본연구DB), which is not documented here.
 
 ## Comparison
 
 The table compares the four ready-made samples on the features that most often decide which one fits a study.
 
-| | National Sample Cohort | Health Screening Cohort | Senior Cohort | Low-Risk Sample Dataset |
+| | National Sample Cohort | Health Screening Cohort | Senior Cohort | Low-Risk Cohort |
 |---|---|---|---|---|
 | 한글 | 표본코호트DB | 건강검진코호트DB | 노인코호트DB | 저위험 표본데이터셋 |
 | Current release | 2.2 | Manual version 2.3 | 2.0 | Single release |

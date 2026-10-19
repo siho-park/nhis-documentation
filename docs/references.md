@@ -22,7 +22,7 @@ The NHIS distributes a user manual (사용자 매뉴얼) for each sample databas
 | National Sample Cohort | 표본코호트DB 레이아웃 | Ver 1.5 | May 2026 | 2.2, 2002-2023 |
 | Health Screening Cohort | 건강검진코호트DB 사용자 매뉴얼 | 2.3 | Not stated | 2002-2023 |
 | Senior Cohort | 노인코호트DB 사용자 매뉴얼 | 1.4 | Not stated | 2.0, 2002-2023 |
-| Low-Risk Sample Dataset | 저위험 표본데이터셋 사용자 매뉴얼 | Not stated | Not stated | 2014-2023 |
+| Low-Risk Cohort | 저위험 표본데이터셋 사용자 매뉴얼 | Not stated | Not stated | 2014-2023 |
 | Customized Research DB | 맞춤형 자료 제공 컬럼 레이아웃 and companion layouts | Not stated | September 10, 2026 | 2002-2024 |
 | Customized Research DB | 맞춤형 자료 요청서 | Not stated | July 22, 2026 | 2002-2024 |
 | All databases | 사용자매뉴얼1, 연구용DB 신규신청 방법 | 4.0 | September 2024 | Application procedure |

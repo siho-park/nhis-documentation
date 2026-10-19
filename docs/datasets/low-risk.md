@@ -1,6 +1,6 @@
-# Low-Risk Sample Dataset (저위험 표본데이터셋)
+# Low-Risk Cohort (저위험 표본데이터셋)
 
-The Low-Risk Sample Dataset (저위험 표본데이터셋) is a heavily aggregated sample built to widen access to NHIS data for private-sector research and development. It follows 1,000,000 randomly sampled people who used medical care between 2014 and 2023, with one record per person, year, and main diagnosis group, together with their health screening results. The NHISS portal lists it as the low-risk sample cohort (저위험 표본코호트DB) in its menu for applying for sample research databases (표본연구DB신청). The portal's pages describing each database do not yet include it, and it is absent from the NHIS guide to new applications of September 2024.
+The Low-Risk Cohort (저위험 표본데이터셋) is a heavily aggregated sample built to widen access to NHIS data for private-sector research and development. It follows 1,000,000 randomly sampled people who used medical care between 2014 and 2023, with one record per person, year, and main diagnosis group, together with their health screening results. The NHISS portal lists it as the low-risk sample cohort (저위험 표본코호트DB) in its menu for applying for sample research databases (표본연구DB신청). The portal's pages describing each database do not yet include it, and it is absent from the NHIS guide to new applications of September 2024.
 
 !!! info "Source"
     This page follows the NHIS user manual for the dataset (저위험 표본데이터셋 사용자 매뉴얼), which is undated and covers data through 2023.

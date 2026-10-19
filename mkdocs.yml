@@ -108,11 +108,13 @@ nav:
       - Applying for data: overview/access.md
   - Datasets:
       - datasets/index.md
-      - National Sample Cohort: datasets/nsc.md
-      - Health Screening Cohort: datasets/heals.md
-      - Senior Cohort: datasets/senior.md
-      - Low-Risk Sample Dataset: datasets/low-risk.md
-      - Customized Research DB: datasets/customized.md
+      - Sample Database:
+          - National Sample Cohort: datasets/nsc.md
+          - Health Screening Cohort: datasets/heals.md
+          - Senior Cohort: datasets/senior.md
+          - Low-Risk Cohort: datasets/low-risk.md
+      - Customized Database:
+          - Customized Research DB: datasets/customized.md
       - Sources and versions: datasets/sources.md
   - Variables: variables/
   - Working with the data:

@@ -13,7 +13,7 @@ The documents below were collected from the [NHISS portal](https://nhiss.nhis.or
 | National Sample Cohort | Summary statistics | 표본코호트DB 통계표 | March 2025 | Not yet used |
 | Health Screening Cohort | User manual | 건강검진코호트DB 사용자 매뉴얼 | 2.3, undated | [Dataset page](heals.md) and [codebook](../variables/heals/index.md) |
 | Senior Cohort | User manual | 노인코호트DB 매뉴얼 | 1.4, undated[^senior] | [Dataset page](senior.md) and [codebook](../variables/senior/index.md) |
-| Low-Risk Sample Dataset | User manual | 저위험 표본데이터셋 매뉴얼 | Undated, data for 2014 to 2023 | [Dataset page](low-risk.md) and [codebook](../variables/lowrisk/index.md) |
+| Low-Risk Cohort | User manual | 저위험 표본데이터셋 매뉴얼 | Undated, data for 2014 to 2023 | [Dataset page](low-risk.md) and [codebook](../variables/lowrisk/index.md) |
 | Customized Research DB | Column layouts | 맞춤형 자료 제공 컬럼 레이아웃 and six companion files | September 10, 2026 | [Codebook](../variables/custom/index.md) |
 | Customized Research DB | Application form | 맞춤형 자료 요청서 | July 22, 2026 | [Dataset page](customized.md) |
 | All databases | Guide to new applications | 사용자매뉴얼1, 연구용DB 신규신청 방법 | 4.0, September 2024 | [Customized Research DB](customized.md) and [Senior Cohort](senior.md) pages |
@@ -39,7 +39,7 @@ Where NHIS documents disagree, the site states both versions and marks the entry
 - **Cause of death in the Senior Cohort.** The Senior manual lists two cause-of-death variables, while the portal and the 2024 guide to new applications state that the database has none. See the [Senior Cohort](senior.md#known-issues) page.
 - **Sampling of the Senior Cohort.** The Senior manual describes stratified sampling in one section and simple random sampling in another. See the [Senior Cohort](senior.md) page.
 - **Family history in the National Sample Cohort, 2018 to 2023.** The layout file codes these questions 1 and 2, while the manual text and the customized DB layout code them 0 and 1. The five variables are marked Disputed, as in [`Q_FHX_HTN`](../variables/nsc/g1e/q_fhx_htn.md).
-- **Triglycerides in the Low-Risk Sample Dataset.** The manual gives the formula for calculated LDL cholesterol under triglycerides. See the [Low-Risk Sample Dataset](low-risk.md#known-issues) page.
+- **Triglycerides in the Low-Risk Cohort.** The manual gives the formula for calculated LDL cholesterol under triglycerides. See the [Low-Risk Cohort](low-risk.md#known-issues) page.
 - **Requestable years for the customized DB.** The 2024 guide allows requests through 2023, and the 2026 application form allows requests through 2024. The site follows the 2026 form.
 
 ## Corrections in the codebook
