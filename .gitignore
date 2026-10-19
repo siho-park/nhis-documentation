@@ -1,0 +1,10 @@
+site/
+.venv/
+venv/
+__pycache__/
+.cache/
+
+# NHIS manuals and layout files, which are not ours to republish
+database/
+ir/
+todo.tsv

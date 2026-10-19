@@ -1,0 +1,112 @@
+site_name: NHIS Data Documentation
+site_description: Unofficial documentation for the research databases of the Korean National Health Insurance Service
+site_author: Siho Park
+site_url: https://siho-park.github.io/nhis-documentation/
+repo_url: https://github.com/siho-park/nhis-documentation
+repo_name: nhis-documentation
+edit_uri: edit/main/docs/
+copyright: Content licensed under CC BY 4.0. Not affiliated with the National Health Insurance Service.
+
+theme:
+  name: material
+  custom_dir: overrides
+  language: en
+  font:
+    text: Noto Sans KR
+    code: JetBrains Mono
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: teal
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: teal
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.indexes
+    - navigation.top
+    - navigation.footer
+    - search.suggest
+    - search.highlight
+    - content.action.edit
+    - content.code.copy
+    - content.tabs.link
+    - toc.follow
+
+plugins:
+  - search:
+      lang:
+        - en
+        - ko
+  - gen-files:
+      scripts:
+        - scripts/gen_codebook.py
+  - literate-nav:
+      nav_file: SUMMARY.md
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.details
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+
+extra_css:
+  - assets/extra.css
+
+validation:
+  links:
+    anchors: warn
+
+nav:
+  - Home:
+      - index.md
+      - Contributing: about/contributing.md
+      - How to cite: about/cite.md
+  - Program and data:
+      - overview/index.md
+      - The health insurance system: overview/system.md
+      - NHIS research databases: overview/databases.md
+      - Applying for data: overview/access.md
+  - Datasets:
+      - datasets/index.md
+      - National Sample Cohort: datasets/nsc.md
+      - Health Screening Cohort: datasets/heals.md
+      - Senior Cohort: datasets/senior.md
+      - Low-Risk Sample Dataset: datasets/low-risk.md
+      - Customized Research DB: datasets/customized.md
+      - Sources and versions: datasets/sources.md
+  - Variables: variables/
+  - Working with the data:
+      - guides/index.md
+      - How the tables fit together: guides/table-structure.md
+      - Constructing an analysis sample: guides/sample-construction.md
+      - Identifying conditions: guides/identifying-conditions.md
+      - Utilization and spending: guides/utilization-spending.md
+      - Code examples: guides/code-examples.md
+  - Caveats: caveats.md
+  - Glossary: glossary.md
+  - References: references.md
