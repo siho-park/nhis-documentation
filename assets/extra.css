@@ -1,0 +1,25 @@
+/* Blog posts show the author's name and affiliation without a picture */
+.md-post__profile .md-author {
+  display: none;
+}
+
+/* List of post titles on the Working with the data page */
+.md-typeset ul.post-list li {
+  margin-bottom: 0.4em;
+}
+
+/* Variable names in tables should not wrap */
+.md-typeset td code {
+  white-space: nowrap;
+}
+
+/* Break Korean text between words, not inside them */
+.md-typeset td,
+.md-typeset th {
+  word-break: keep-all;
+}
+
+/* Wider page for the comparison and crosswalk tables */
+.md-grid {
+  max-width: 1440px;
+}
