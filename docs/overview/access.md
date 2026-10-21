@@ -4,6 +4,9 @@ Applications are submitted through the NHIS data sharing service (건강보험�
 
 The questions of the application appear only after logging in and starting a request, so this page lists them in advance. Most of the answers, and the research summary in particular, can then be drafted before the portal is opened and before the IRB application is written, since both must describe the same study.
 
+!!! warning "Write the application and the IRB protocol in Korean"
+    The research summary, the drug research plan, and the IRB protocol attached to the application should all be written in Korean. An application whose IRB protocol was written in English has been rejected. Researchers whose IRB approval comes from a review board abroad, or was written in English, should prepare Korean versions of the documents before applying.
+
 !!! info "Sources"
     This page follows the NHIS guide to new applications (사용자매뉴얼1, 연구용DB 신규신청 방법, version 4.0, September 2024), the NHIS notice on researcher extraction of customized DBs (맞춤형 DB 제공 방식 변경 안내, July 2025), the customized DB request form of 2026, and the portal as seen by applicants in 2026. The portal changes from time to time, so the wording of a question may differ slightly from the wording here.
 
@@ -47,7 +50,7 @@ Since September 2025, customized DBs are provided only through researcher extrac
 
 ## Step 2. IRB documents and period of use
 
-The application needs the approval notice (IRB 결과통지서) from an institutional review board or from the public institutional review board (공용기관생명윤리위원회), together with the research protocol (IRB 연구계획서) submitted to that board. The notice must carry the seal of the issuing institution or the signature of its head, and an application whose documents cannot be verified is returned.
+The application needs the approval notice (IRB 결과통지서) from an institutional review board or from the public institutional review board (공용기관생명윤리위원회), together with the research protocol (IRB 연구계획서) submitted to that board. The notice must carry the seal of the issuing institution or the signature of its head, and an application whose documents cannot be verified is returned. The protocol should be in Korean, since an application with an English protocol has been rejected.
 
 The period of data use is set on the same screen and can be reset when the fee notice is issued. The analysis tool is chosen here for a sample database and after approval for a customized DB.
 
@@ -55,7 +58,7 @@ The title, the principal investigator, and the study on the portal must match th
 
 ## Step 3. Research summary
 
-The research summary (연구과제요약서) is the text the data provision review committee reads, since the summary entered on the portal is placed on the committee agenda as written. The guide asks for detailed prose and names three kinds of summaries that are sent back for revision.
+The research summary (연구과제요약서) is the text the data provision review committee reads, since the summary entered on the portal is placed on the committee agenda as written. It is written in Korean, and the guide asks for detailed prose and names three kinds of summaries that are sent back for revision.
 
 - A list of variables or diagnosis codes from which the study cannot be understood
 - A summary without a clear theoretical basis for the planned research
