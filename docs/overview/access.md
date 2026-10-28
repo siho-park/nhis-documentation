@@ -5,7 +5,7 @@ Applications are submitted through the NHIS data sharing service (건강보험�
 The questions of the application appear only after logging in and starting a request, so this page lists them in advance. Most of the answers, and the research summary in particular, can then be drafted before the portal is opened and before the IRB application is written, since both must describe the same study.
 
 !!! warning "Write the application and the IRB protocol in Korean"
-    The research summary, the drug research plan, and the IRB protocol attached to the application should all be written in Korean. An application whose IRB protocol was written in English has been rejected. Researchers whose IRB approval comes from a review board abroad, or was written in English, should prepare Korean versions of the documents before applying.
+    The research summary, the drug research plan, and the IRB protocol attached to the application should all be written in Korean. An application whose IRB protocol was written in English has been rejected. Researchers abroad whose IRB approval is not in Korean should obtain approval from the public institutional review board instead, as explained under [step 2](#step-2-irb-documents-and-period-of-use).
 
 !!! info "Sources"
     This page follows the NHIS guide to new applications (사용자매뉴얼1, 연구용DB 신규신청 방법, version 4.0, September 2024), the NHIS notice on researcher extraction of customized DBs (맞춤형 DB 제공 방식 변경 안내, July 2025), the customized DB request form of 2026, and the portal as seen by applicants in 2026. The portal changes from time to time, so the wording of a question may differ slightly from the wording here.
@@ -51,6 +51,8 @@ Since September 2025, customized DBs are provided only through researcher extrac
 ## Step 2. IRB documents and period of use
 
 The application needs the approval notice (IRB 결과통지서) from an institutional review board or from the public institutional review board (공용기관생명윤리위원회), together with the research protocol (IRB 연구계획서) submitted to that board. The notice must carry the seal of the issuing institution or the signature of its head, and an application whose documents cannot be verified is returned. The protocol should be in Korean, since an application with an English protocol has been rejected.
+
+Most applicants obtain IRB approval from their own institution, but researchers abroad may need the public board instead. An approval from the applicant's own institution abroad is not accepted when its documents are not in Korean. In that case, the researcher should obtain approval from the public institutional review board at [public.irb.or.kr](https://public.irb.or.kr). The Ministry of Health and Welfare (보건복지부) designates this board, and the Korea National Institute for Bioethics Policy (국가생명윤리정책원) runs it.
 
 The period of data use is set on the same screen and can be reset when the fee notice is issued. The analysis tool is chosen here for a sample database and after approval for a customized DB.
 
@@ -122,10 +124,12 @@ A study that does not compare drugs in their association with outcomes says so i
 
 ## Step 4. Researchers
 
-The principal investigator must be a Korean national living in Korea and must be the person named as principal investigator on the IRB approval notice. For a thesis, the student registers as principal investigator, and the advisor named on the IRB notice registers as co-investigator. Every researcher added to the project needs an account on the portal.
+The principal investigator must be a Korean national living in Korea and must be the person named as principal investigator on the IRB approval notice. For a thesis, the student registers as principal investigator, and the advisor signs a consent form without registering on the project.[^advisor] Every researcher added to the project needs an account on the portal.
 
 ## Step 6. Identity verification and submission
 
 The application is not submitted until every registered researcher verifies their identity by both mobile phone and email, and the verification must be repeated for each application. The application is submitted automatically when the last researcher finishes, and its status changes to awaiting receipt (접수대기).
 
 When NHIS staff receive the application, the status changes to awaiting review (검토대기). If anything must be supplemented before the review, the status becomes supplement requested (보완요청), and the applicant revises the application from the project list (나의과제) and submits it again. For customized DBs under researcher extraction, the review committee meets twice a month, and an approved application changes to awaiting construction (자료구축대기). What follows approval, from connecting to the data to exporting results, is described on the [Using the data](using.md) page.
+
+[^advisor]: The NHIS guide to new applications (version 4.0, September 2024) asks the advisor named on the IRB approval notice to register as co-investigator. Applicants have instead needed only a consent form signed by the advisor.
