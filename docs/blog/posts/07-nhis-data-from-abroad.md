@@ -9,7 +9,7 @@ slug: nhis-data-from-abroad
 
 # Using NHIS data from abroad
 
-Researchers abroad can use the NHIS data, but only while they are physically in Korea. Everything before the analysis, from the IRB approval to the application and its review, can be done online from abroad. A project can therefore be prepared abroad and carried out over short, periodic visits to Korea, which suits PhD students at universities abroad in particular. This post collects what researchers abroad should know before they apply, and the [Applying for data](../../overview/access.md) and [Using the data](../../overview/using.md) pages give the details of each step.
+Korean researchers abroad can use the NHIS data, but only while they are physically in Korea. Everything before the analysis, from the IRB approval to the application and its review, can be done online from abroad. A project can therefore be prepared abroad and carried out over short, periodic visits to Korea, which suits PhD students at universities abroad in particular. This post collects what researchers abroad should know before they apply, and the [Applying for data](../../overview/access.md) and [Using the data](../../overview/using.md) pages give the details of each step.
 
 <!-- more -->
 
@@ -52,6 +52,6 @@ A customized DB requires a stay in Korea twice, first to build the extract and t
 
 ## Planning the visits
 
-Short visits work best when the period of use and the files needed are arranged before the trip. The fee is charged for the length of the period of use (사용기간), not for the days spent on the data, so the period should be set around the planned visits. The period chosen on the application can be reset when the fee notice is issued, and the [fee schedule](../../overview/using.md#period-of-use-and-fees) gives the cost of each length.
+Short visits work best when the period of use and the files needed are arranged before the trip. The fee is charged for the length of the period of use (사용기간), not for the days spent on the data, so the period should be set around the planned visits. The period chosen on the application can be reset when the fee notice is issued, and the [fee schedule](../../overview/using.md#period-of-use-and-fees) gives the cost of each length. The fee is also reduced by 80 percent for a thesis and by 50 percent for academic research, so a month of a customized DB costs a thesis project 140,000 won instead of 700,000 won.
 
 Files enter the virtual research room only through an import request (자료반입신청), which should be made before the session that needs them. Code written abroad against the [variable lists](../../datasets/index.md) on this site can then be brought in before the visit begins. Results leave the room only through an export request that passes the export review (반출 심사), so the tables and figures to export are worth planning before the visit as well.

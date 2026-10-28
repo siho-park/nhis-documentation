@@ -2,7 +2,7 @@
 
 The National Health Screening Cohort (NHIS-HEALS, 건강검진코호트DB) follows about 515,000 people who received a general health screening in 2002 or 2003 at ages 40 to 79. It links their eligibility, claims, health screening, and provider records from 2002 to 2023, and its screening data are richer than those of the sample cohort, with separate tables for the life-transition and oral screenings. Because members were selected on attending a screening and the cohort is never refreshed, it describes a screened and aging population rather than the general population.
 
-!!! info "Source"
+??? info "Source"
     This page follows the NHIS user manual for the database (건강검진코호트DB 사용자 매뉴얼), version 2.3, which describes data through 2023.
 
 ## Sample design

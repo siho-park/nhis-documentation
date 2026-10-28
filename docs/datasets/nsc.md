@@ -2,7 +2,7 @@
 
 The National Sample Cohort (NHIS-NSC, 표본코호트DB) follows a 2 percent sample of the Korean population from 2002 to 2023. It links eligibility, premium, claims, health screening, death, provider, and long-term care records for about one million people drawn from the 2006 population. The sample covers all ages and includes Medical Aid beneficiaries, which makes it the standard NHIS database for population-level research, and the NHIS reports that it supports more than 300 projects every year.
 
-!!! info "Source"
+??? info "Source"
     This page follows the NHIS user manual for the database (표본코호트DB 사용자 매뉴얼), version 1.5 of May 2026, which describes release 2.2 with data through 2023.
 
 ## Sample design

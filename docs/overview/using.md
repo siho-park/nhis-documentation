@@ -2,7 +2,14 @@
 
 Researchers never receive NHIS microdata, because every analysis runs on NHIS servers. The sample databases can be reached remotely from the researcher's own computer, while a customized DB opens only on a computer at an NHIS analysis center. In both cases, results leave the NHIS servers only after they pass the export review (반출 심사), described at the end of this page.
 
-!!! info "Sources"
+!!! abstract "At a glance"
+    - **[Where](#where-each-database-is-analyzed).** Sample databases open over a VPN from the researcher's own computer, and a customized DB opens only at an NHIS analysis center.
+    - **[In Korea only](#being-in-korea).** Both routes work only while the researcher is physically in Korea.
+    - **[Fee](#period-of-use-and-fees).** The fee is charged for the period of use requested, not for the days spent on the data, with reductions for theses and academic research.
+    - **[Analysis centers](#analysis-centers-for-customized-dbs).** Seats are reserved on the portal two weeks ahead, and two missed reservations bar the whole project for a week.
+    - **[Results](#files-in-and-results-out).** Nothing enters or leaves the room without an import or export request, and results must pass the export review.
+
+??? info "Sources"
     This page follows the [NHISS portal](https://nhiss.nhis.or.kr) as seen in October 2026, namely its pages on the research process (연구진행 절차안내), remote analysis (가상화연구분석 안내), and the analysis centers (분석센터소개), and its frequently asked questions (자주묻는 질문). It also draws on the National Sample Cohort manual (version 1.5), the NHIS guide to new applications (사용자매뉴얼1, version 4.0, September 2024), and press reports on the Low-Risk Sample Dataset from July 2026.
 
 ## Where each database is analyzed
@@ -21,13 +28,21 @@ The sample databases share one remote route, which the portal describes on its r
 
 ## Remote access to the sample databases
 
-A sample database is opened from the researcher's own computer after a short setup on the portal. Once the project is approved, the fee is paid, and the security documents (보안관련 서류) are submitted, the NHIS provides the data in a virtual research room. The portal's FAQ then describes the connection in three steps, taken after the researcher sets the start date of the room. First, the researcher sets a password and mobile phone number for the room on the portal, under 가상화연구분석, 가상화, 가상화 비밀번호 변경. Second, the researcher installs the security programs offered on the portal (보안프로그램 설치), including the SSL VPN agent (Axgate). Finally, the researcher opens the VPN agent from the icon it places on the desktop and logs in to the room with the ID and password.
+A sample database is opened from the researcher's own computer after a short setup on the portal. Once the project is approved, the fee is paid, and the security documents (보안관련 서류) are submitted, the NHIS provides the data in a virtual research room. The portal's FAQ then describes the connection in three steps, taken after the researcher sets the start date of the room.
+
+1. Set a password and mobile phone number for the room on the portal, under 가상화연구분석, 가상화, 가상화 비밀번호 변경.
+2. Install the security programs offered on the portal (보안프로그램 설치), including the SSL VPN agent (Axgate).
+3. Open the VPN agent from the icon it places on the desktop and log in to the room with the ID and password.
 
 ## Analysis centers for customized DBs
 
 A customized DB opens only on a computer at one of the NHIS big data analysis centers. These centers (빅데이터 분석센터) are the NHIS counterpart of a research data center, where the researcher logs in to the project's virtual research room after staff check their identity. The extract itself is built beforehand on an NHIS computer in Wonju or Seoul, as described on the [Applying for data](access.md#step-1-application-documents) page.
 
-Using a center requires a reservation, and the NHIS bars researchers who miss reservations or break the rules. The centers open from 9:00 to 18:00 on weekdays except public holidays, and seats are reserved on the portal under 가상화연구분석, 분석센터이용, 분석센터예약 from 9:00 two weeks before the day of use. A reservation can be canceled on the portal until 8:00 on the day of use, and a reservation that is neither canceled nor used counts as a no-show. Two no-shows bar every researcher on the project from the centers for one week, and three no-shows bar them for two weeks.
+Using a center requires a reservation, and the NHIS bars researchers who miss reservations or break the rules.
+
+- **Hours.** The centers open from 9:00 to 18:00 on weekdays except public holidays.
+- **Reservation.** Seats are reserved on the portal under 가상화연구분석, 분석센터이용, 분석센터예약 from 9:00 two weeks before the day of use.
+- **Cancellation.** A reservation can be canceled on the portal until 8:00 on the day of use, and a reservation that is neither canceled nor used counts as a no-show.
 
 The NHIS operating rules (국민건강정보자료 제공 운영지침) set the conduct inside a center, and the portal's FAQ summarizes them as follows.
 
@@ -36,7 +51,14 @@ The NHIS operating rules (국민건강정보자료 제공 운영지침) set the 
 - **Devices.** Tablets, laptops, USB drives, and external hard drives cannot be used inside the center.
 - **Files.** Files needed for the analysis are brought into the room in advance through an import request, described [below](#files-in-and-results-out).
 
-Breaking the rules on identity, cameras, devices, or disturbing others bars the researcher from the centers for one week the first time, one month the second time, and permanently the third time. Analysis aimed at identifying a person, sharing an account, or exporting intermediate results without approval can instead lead to the cancellation of the data provision.
+Missed reservations and broken rules lead to the penalties below.
+
+| Violation | Penalty |
+|---|---|
+| Two no-shows | Every researcher on the project is barred from the centers for one week |
+| Three no-shows | Every researcher on the project is barred for two weeks |
+| Breaking the rules on identity, cameras, or devices, or disturbing others | The researcher is barred for one week the first time, one month the second time, and permanently the third time |
+| Analysis aimed at identifying a person, sharing an account, or exporting intermediate results without approval | The data provision can be canceled |
 
 ### List of analysis centers
 
@@ -67,7 +89,15 @@ Both access routes require the researcher to be physically in Korea while workin
 
 ## Period of use and fees
 
-A project is charged by the length of its period of use, within an approval of up to two years. The review committee sets the approval period (자료이용 승인기간), and an extension, granted in one-year units, must be requested before the approval expires. Within that period, the applicant chooses the period of use (사용기간) on the application and can reset it when the fee notice is issued. A project that is not finished when its period of use ends can request, before the end date, either an extension of the period or the storage of its files (연구자료보관). Since October 2024, storage costs 1,000 won per GB per month, for up to 50 GB and up to 12 months, renewable within the approval period.
+!!! warning "The fee follows the period requested, not the days used"
+    The fee is computed from the period of use (사용기간) requested on the application, and every day of that period counts whether or not anyone works on the data. A project that requests three months and spends ten days on the data pays for three months.
+
+A project has two periods, and only the period of use determines the fee.
+
+| Period | 한글 | Set by | Length |
+|---|---|---|---|
+| Approval period | 자료이용 승인기간 | The review committee | Up to two years, extended in one-year units if requested before it expires |
+| Period of use | 사용기간 | The applicant, on the application, with a reset possible when the fee notice is issued | Any length within the approval period |
 
 The fee for the period of use follows the schedule below for a customized DB, and sample databases pay half.
 
@@ -77,12 +107,27 @@ The fee for the period of use follows the schedule below for a customized DB, an
 | One week to less than one month | 225,000 won per week, plus 50,000 won for each remaining day |
 | One month or more | 700,000 won per month, plus the weekly and daily fees for the remaining weeks and days |
 
-A project with more than 200 GB of data also pays 10,000 won for each additional GB, and the principal investigator pays all fees on the portal within two weeks of the notice. Payment is by credit card or bank transfer, and a fee cannot be refunded once it is paid.
+The fee is reduced by research type, by 80 percent for a thesis (학위논문) and by 50 percent for academic research (학술연구).[^discount] A month of a customized DB therefore costs a thesis project 140,000 won instead of 700,000 won.
+
+Other charges and the rules on payment are listed below.
+
+- **Large data.** A project with more than 200 GB of data also pays 10,000 won for each additional GB.
+- **Storage (연구자료보관).** A project that is not finished when its period of use ends can request, before the end date, either an extension of the period or the storage of its files. Since October 2024, storage costs 1,000 won per GB per month, for up to 50 GB and up to 12 months, renewable within the approval period.
+- **Payment.** The principal investigator pays all fees on the portal within two weeks of the notice, by credit card or bank transfer, and a fee cannot be refunded once it is paid.
 
 ## Files in and results out
 
-Nothing enters or leaves a virtual research room except through a request on the portal. Files needed for the analysis, such as code, are brought in through an import request (자료반입신청), which should be made before the session that needs them. Results, including intermediate output during the project, leave only through an export request (자료반출신청) and must pass the export review (반출 심사) before release. At the end of the project, the NHIS takes back the room and deletes the data.
+Nothing enters or leaves a virtual research room except through a request on the portal.
+
+| Direction | Request | 한글 | Rule |
+|---|---|---|---|
+| Into the room | Import request | 자료반입신청 | Files needed for the analysis, such as code, are brought in before the session that needs them |
+| Out of the room | Export request | 자료반출신청 | Results, including intermediate output during the project, must pass the export review (반출 심사) before release |
+
+At the end of the project, the NHIS takes back the room and deletes the data.
 
 [^lowrisk]: [Press reports](https://akomnews.com/67640) of the second pilot, which began in June 2026, say that the dataset is provided over the NHIS remote network (원격망) to academic researchers and to companies doing research in the public interest. An application needs only a form and a pledge (신청서, 확약서), followed by an internal review, and the fee is waived during the pilot. The portal lists the dataset among the applications for sample research databases but does not describe its access route or the longest use of its room.
+
+[^discount]: The reductions come from applicants' experience rather than from the portal pages listed in the sources above. The reductions for the other research types, and how the reductions combine with the lower fee of the sample databases, have not been confirmed.
 
 [^research]: The portal also lists a center named 빅데이터 분석센터(리서치) without an address or phone number, which the table leaves out.

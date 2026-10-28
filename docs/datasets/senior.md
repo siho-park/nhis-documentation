@@ -2,7 +2,7 @@
 
 The Senior Cohort (NHIS-Senior, 노인코호트DB) follows an 8 percent sample of people aged 60 to 80 in 2008 and adds a sample of new 60-year-olds every year. It links eligibility, claims, health screening, provider, and long-term care insurance records, with claims from 2002 to 2023 and long-term care records from 2008 to 2023. The NHIS built it for research on the risk factors and prognosis of diseases of old age, and it offers a much larger sample of older people than the sample cohort.
 
-!!! info "Source"
+??? info "Source"
     This page follows the NHIS user manual for the database (노인코호트DB 사용자 매뉴얼), version 1.4, which describes release 2.0 with data through 2023.
 
 ## Sample design

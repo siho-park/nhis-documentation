@@ -2,8 +2,8 @@
 
 A customized research DB (맞춤형연구DB) is extracted from the full National Health Information Database (국민건강정보DB) for one approved study. It can include everyone who meets the study criteria rather than a sample, within limits set by the NHIS, which makes it the route for rare conditions, small areas, and sensitive diagnoses that the cohort databases mask.
 
-!!! info "Sources"
-    This page follows the customized DB application form (맞춤형 자료 요청서) of 2026, the column layouts of the customized DB dated September 10, 2026, the NHIS guide to new applications (사용자매뉴얼1, 연구용DB 신규신청 방법, version 4.0, September 2024), and the [NHISS portal](https://nhiss.nhis.or.kr). Every table and variable is documented in the [codebook](../variables/custom/index.md).
+??? info "Sources"
+    This page follows the customized DB application form (맞춤형 자료 요청서) of 2026, the column layouts of the customized DB dated September 10, 2026, the NHIS guide to new applications (사용자매뉴얼1, 연구용DB 신규신청 방법, version 4.0, September 2024), the NHIS notice on researcher extraction (맞춤형 DB 제공 방식 변경 안내, July 2025), and the [NHISS portal](https://nhiss.nhis.or.kr). Every table and variable is documented in the [codebook](../variables/custom/index.md).
 
 ## Building the extract
 
@@ -12,19 +12,19 @@ The applicant first defines the study population and then chooses the tables and
 | Step | 한글 | Content |
 |---|---|---|
 | 1 | 연구신청 | Research application |
-| 2 | 구축방식선택 | Choice of how the extract is built |
+| 2 | 구축방식선택 | Choice of how the extract is built, now researcher extraction only |
 | 3 | 분석주제설정 | Research topic |
 | 4 | 대상자조건설정 | Conditions that define the study population |
 | 5 | 추출변수설정 | Tables and variables to extract |
 | 6 | 최종확인 | Final confirmation |
 
-The extract can be built in three ways (자료추출방식), and the choice determines who turns the request into code.
+Since September 2025, the extract is built only through researcher extraction (연구자 추출), and the standard (기본추출) and automated (자동화추출) methods are no longer offered.
 
-- **Standard extraction (기본추출).** NHIS staff build the extract from an Excel request form that the applicant downloads, fills in, and uploads.
-- **Automated extraction (자동화추출).** The applicant sets the conditions and variables on the portal, and the extract is built exactly as set there.
-- **Researcher extraction (연구자추출).** The researcher visits NHIS headquarters and builds the extract in person, after uploading the same Excel form and marking the project title with [연구자추출].
+- **Who builds it.** The researcher builds the extract in SAS on an NHIS computer during a fixed window after approval, working from the Excel request form uploaded with the application.
+- **Where.** First-time extractors work in Wonju and attend training on the first day, while Seoul is open only to researchers who have extracted before.
+- **Title.** The project title starts with `[연구자 추출]`, as described on the [Applying for data](../overview/access.md#researcher-extraction) page.
 
-Whichever way is chosen, the definition of the study population in the research summary (연구과제요약서) must match the one on the portal or in the request form, and the requested years and tables must also match.
+The definition of the study population in the research summary (연구과제요약서) must match the one on the portal or in the request form, and the requested years and tables must also match.
 
 ## Defining the study population
 
