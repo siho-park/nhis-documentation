@@ -8,7 +8,7 @@ The simplest way to suggest a change is an email to [sihopark@kdischool.ac.kr](m
 
 ## Writing a post
 
-Researchers who have worked with the data are welcome to write a post for [Working with the data](../blog/index.md). A post can be short and cover a single pitfall, a way of constructing a variable, or a lesson from the application or export process. Send the draft by email to [sihopark@kdischool.ac.kr](mailto:sihopark@kdischool.ac.kr?subject=NHIS%20Data%20Documentation%20post) in any format, such as Word, Google Docs, or plain text, together with your name and affiliation as they should appear on the post. The draft is then formatted for the site and published under your name.
+Researchers who have worked with the data are welcome to write a post for [Research notes](../blog/index.md). A post can be short and cover a single pitfall, a way of constructing a variable, or a lesson from the application or export process. Send the draft by email to [sihopark@kdischool.ac.kr](mailto:sihopark@kdischool.ac.kr?subject=NHIS%20Data%20Documentation%20post) in any format, such as Word, Google Docs, or plain text, together with your name and affiliation as they should appear on the post. The draft is then formatted for the site and published under your name.
 
 ## Using GitHub
 

@@ -87,7 +87,7 @@ hooks:
   - scripts/seo.py
 
 extra:
-  # Order of the categories on the Working with the data page and in its sidebar
+  # Order of the categories on the Research notes page and in its sidebar
   blog_categories:
     - Getting started
     - Measurement
@@ -107,6 +107,7 @@ nav:
       - The health insurance system: overview/system.md
       - NHIS research databases: overview/databases.md
       - Applying for data: overview/access.md
+      - Using the data: overview/using.md
   - Datasets:
       - datasets/index.md
       - Sample Database:
@@ -118,7 +119,7 @@ nav:
           - Customized Research DB: datasets/customized.md
       - Sources and versions: datasets/sources.md
   - Variables: variables/
-  - Working with the data:
+  - Research notes:
       - blog/index.md
   - Glossary: glossary.md
   - References: references.md

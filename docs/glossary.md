@@ -68,6 +68,9 @@ The official documentation and variable labels are written in Korean administrat
 | 사망 | Death | |
 | 노인장기요양보험 | Long-term care insurance | Since July 2008 |
 | 반출 심사 | Export review | Review of results before they leave the analysis environment |
+| 반입 신청 | Import request | Request to bring a file into the analysis environment |
+| 가상화 연구룸 | Virtual research room | Virtual computer on NHIS servers where a project's data are analyzed |
+| 빅데이터 분석센터 | Big data analysis center | NHIS site where customized DBs are analyzed |
 | 표본연구DB | Sample research database | |
 | 맞춤형연구DB | Customized research database | |
 | 표본구분, 표본형태 구분 | Sample type | Distinguishes the main sample from supplementary or refreshment samples |

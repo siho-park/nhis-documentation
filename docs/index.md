@@ -14,10 +14,10 @@ It is modeled on the documentation that the [Research Data Assistance Center (Re
 
 The site has five parts.
 
-- [**Program and data**](overview/index.md) describes the health insurance system that generates the data, the family of NHIS research databases, and the application process.
+- [**Program and data**](overview/index.md) describes the health insurance system that generates the data, the family of NHIS research databases, the application process, and how the data are analyzed.
 - [**Datasets**](datasets/index.md) has one page per database, covering sample design, versions, and linkage.
 - [**Variables**](variables/index.md) documents each table and variable, with Korean and English labels, value codes, and notes.
-- [**Working with the data**](blog/index.md) is a series of short posts on practical issues, such as merging the tables, building an analysis sample, and the caveats that commonly lead to mistakes.
+- [**Research notes**](blog/index.md) is a series of short posts on practical issues, such as merging the tables, building an analysis sample, and the caveats that commonly lead to mistakes.
 - [**Glossary**](glossary.md) translates the Korean administrative terms used in the data and the official documentation.
 
 ## Disclaimer

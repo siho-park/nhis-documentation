@@ -11,7 +11,7 @@ codebook/                 variable documentation as YAML, one folder per dataset
     _codes.yml            shared code lists
     <table>.yml           one file per table
 docs/                     hand-written pages
-docs/blog/posts/          posts in the Working with the data tab, one file per post
+docs/blog/posts/          posts in the Research notes tab, one file per post
 scripts/gen_codebook.py   turns codebook/ into the Variables section at build time
 tools/importer/           reads the NHIS layout files and manuals into codebook/
 tools/translations.tsv    English translations of every Korean string in the codebook
@@ -36,7 +36,7 @@ The second step writes the untranslated strings to `todo.tsv`. Add their transla
 
 ## Writing a post
 
-Posts in the Working with the data tab are Markdown files in `docs/blog/posts/`. Copy an existing post, change the front matter at the top, and write the text below the title. The index page lists only the titles of the posts, under one heading per category, in the order set by `blog_categories` in `mkdocs.yml`. Within a category, the newest post comes first, and posts of the same date follow the order of their file names. The `slug` sets the address of the post, and `categories` places it under Getting started, Measurement, Caveats, or a new category, which is listed after the others until it is added to `blog_categories`. A post by another author needs an entry for that author in `docs/blog/.authors.yml`. The theme requires an `avatar` there, but the picture is hidden on the site.
+Posts in the Research notes tab are Markdown files in `docs/blog/posts/`. Copy an existing post, change the front matter at the top, and write the text below the title. The index page lists only the titles of the posts, under one heading per category, in the order set by `blog_categories` in `mkdocs.yml`. Within a category, the newest post comes first, and posts of the same date follow the order of their file names. The `slug` sets the address of the post, and `categories` places it under Getting started, Measurement, Caveats, or a new category, which is listed after the others until it is added to `blog_categories`. A post by another author needs an entry for that author in `docs/blog/.authors.yml`. The theme requires an `avatar` there, but the picture is hidden on the site.
 
 ## Previewing locally
 

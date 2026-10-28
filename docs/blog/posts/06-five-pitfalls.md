@@ -31,4 +31,4 @@ Diagnosis codes follow successive revisions of the Korean Classification of Dise
 
 ## Results must pass export review
 
-Nothing leaves the analysis environment without passing the NHIS export review (반출 심사), which applies rules on minimum cell sizes. Plan the tables and figures in advance, since each export request takes time. See [Applying for data](../../overview/access.md).
+Nothing leaves the analysis environment without passing the NHIS export review (반출 심사), which applies rules on minimum cell sizes. Plan the tables and figures in advance, since each export request takes time. See [Using the data](../../overview/using.md#files-in-and-results-out).

@@ -17,7 +17,7 @@ The NHISS portal also lists an educational sample research DB (교육용 표본�
 
 ## Customized research databases
 
-A [customized research DB](../datasets/customized.md) (맞춤형연구DB) is extracted from the full National Health Information Database to match the population and variables of an approved research protocol. It can cover everyone who meets the study criteria rather than a sample, at the cost of a longer review and analysis at an NHIS analysis center.
+A [customized research DB](../datasets/customized.md) (맞춤형연구DB) is extracted from the full National Health Information Database to match the population and variables of an approved research protocol. It can cover everyone who meets the study criteria rather than a sample, at the cost of a longer review and [analysis at an NHIS analysis center](using.md#analysis-centers-for-customized-dbs).
 
 Full citations for the cohort profiles are on the [references page](../references.md).
 

@@ -93,6 +93,6 @@ The application form of 2026 lets applicants request data through 2024, while th
 
 ## Analysis environment
 
-Researchers analyze customized extracts at NHIS analysis centers (분석센터). The cohort manuals add that research on the diagnoses and procedures they mask can be carried out without masking in designated analysis rooms, using customized data.
+Researchers analyze customized extracts at NHIS analysis centers (분석센터), whose locations and rules are described on the [Using the data](../overview/using.md#analysis-centers-for-customized-dbs) page. The cohort manuals add that research on the diagnoses and procedures they mask can be carried out without masking in designated analysis rooms, using customized data.
 
 [^drugs]: The guide asks applicants to request drugs at the coarsest level that serves the study, such as groups or the first four digits of the ingredient code.

@@ -128,8 +128,4 @@ The principal investigator must be a Korean national living in Korea and must be
 
 The application is not submitted until every registered researcher verifies their identity by both mobile phone and email, and the verification must be repeated for each application. The application is submitted automatically when the last researcher finishes, and its status changes to awaiting receipt (접수대기).
 
-When NHIS staff receive the application, the status changes to awaiting review (검토대기). If anything must be supplemented before the review, the status becomes supplement requested (보완요청), and the applicant revises the application from the project list (나의과제) and submits it again. For customized DBs under researcher extraction, the review committee meets twice a month, and an approved application changes to awaiting construction (자료구축대기).
-
-## Export review
-
-Results can leave the analysis environment only after passing the NHIS export review (반출 심사).
+When NHIS staff receive the application, the status changes to awaiting review (검토대기). If anything must be supplemented before the review, the status becomes supplement requested (보완요청), and the applicant revises the application from the project list (나의과제) and submits it again. For customized DBs under researcher extraction, the review committee meets twice a month, and an approved application changes to awaiting construction (자료구축대기). What follows approval, from connecting to the data to exporting results, is described on the [Using the data](using.md) page.
