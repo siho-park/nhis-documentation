@@ -1,0 +1,5242 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="This page lists all 458 variables of the National Health Screening Cohort in 11 tables, as described in the NHIS documentation listed below. Select a variable…">
+      
+      
+        <meta name="author" content="Siho Park">
+      
+      
+        <link rel="canonical" href="https://siho-park.github.io/nhis-documentation/variables/heals/">
+      
+      
+        <link rel="prev" href="../nsc/">
+      
+      
+        <link rel="next" href="../senior/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.7">
+    
+    
+  
+    
+      
+        <title>National Health Screening Cohort variables (건강검진코호트DB) - NHIS Data Documentation</title>
+      
+    
+  
+
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.ec1eaa64.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto+Sans+KR:300,300i,400,400i,700,700i%7CJetBrains+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Noto Sans KR";--md-code-font:"JetBrains Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/extra.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="teal">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#national-health-screening-cohort-db" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="NHIS Data Documentation" class="md-header__button md-logo" aria-label="NHIS Data Documentation" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            NHIS Data Documentation
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              National Health Screening Cohort variables (건강검진코호트DB)
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="teal"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m17.75 4.09-2.53 1.94.91 3.06-2.63-1.81-2.63 1.81.91-3.06-2.53-1.94L12.44 4l1.06-3 1.06 3zm3.5 6.91-1.64 1.25.59 1.98-1.7-1.17-1.7 1.17.59-1.98L15.75 11l2.06-.05L18.5 9l.69 1.95zm-2.28 4.95c.83-.08 1.72 1.1 1.19 1.85-.32.45-.66.87-1.08 1.27C15.17 23 8.84 23 4.94 19.07c-3.91-3.9-3.91-10.24 0-14.14.4-.4.82-.76 1.27-1.08.75-.53 1.93.36 1.85 1.19-.27 2.86.69 5.83 2.89 8.02a9.96 9.96 0 0 0 8.02 2.89m-1.64 2.02a12.08 12.08 0 0 1-7.8-3.47c-2.17-2.19-3.33-5-3.49-7.82-2.81 3.14-2.7 7.96.31 10.98 3.02 3.01 7.84 3.12 10.98.31"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="indigo" data-md-color-accent="teal"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 7a5 5 0 0 1 5 5 5 5 0 0 1-5 5 5 5 0 0 1-5-5 5 5 0 0 1 5-5m0 2a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3m0-7 2.39 3.42C13.65 5.15 12.84 5 12 5s-1.65.15-2.39.42zM3.34 7l4.16-.35A7.2 7.2 0 0 0 5.94 8.5c-.44.74-.69 1.5-.83 2.29zm.02 10 1.76-3.77a7.131 7.131 0 0 0 2.38 4.14zM20.65 7l-1.77 3.79a7.02 7.02 0 0 0-2.38-4.15zm-.01 10-4.14.36c.59-.51 1.12-1.14 1.54-1.86.42-.73.69-1.5.83-2.29zM12 22l-2.41-3.44c.74.27 1.55.44 2.41.44.82 0 1.63-.17 2.37-.44z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/siho-park/nhis-documentation" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    nhis-documentation
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../.." class="md-tabs__link">
+          
+  
+  
+    
+  
+  Home
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../overview/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Program and data
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../datasets/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Datasets
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Variables
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../blog/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Research notes
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../glossary/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Glossary
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../references/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  References
+
+      </a>
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="NHIS Data Documentation" class="md-nav__button md-logo" aria-label="NHIS Data Documentation" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    NHIS Data Documentation
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/siho-park/nhis-documentation" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    nhis-documentation
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_1" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../.." class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Home
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_1" id="__nav_1_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_1">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Home
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../about/contributing/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Contributing
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../about/cite/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    How to cite
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../overview/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Program and data
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_2" id="__nav_2_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Program and data
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../overview/system/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    The health insurance system
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../overview/databases/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    NHIS research databases
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../overview/access/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Applying for data
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../overview/using/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Using the data
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../datasets/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Datasets
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_3" id="__nav_3_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Datasets
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_2" id="__nav_3_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Sample Database
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Sample Database
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../datasets/nsc/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    National Sample Cohort
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../datasets/heals/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Health Screening Cohort
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../datasets/senior/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Senior Cohort
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../datasets/low-risk/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Low-Risk Sample Dataset
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_3" id="__nav_3_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Customized Database
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Customized Database
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../datasets/customized/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Customized Research DB
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../datasets/sources/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Sources and versions
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" checked>
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Variables
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_4" id="__nav_4_label" tabindex="">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Variables
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../nsc/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    National Sample Cohort
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    National Health Screening Cohort
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    National Health Screening Cohort
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#tables" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Tables
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#jk" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Eligibility (JK)
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#gy20" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Claim statements (GY20)
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#gy30" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Treatment details (GY30)
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#gy40" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Diagnoses (GY40)
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#gy60" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Prescriptions (GY60)
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#gj" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        General health screening (GJ)
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#lj" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Life-transition health screening (LJ)
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#go" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Oral screening, general
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#lo" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Oral screening, life-transition
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#go2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Oral screening, general and life-transition combined
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#yk" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Healthcare providers (YK)
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#code-lists" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Code lists
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../senior/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Senior Cohort
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../lowrisk/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Low-Risk Sample Dataset
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../custom/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Customized Research DB
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../blog/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Research notes
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_5" id="__nav_5_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Research notes
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_5_2" id="__nav_5_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Categories
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_5_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Categories
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../blog/category/getting-started/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Getting started
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../blog/category/measurement/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Measurement
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../blog/category/caveats/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Caveats
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../glossary/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Glossary
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../references/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    References
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#tables" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Tables
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#jk" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Eligibility (JK)
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#gy20" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Claim statements (GY20)
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#gy30" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Treatment details (GY30)
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#gy40" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Diagnoses (GY40)
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#gy60" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Prescriptions (GY60)
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#gj" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        General health screening (GJ)
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#lj" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Life-transition health screening (LJ)
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#go" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Oral screening, general
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#lo" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Oral screening, life-transition
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#go2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Oral screening, general and life-transition combined
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#yk" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Healthcare providers (YK)
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#code-lists" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Code lists
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+  
+    <a href="https://github.com/siho-park/nhis-documentation/edit/main/codebook/heals/_dataset.yml" title="Edit this page" class="md-content__button md-icon" rel="edit">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M10 20H6V4h7v5h5v3.1l2-2V8l-6-6H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h4zm10.2-7c.1 0 .3.1.4.2l1.3 1.3c.2.2.2.6 0 .8l-1 1-2.1-2.1 1-1c.1-.1.2-.2.4-.2m0 3.9L14.1 23H12v-2.1l6.1-6.1z"/></svg>
+    </a>
+  
+  
+
+
+<p><a href="../">Variables</a> › National Health Screening Cohort</p>
+<h1 id="national-health-screening-cohort-db">National Health Screening Cohort (건강검진코호트DB)<a class="headerlink" href="#national-health-screening-cohort-db" title="Permanent link">&para;</a></h1>
+<p>This page lists all 458 variables of the National Health Screening Cohort in 11 tables, as described in the NHIS documentation listed below. Select a variable to see its Korean and English names, its description, and the meaning of each code.</p>
+<p>Background on sampling, versions, and linkage is on the <a href="../../datasets/heals/">dataset page</a>.</p>
+<p><strong>Sources</strong></p>
+<ul>
+<li>HEALS user manual, v2.3 (<code>건강검진코호트DB 사용자 매뉴얼v2.3.hwp</code>)</li>
+</ul>
+<h2 id="tables">Tables<a class="headerlink" href="#tables" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th>Table</th>
+<th>한글</th>
+<th>Variables</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="#jk">Eligibility (JK)</a></td>
+<td>자격 DB</td>
+<td>12</td>
+</tr>
+<tr>
+<td><a href="#gy20">Claim statements (GY20)</a></td>
+<td>진료 DB 명세서(20t)</td>
+<td>21</td>
+</tr>
+<tr>
+<td><a href="#gy30">Treatment details (GY30)</a></td>
+<td>진료 DB 진료내역(30t)</td>
+<td>18</td>
+</tr>
+<tr>
+<td><a href="#gy40">Diagnoses (GY40)</a></td>
+<td>진료 DB 상병내역(40t)</td>
+<td>6</td>
+</tr>
+<tr>
+<td><a href="#gy60">Prescriptions (GY60)</a></td>
+<td>진료 DB 처방전교부상세내역(60t)</td>
+<td>11</td>
+</tr>
+<tr>
+<td><a href="#gj">General health screening (GJ)</a></td>
+<td>일반건강검진</td>
+<td>136</td>
+</tr>
+<tr>
+<td><a href="#lj">Life-transition health screening (LJ)</a></td>
+<td>생애전환기건강진단</td>
+<td>69</td>
+</tr>
+<tr>
+<td><a href="#go">Oral screening, general</a></td>
+<td>구강검진(일반)</td>
+<td>62</td>
+</tr>
+<tr>
+<td><a href="#lo">Oral screening, life-transition</a></td>
+<td>구강검진(생애)</td>
+<td>65</td>
+</tr>
+<tr>
+<td><a href="#go2">Oral screening, general and life-transition combined</a></td>
+<td>구강검진(일반+생애 통합)</td>
+<td>48</td>
+</tr>
+<tr>
+<td><a href="#yk">Healthcare providers (YK)</a></td>
+<td>요양기관 DB</td>
+<td>10</td>
+</tr>
+</tbody>
+</table>
+<h2 id="jk">Eligibility (JK)<a class="headerlink" href="#jk" title="Permanent link">&para;</a></h2>
+<p>자격 DB</p>
+<ul>
+<li><strong>Files</strong> <code>NHIS_HEALS_JK_0215</code>, <code>NHIS_HEALS_JK_1619</code>, <code>NHIS_HEALS_JK_2023</code></li>
+<li><strong>Unit of observation</strong> Person and year</li>
+<li><strong>Source</strong> <code>건강검진코호트DB 사용자 매뉴얼v2.3.hwp</code></li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Variable</th>
+<th>한글</th>
+<th>English</th>
+<th>Years</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="jk/stnd_y/"><code>STND_Y</code></a></td>
+<td>기준년도</td>
+<td>Reference year</td>
+<td>2002-2023</td>
+</tr>
+<tr>
+<td><a href="jk/person_id/"><code>PERSON_ID</code></a></td>
+<td>개인일련번호</td>
+<td>Person identifier</td>
+<td>2002-2023</td>
+</tr>
+<tr>
+<td><a href="jk/sex/"><code>SEX</code></a></td>
+<td>성</td>
+<td>Sex</td>
+<td>2002-2023</td>
+</tr>
+<tr>
+<td><a href="jk/age/"><code>AGE</code></a></td>
+<td>연령</td>
+<td>Age</td>
+<td>2002-2023</td>
+</tr>
+<tr>
+<td><a href="jk/dth_mdy/"><code>DTH_MDY</code></a></td>
+<td>사망일자</td>
+<td>Date of death</td>
+<td>2002-2023</td>
+</tr>
+<tr>
+<td><a href="jk/dth_code1/"><code>DTH_CODE1</code></a></td>
+<td>사망원인1</td>
+<td>Cause of death 1</td>
+<td>2002-2023</td>
+</tr>
+<tr>
+<td><a href="jk/dth_code2/"><code>DTH_CODE2</code></a></td>
+<td>사망원인2</td>
+<td>Cause of death 2</td>
+<td>2002-2023</td>
+</tr>
+<tr>
+<td><a href="jk/sido/"><code>SIDO</code></a></td>
+<td>시도코드</td>
+<td>Province code</td>
+<td>2002-2023</td>
+</tr>
+<tr>
+<td><a href="jk/ipsn_type_cd/"><code>IPSN_TYPE_CD</code></a></td>
+<td>가입자구분</td>
+<td>Insurance type</td>
+<td>2002-2023</td>
+</tr>
+<tr>
+<td><a href="jk/ctrb_pt_type_cd/"><code>CTRB_PT_TYPE_CD</code></a></td>
+<td>보험료분위</td>
+<td>Premium decile</td>
+<td>2002-2023</td>
+</tr>
+<tr>
+<td><a href="jk/dfab_grd_cd/"><code>DFAB_GRD_CD</code></a></td>
+<td>장애중증도코드</td>
+<td>Disability severity code</td>
+<td>2002-2023</td>
+</tr>
+<tr>
+<td><a href="jk/dfab_ptn_cd/"><code>DFAB_PTN_CD</code></a></td>
+<td>장애유형코드</td>
+<td>Disability type code</td>
+<td>2002-2023</td>
+</tr>
+</tbody>
+</table>
+<h2 id="gy20">Claim statements (GY20)<a class="headerlink" href="#gy20" title="Permanent link">&para;</a></h2>
+<p>진료 DB 명세서(20t)</p>
+<ul>
+<li><strong>Files</strong> <code>NHIS_HEALS_GY20_&lt;years&gt;_T1</code>, <code>_T2</code>, <code>_T3</code></li>
+<li><strong>Unit of observation</strong> Claim</li>
+<li><strong>Source</strong> <code>건강검진코호트DB 사용자 매뉴얼v2.3.hwp</code></li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Variable</th>
+<th>한글</th>
+<th>English</th>
+<th>Years</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="gy20/person_id/"><code>PERSON_ID</code></a></td>
+<td>개인일련번호</td>
+<td>Person identifier</td>
+<td>2002-2023</td>
+</tr>
+<tr>
+<td><a href="gy20/key_seq/"><code>KEY_SEQ</code></a></td>
+<td>청구일련번호</td>
+<td>Claim identifier</td>
+<td>2002-2023</td>
+</tr>
+<tr>
+<td><a href="gy20/ykiho_id/"><code>YKIHO_ID</code></a></td>
+<td>요양기관식별대체번호</td>
+<td>Provider identifier</td>
+<td>2002-2023</td>
+</tr>
+<tr>
+<td><a href="gy20/recu_fr_dt/"><code>RECU_FR_DT</code></a></td>
+<td>요양개시일자</td>
+<td>Start date of care</td>
+<td>2002-2023</td>
+</tr>
+<tr>
+<td><a href="gy20/form_cd/"><code>FORM_CD</code></a></td>
+<td>서식코드</td>
+<td>Claim form code</td>
+<td>2002-2023</td>
+</tr>
+<tr>
+<td><a href="gy20/dsbjt_cd/"><code>DSBJT_CD</code></a></td>
+<td>진료과목코드</td>
+<td>Medical specialty code</td>
+<td>2002-2023</td>
+</tr>
+<tr>
+<td><a href="gy20/main_sick/"><code>MAIN_SICK</code></a></td>
+<td>주상병</td>
+<td>Primary diagnosis</td>
+<td>2002-2023</td>
+</tr>
+<tr>
+<td><a href="gy20/sub_sick/"><code>SUB_SICK</code></a></td>
+<td>부상병</td>
+<td>Secondary diagnosis</td>
+<td>2002-2023</td>
+</tr>
+<tr>
+<td><a href="gy20/in_pat_cors_type/"><code>IN_PAT_CORS_TYPE</code></a></td>
+<td>입원경로구분</td>
+<td>Admission route</td>
+<td>2002-2023</td>
+</tr>
+<tr>
+<td><a href="gy20/recn/"><code>RECN</code></a></td>
+<td>요양일수</td>
+<td>Days of care</td>
+<td>2002-2023</td>
+</tr>
+<tr>
+<td><a href="gy20/vscn/"><code>VSCN</code></a></td>
+<td>입내원일수</td>
+<td>Days of visits or inpatient days</td>
+<td>2002-2023</td>
+</tr>
+<tr>
+<td><a href="gy20/fst_in_pat_dt/"><code>FST_IN_PAT_DT</code></a></td>
+<td>최초입원일</td>
+<td>Date of first admission</td>
+<td>2002-2023</td>
+</tr>
+<tr>
+<td><a href="gy20/edec_add_rt/"><code>EDEC_ADD_RT</code></a></td>
+<td>심결가산율</td>
+<td>Add-on rate after review</td>
+<td>2002-2023</td>
+</tr>
+<tr>
+<td><a href="gy20/edec_tramt/"><code>EDEC_TRAMT</code></a></td>
+<td>심결요양급여비용총액</td>
+<td>Total covered cost after review</td>
+<td>2002-2023</td>
+</tr>
+<tr>
+<td><a href="gy20/edec_sbrdn_amt/"><code>EDEC_SBRDN_AMT</code></a></td>
+<td>심결본인부담금</td>
+<td>Patient cost sharing after review</td>
+<td>2002-2023</td>
+</tr>
+<tr>
+<td><a href="gy20/edec_jbrdn_amt/"><code>EDEC_JBRDN_AMT</code></a></td>
+<td>심결보험자부담금</td>
+<td>Insurer payment after review</td>
+<td>2002-2023</td>
+</tr>
+<tr>
+<td><a href="gy20/edec_ct_tot_amt/"><code>EDEC_CT_TOT_AMT</code></a></td>
+<td>심결CT총액</td>
+<td>Total CT cost after review</td>
+<td>2002-2023</td>
+</tr>
+<tr>
+<td><a href="gy20/edec_mri_tot_amt/"><code>EDEC_MRI_TOT_AMT</code></a></td>
+<td>심결MRI총액</td>
+<td>Total MRI cost after review</td>
+<td>2002-2023</td>
+</tr>
+<tr>
+<td><a href="gy20/dmd_drg_no/"><code>DMD_DRG_NO</code></a></td>
+<td>청구DRG번호</td>
+<td>DRG number on the claim</td>
+<td>2002-2023</td>
+</tr>
+<tr>
+<td><a href="gy20/mprsc_issue_admin_id/"><code>MPRSC_ISSUE_ADMIN_ID</code></a></td>
+<td>처방전발행기관식별대체번호</td>
+<td>Prescribing provider identifier</td>
+<td>2002-2023</td>
+</tr>
+<tr>
+<td><a href="gy20/tot_pres_dd_cnt/"><code>TOT_PRES_DD_CNT</code></a></td>
+<td>총처방일수</td>
+<td>Total days prescribed</td>
+<td>2002-2023</td>
+</tr>
+</tbody>
+</table>
+<h2 id="gy30">Treatment details (GY30)<a class="headerlink" href="#gy30" title="Permanent link">&para;</a></h2>
+<p>진료 DB 진료내역(30t)</p>
+<ul>
+<li><strong>Files</strong> <code>NHIS_HEALS_GY30_&lt;years&gt;_T1</code>, <code>_T2</code>, <code>_T3</code></li>
+<li><strong>Unit of observation</strong> Line item on a claim</li>
+<li><strong>Source</strong> <code>건강검진코호트DB 사용자 매뉴얼v2.3.hwp</code></li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Variable</th>
+<th>한글</th>
+<th>English</th>
+<th>Years</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="gy30/key_seq/"><code>KEY_SEQ</code></a></td>
+<td>청구일련번호</td>
+<td>Claim identifier</td>
+<td>2002-2023</td>
+</tr>
+<tr>
+<td><a href="gy30/seq_no/"><code>SEQ_NO</code></a></td>
+<td>일련번호</td>
+<td>Serial number</td>
+<td>2002-2023</td>
+</tr>
+<tr>
+<td><a href="gy30/recu_fr_dt/"><code>RECU_FR_DT</code></a></td>
+<td>요양개시일자</td>
+<td>Start date of care</td>
+<td>2002-2023</td>
+</tr>
+<tr>
+<td><a href="gy30/clause_cd/"><code>CLAUSE_CD</code></a></td>
+<td>항코드</td>
+<td>Line item code</td>
+<td>2002-2023</td>
+</tr>
+<tr>
+<td><a href="gy30/item_cd/"><code>ITEM_CD</code></a></td>
+<td>목코드</td>
+<td>Item code</td>
+<td>2002-2023</td>
+</tr>
+<tr>
+<td><a href="gy30/div_type_cd/"><code>DIV_TYPE_CD</code></a></td>
+<td>분류유형코드</td>
+<td>Classification type code</td>
+<td>2002-2023</td>
+</tr>
+<tr>
+<td><a href="gy30/div_cd/"><code>DIV_CD</code></a></td>
+<td>분류코드</td>
+<td>Classification code (procedure, drug, or material code)</td>
+<td>2002-2023</td>
+</tr>
+<tr>
+<td><a href="gy30/gnl_nm_cd/"><code>GNL_NM_CD</code></a></td>
+<td>일반명코드</td>
+<td>Generic name code</td>
+<td>2002-2023</td>
+</tr>
+<tr>
+<td><a href="gy30/i_ii_type/"><code>I_II_TYPE</code></a></td>
+<td>1_2구분</td>
+<td>Premium rate indicator (1 or 2)</td>
+<td>2002-2023</td>
+</tr>
+<tr>
+<td><a href="gy30/un_cost/"><code>UN_COST</code></a></td>
+<td>단가</td>
+<td>Unit price</td>
+<td>2002-2023</td>
+</tr>
+<tr>
+<td><a href="gy30/amt/"><code>AMT</code></a></td>
+<td>금액</td>
+<td>Amount</td>
+<td>2002-2023</td>
+</tr>
+<tr>
+<td><a href="gy30/dd_mqty_exec_freq/"><code>DD_MQTY_EXEC_FREQ</code></a></td>
+<td>1일투여량또는실시횟수</td>
+<td>Daily dose or number of procedures</td>
+<td>2002-2023</td>
+</tr>
+<tr>
+<td><a href="gy30/mdcn_exec_freq/"><code>MDCN_EXEC_FREQ</code></a></td>
+<td>총투여일수또는실시횟수</td>
+<td>Total days of medication or number of procedures</td>
+<td>2002-2023</td>
+</tr>
+<tr>
+<td><a href="gy30/dd_mqty_freq/"><code>DD_MQTY_FREQ</code></a></td>
+<td>1회투약량</td>
+<td>Single dose</td>
+<td>2002-2023</td>
+</tr>
+<tr>
+<td><a href="gy30/den_for_right_upp/"><code>DEN_FOR_RIGHT_UPP</code></a></td>
+<td>치식우상</td>
+<td>Upper right teeth</td>
+<td>2002-2023</td>
+</tr>
+<tr>
+<td><a href="gy30/den_for_left_upp/"><code>DEN_FOR_LEFT_UPP</code></a></td>
+<td>치식좌상</td>
+<td>Upper left teeth</td>
+<td>2002-2023</td>
+</tr>
+<tr>
+<td><a href="gy30/den_for_right_low/"><code>DEN_FOR_RIGHT_LOW</code></a></td>
+<td>치식우하</td>
+<td>Lower right teeth</td>
+<td>2002-2023</td>
+</tr>
+<tr>
+<td><a href="gy30/den_for_left_low/"><code>DEN_FOR_LEFT_LOW</code></a></td>
+<td>치식좌하</td>
+<td>Lower left teeth</td>
+<td>2002-2023</td>
+</tr>
+</tbody>
+</table>
+<h2 id="gy40">Diagnoses (GY40)<a class="headerlink" href="#gy40" title="Permanent link">&para;</a></h2>
+<p>진료 DB 상병내역(40t)</p>
+<ul>
+<li><strong>Files</strong> <code>NHIS_HEALS_GY40_&lt;years&gt;_T1</code>, <code>_T2</code></li>
+<li><strong>Unit of observation</strong> Diagnosis on a claim</li>
+<li><strong>Source</strong> <code>건강검진코호트DB 사용자 매뉴얼v2.3.hwp</code></li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Variable</th>
+<th>한글</th>
+<th>English</th>
+<th>Years</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="gy40/key_seq/"><code>KEY_SEQ</code></a></td>
+<td>청구일련번호</td>
+<td>Claim identifier</td>
+<td>2002-2023</td>
+</tr>
+<tr>
+<td><a href="gy40/seq_no/"><code>SEQ_NO</code></a></td>
+<td>일련번호</td>
+<td>Serial number</td>
+<td>2002-2023</td>
+</tr>
+<tr>
+<td><a href="gy40/recu_fr_dt/"><code>RECU_FR_DT</code></a></td>
+<td>요양개시일자</td>
+<td>Start date of care</td>
+<td>2002-2023</td>
+</tr>
+<tr>
+<td><a href="gy40/dsbjt_cd/"><code>DSBJT_CD</code></a></td>
+<td>진료과목코드</td>
+<td>Medical specialty code</td>
+<td>2002-2023</td>
+</tr>
+<tr>
+<td><a href="gy40/sick_sym/"><code>SICK_SYM</code></a></td>
+<td>상병기호</td>
+<td>Diagnosis code</td>
+<td>2002-2023</td>
+</tr>
+<tr>
+<td><a href="gy40/sick_div_type_cd/"><code>SICK_DIV_TYPE_CD</code></a></td>
+<td>상병분류구분</td>
+<td>Diagnosis type</td>
+<td>2002-2023</td>
+</tr>
+</tbody>
+</table>
+<h2 id="gy60">Prescriptions (GY60)<a class="headerlink" href="#gy60" title="Permanent link">&para;</a></h2>
+<p>진료 DB 처방전교부상세내역(60t)</p>
+<ul>
+<li><strong>Files</strong> <code>NHIS_HEALS_GY60_&lt;years&gt;_T1</code>, <code>_T2</code></li>
+<li><strong>Unit of observation</strong> Prescribed drug on a claim</li>
+<li><strong>Source</strong> <code>건강검진코호트DB 사용자 매뉴얼v2.3.hwp</code></li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Variable</th>
+<th>한글</th>
+<th>English</th>
+<th>Years</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="gy60/key_seq/"><code>KEY_SEQ</code></a></td>
+<td>청구일련번호</td>
+<td>Claim identifier</td>
+<td>2002-2023</td>
+</tr>
+<tr>
+<td><a href="gy60/seq_no/"><code>SEQ_NO</code></a></td>
+<td>일련번호</td>
+<td>Serial number</td>
+<td>2002-2023</td>
+</tr>
+<tr>
+<td><a href="gy60/recu_fr_dt/"><code>RECU_FR_DT</code></a></td>
+<td>요양개시일자</td>
+<td>Start date of care</td>
+<td>2002-2023</td>
+</tr>
+<tr>
+<td><a href="gy60/div_type_cd/"><code>DIV_TYPE_CD</code></a></td>
+<td>분류유형코드</td>
+<td>Classification type code</td>
+<td>2002-2023</td>
+</tr>
+<tr>
+<td><a href="gy60/div_cd/"><code>DIV_CD</code></a></td>
+<td>분류코드</td>
+<td>Classification code (procedure, drug, or material code)</td>
+<td>2002-2023</td>
+</tr>
+<tr>
+<td><a href="gy60/gnl_nm_cd/"><code>GNL_NM_CD</code></a></td>
+<td>일반명코드</td>
+<td>Generic name code</td>
+<td>2002-2023</td>
+</tr>
+<tr>
+<td><a href="gy60/dd_mqty_freq/"><code>DD_MQTY_FREQ</code></a></td>
+<td>1회투약량</td>
+<td>Single dose</td>
+<td>2002-2023</td>
+</tr>
+<tr>
+<td><a href="gy60/dd_exec_freq/"><code>DD_EXEC_FREQ</code></a></td>
+<td>1일투약량</td>
+<td>Daily dose</td>
+<td>2002-2023</td>
+</tr>
+<tr>
+<td><a href="gy60/mdcn_exec_freq/"><code>MDCN_EXEC_FREQ</code></a></td>
+<td>총투여일수또는실시횟수</td>
+<td>Total days of medication or number of procedures</td>
+<td>2002-2023</td>
+</tr>
+<tr>
+<td><a href="gy60/un_cost/"><code>UN_COST</code></a></td>
+<td>단가</td>
+<td>Unit price</td>
+<td>2002-2023</td>
+</tr>
+<tr>
+<td><a href="gy60/amt/"><code>AMT</code></a></td>
+<td>금액</td>
+<td>Amount</td>
+<td>2002-2023</td>
+</tr>
+</tbody>
+</table>
+<h2 id="gj">General health screening (GJ)<a class="headerlink" href="#gj" title="Permanent link">&para;</a></h2>
+<p>일반건강검진</p>
+<ul>
+<li><strong>Files</strong> <code>NHIS_HEALS_GJ_0215</code>, <code>_1617</code>, <code>_1819</code>, <code>_2023</code></li>
+<li><strong>Unit of observation</strong> Screening</li>
+<li><strong>Source</strong> <code>건강검진코호트DB 사용자 매뉴얼v2.3.hwp</code></li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Variable</th>
+<th>한글</th>
+<th>English</th>
+<th>Years</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="gj/hchk_year/"><code>HCHK_YEAR</code></a></td>
+<td>검진년도</td>
+<td>Year of screening</td>
+<td>2002-2023</td>
+</tr>
+<tr>
+<td><a href="gj/person_id/"><code>PERSON_ID</code></a></td>
+<td>개인일련번호</td>
+<td>Person identifier</td>
+<td>2002-2023</td>
+</tr>
+<tr>
+<td><a href="gj/ykiho_gubun_cd/"><code>YKIHO_GUBUN_CD</code></a></td>
+<td>검진기관종별코드</td>
+<td>Screening provider type code</td>
+<td>2002-2023</td>
+</tr>
+<tr>
+<td><a href="gj/hme_dt/"><code>HME_DT</code></a></td>
+<td>검진일자</td>
+<td>Screening date</td>
+<td>2002-2023</td>
+</tr>
+<tr>
+<td><a href="gj/height/"><code>HEIGHT</code></a></td>
+<td>키</td>
+<td>Height</td>
+<td>2002-2023</td>
+</tr>
+<tr>
+<td><a href="gj/weight/"><code>WEIGHT</code></a></td>
+<td>체중</td>
+<td>Weight</td>
+<td>2002-2023</td>
+</tr>
+<tr>
+<td><a href="gj/waist/"><code>WAIST</code></a></td>
+<td>허리둘레</td>
+<td>Waist circumference</td>
+<td>2002-2023</td>
+</tr>
+<tr>
+<td><a href="gj/bp_high/"><code>BP_HIGH</code></a></td>
+<td>수축기혈압</td>
+<td>Systolic blood pressure</td>
+<td>2002-2023</td>
+</tr>
+<tr>
+<td><a href="gj/bp_lwst/"><code>BP_LWST</code></a></td>
+<td>이완기혈압</td>
+<td>Diastolic blood pressure</td>
+<td>2002-2023</td>
+</tr>
+<tr>
+<td><a href="gj/blds/"><code>BLDS</code></a></td>
+<td>식전혈당(공복혈당)</td>
+<td>Fasting glucose</td>
+<td>2002-2023</td>
+</tr>
+<tr>
+<td><a href="gj/tot_chole/"><code>TOT_CHOLE</code></a></td>
+<td>총콜레스테롤</td>
+<td>Total cholesterol</td>
+<td>2002-2023</td>
+</tr>
+<tr>
+<td><a href="gj/hmg/"><code>HMG</code></a></td>
+<td>혈색소</td>
+<td>Hemoglobin</td>
+<td>2002-2023</td>
+</tr>
+<tr>
+<td><a href="gj/gly_cd/"><code>GLY_CD</code></a></td>
+<td>요당</td>
+<td>Urine glucose</td>
+<td>2002-2008</td>
+</tr>
+<tr>
+<td><a href="gj/olig_occu_cd/"><code>OLIG_OCCU_CD</code></a></td>
+<td>요잠혈</td>
+<td>Urine occult blood</td>
+<td>2002-2008</td>
+</tr>
+<tr>
+<td><a href="gj/olig_ph/"><code>OLIG_PH</code></a></td>
+<td>요PH</td>
+<td>Urine pH</td>
+<td>2002-2008</td>
+</tr>
+<tr>
+<td><a href="gj/olig_prote_cd/"><code>OLIG_PROTE_CD</code></a></td>
+<td>요단백</td>
+<td>Urine protein</td>
+<td>2002-2023</td>
+</tr>
+<tr>
+<td><a href="gj/sgot_ast/"><code>SGOT_AST</code></a></td>
+<td>(혈청지오티)AST</td>
+<td>AST (SGOT)</td>
+<td>2002-2023</td>
+</tr>
+<tr>
+<td><a href="gj/sgpt_alt/"><code>SGPT_ALT</code></a></td>
+<td>(혈청지피티)ALT</td>
+<td>ALT (SGPT)</td>
+<td>2002-2023</td>
+</tr>
+<tr>
+<td><a href="gj/gamma_gtp/"><code>GAMMA_GTP</code></a></td>
+<td>감마지티피</td>
+<td>Gamma-GTP</td>
+<td>2002-2023</td>
+</tr>
+<tr>
+<td><a href="gj/hchk_pmh_cd1/"><code>HCHK_PMH_CD1</code></a></td>
+<td>(본인)과거병력코드1</td>
+<td>(Self) Past disease code 1</td>
+<td>2002-2008</td>
+</tr>
+<tr>
+<td><a href="gj/hchk_pmh_cd2/"><code>HCHK_PMH_CD2</code></a></td>
+<td>(본인)과거병력코드2</td>
+<td>(Self) Past disease code 2</td>
+<td>2002-2008</td>
+</tr>
+<tr>
+<td><a href="gj/hchk_pmh_cd3/"><code>HCHK_PMH_CD3</code></a></td>
+<td>(본인)과거병력코드3</td>
+<td>(Self) Past disease code 3</td>
+<td>2002-2008</td>
+</tr>
+<tr>
+<td><a href="gj/fmly_liver_dise_patien_yn/"><code>FMLY_LIVER_DISE_PATIEN_YN</code></a></td>
+<td>(가족력)간장질환유무</td>
+<td>(Family history) Liver disease</td>
+<td>2002-2008</td>
+</tr>
+<tr>
+<td><a href="gj/fmly_hprts_patien_yn/"><code>FMLY_HPRTS_PATIEN_YN</code></a></td>
+<td>(가족력)고혈압환자유무</td>
+<td>(Family history) Hypertension</td>
+<td>2002-2023</td>
+</tr>
+<tr>
+<td><a href="gj/fmly_apop_patien_yn/"><code>FMLY_APOP_PATIEN_YN</code></a></td>
+<td>(가족력)뇌졸중환자유무</td>
+<td>(Family history) Stroke</td>
+<td>2002-2023</td>
+</tr>
+<tr>
+<td><a href="gj/fmly_hdise_patien_yn/"><code>FMLY_HDISE_PATIEN_YN</code></a></td>
+<td>(가족력)심장병환자유무</td>
+<td>(Family history) Heart disease</td>
+<td>2002-2023</td>
+</tr>
+<tr>
+<td><a href="gj/fmly_diabml_patien_yn/"><code>FMLY_DIABML_PATIEN_YN</code></a></td>
+<td>(가족력)당뇨병환자유무</td>
+<td>(Family history) Diabetes</td>
+<td>2002-2023</td>
+</tr>
+<tr>
+<td><a href="gj/fmly_cancer_patien_yn/"><code>FMLY_CANCER_PATIEN_YN</code></a></td>
+<td>(가족력)기타(암포함)환자유무</td>
+<td>(Family history) Other diseases, including cancer</td>
+<td>2002-2023</td>
+</tr>
+<tr>
+<td><a href="gj/smk_stat_type_rsps_cd/"><code>SMK_STAT_TYPE_RSPS_CD</code></a></td>
+<td>흡연상태</td>
+<td>Smoking status</td>
+<td>2002-2023</td>
+</tr>
+<tr>
+<td><a href="gj/smk_term_rsps_cd/"><code>SMK_TERM_RSPS_CD</code></a></td>
+<td>(과거,현재)흡연기간</td>
+<td>(Past or current) Years smoked</td>
+<td>2002-2008</td>
+</tr>
+<tr>
+<td><a href="gj/dsqty_rsps_cd/"><code>DSQTY_RSPS_CD</code></a></td>
+<td>(현재)하루흡연량</td>
+<td>(Current) Cigarettes per day</td>
+<td>2002-2008</td>
+</tr>
+<tr>
+<td><a href="gj/drnk_habit_rsps_cd/"><code>DRNK_HABIT_RSPS_CD</code></a></td>
+<td>음주습관</td>
+<td>Drinking habit</td>
+<td>2002-2017</td>
+</tr>
+<tr>
+<td><a href="gj/tm1_drkqty_rsps_cd/"><code>TM1_DRKQTY_RSPS_CD</code></a></td>
+<td>1회 음주량</td>
+<td>Alcohol per drinking occasion</td>
+<td>2002-2017</td>
+</tr>
+<tr>
+<td><a href="gj/exerci_freq_rsps_cd/"><code>EXERCI_FREQ_RSPS_CD</code></a></td>
+<td>1주 운동횟수</td>
+<td>Exercise sessions per week</td>
+<td>2002-2008</td>
+</tr>
+<tr>
+<td><a href="gj/triglyceride/"><code>TRIGLYCERIDE</code></a></td>
+<td>트리글리세라이드</td>
+<td>Triglycerides</td>
+<td>2009-2023</td>
+</tr>
+<tr>
+<td><a href="gj/hdl_chole/"><code>HDL_CHOLE</code></a></td>
+<td>HDL콜레스테롤</td>
+<td>HDL cholesterol</td>
+<td>2009-2023</td>
+</tr>
+<tr>
+<td><a href="gj/ldl_chole/"><code>LDL_CHOLE</code></a></td>
+<td>LDL콜레스테롤</td>
+<td>LDL cholesterol</td>
+<td>2009-2023</td>
+</tr>
+<tr>
+<td><a href="gj/creatinine/"><code>CREATININE</code></a></td>
+<td>혈청크레아티닌</td>
+<td>Serum creatinine</td>
+<td>2009-2023</td>
+</tr>
+<tr>
+<td><a href="gj/hchk_apop_pmh_yn/"><code>HCHK_APOP_PMH_YN</code></a></td>
+<td>(본인)뇌졸중과거병력유무</td>
+<td>(Self) Past history of stroke</td>
+<td>2009-2023</td>
+</tr>
+<tr>
+<td><a href="gj/hchk_hdise_pmh_yn/"><code>HCHK_HDISE_PMH_YN</code></a></td>
+<td>(본인)심장병과거병력유무</td>
+<td>(Self) Past history of heart disease</td>
+<td>2009-2023</td>
+</tr>
+<tr>
+<td><a href="gj/hchk_hprts_pmh_yn/"><code>HCHK_HPRTS_PMH_YN</code></a></td>
+<td>(본인)고혈압과거병력유무</td>
+<td>(Self) Past history of hypertension</td>
+<td>2009-2023</td>
+</tr>
+<tr>
+<td><a href="gj/hchk_diabml_pmh_yn/"><code>HCHK_DIABML_PMH_YN</code></a></td>
+<td>(본인)당뇨병과거병력유무</td>
+<td>(Self) Past history of diabetes</td>
+<td>2009-2023</td>
+</tr>
+<tr>
+<td><a href="gj/hchk_hplpdm_pmh_yn/"><code>HCHK_HPLPDM_PMH_YN</code></a></td>
+<td>(본인)고지혈증(이상지질혈증)과거병력유무</td>
+<td>(Self) Past history of dyslipidemia</td>
+<td>2009-2023</td>
+</tr>
+<tr>
+<td><a href="gj/hchk_phss_pmh_yn/"><code>HCHK_PHSS_PMH_YN</code></a></td>
+<td>(본인)폐결핵과거병력유무</td>
+<td>(Self) Past history of pulmonary tuberculosis</td>
+<td>2009-2023</td>
+</tr>
+<tr>
+<td><a href="gj/hchk_etcdse_pmh_yn/"><code>HCHK_ETCDSE_PMH_YN</code></a></td>
+<td>(본인)기타(암포함)질환 과거병력유무</td>
+<td>(Self) Past history of other diseases, including cancer</td>
+<td>2009-2023</td>
+</tr>
+<tr>
+<td><a href="gj/past_smk_term_rsps_cd/"><code>PAST_SMK_TERM_RSPS_CD</code></a></td>
+<td>(과거)흡연기간</td>
+<td>(Past smokers) Years smoked</td>
+<td>2009-2018</td>
+</tr>
+<tr>
+<td><a href="gj/past_dsqty_rsps_cd/"><code>PAST_DSQTY_RSPS_CD</code></a></td>
+<td>(과거)하루흡연량</td>
+<td>(Past smokers) Cigarettes per day</td>
+<td>2009-2018</td>
+</tr>
+<tr>
+<td><a href="gj/cur_smk_term_rsps_cd/"><code>CUR_SMK_TERM_RSPS_CD</code></a></td>
+<td>(현재)흡연기간</td>
+<td>(Current) Years smoked</td>
+<td>2009-2018</td>
+</tr>
+<tr>
+<td><a href="gj/cur_dsqty_rsps_cd/"><code>CUR_DSQTY_RSPS_CD</code></a></td>
+<td>(현재)하루흡연량</td>
+<td>(Current) Cigarettes per day</td>
+<td>2009-2018</td>
+</tr>
+<tr>
+<td><a href="gj/mov20_wek_freq_id/"><code>MOV20_WEK_FREQ_ID</code></a></td>
+<td>1주_20분이상 / 격렬한 운동</td>
+<td>Days per week of vigorous exercise for 20 minutes or more</td>
+<td>2009-2017</td>
+</tr>
+<tr>
+<td><a href="gj/mov30_wek_freq_id/"><code>MOV30_WEK_FREQ_ID</code></a></td>
+<td>1주_30분이상 / 중간정도 운동</td>
+<td>Days per week of moderate exercise for 30 minutes or more</td>
+<td>2009-2017</td>
+</tr>
+<tr>
+<td><a href="gj/wlk30_wek_freq_id/"><code>WLK30_WEK_FREQ_ID</code></a></td>
+<td>1주_총30분이상 / 걷기 운동</td>
+<td>Days per week of walking for a total of 30 minutes or more</td>
+<td>2009-2017</td>
+</tr>
+<tr>
+<td><a href="gj/kdsq_c/"><code>KDSQ_C</code></a></td>
+<td>인지기능장애 KDSQ-C(70, 74); 0~30점</td>
+<td>Cognitive impairment, KDSQ-C (ages 70 and 74), score 0 to 30</td>
+<td>2009-2017</td>
+</tr>
+<tr>
+<td><a href="gj/kdsq_c_1/"><code>KDSQ_C_1</code></a></td>
+<td>인지기능/자신의 기억력이 친구나 동료들에 비해 못하다고 생각하십니까?</td>
+<td>Cognition, do you think your memory is worse than that of friends or colleagues?</td>
+<td>2009-2017</td>
+</tr>
+<tr>
+<td><a href="gj/kdsq_c_2/"><code>KDSQ_C_2</code></a></td>
+<td>인지기능/자신의 기억력이 1년전에 비해 더 나빠졌다고 생각하십니까?</td>
+<td>Cognition, do you think your memory is worse than a year ago?</td>
+<td>2009-2017</td>
+</tr>
+<tr>
+<td><a href="gj/kdsq_c_3/"><code>KDSQ_C_3</code></a></td>
+<td>인지기능/중요한 일을 하는데 있어서도 기억력이 문제가 되는 경우가 있습니까?</td>
+<td>Cognition, does memory cause problems even for important tasks?</td>
+<td>2009-2017</td>
+</tr>
+<tr>
+<td><a href="gj/kdsq_c_4/"><code>KDSQ_C_4</code></a></td>
+<td>인지기능/자신의 기억력이 떨어진 것을 남들도 알고 있습니까?</td>
+<td>Cognition, do others know that your memory has declined?</td>
+<td>2009-2017</td>
+</tr>
+<tr>
+<td><a href="gj/kdsq_c_5/"><code>KDSQ_C_5</code></a></td>
+<td>인지기능/잘해오던 일상적인 일을 하는데 예전보다 서툴어졌다고 생각하십니까?</td>
+<td>Cognition, have you become clumsier at everyday tasks you used to do well?</td>
+<td>2009-2017</td>
+</tr>
+<tr>
+<td><a href="gj/eld_llfx_sec/"><code>ELD_LLFX_SEC</code></a></td>
+<td>하지기능:일어나3m돌아와앉기(초)</td>
+<td>Lower limb function, rise, walk 3 m, return and sit (seconds)</td>
+<td>2018-2023</td>
+</tr>
+<tr>
+<td><a href="gj/eld_llfx_yn/"><code>ELD_LLFX_YN</code></a></td>
+<td>하지기능: 보행장애유무(66세만)</td>
+<td>Lower limb function, walking impairment (age 66 only)</td>
+<td>2018-2023</td>
+</tr>
+<tr>
+<td><a href="gj/eld_stfx_mthd/"><code>ELD_STFX_MTHD</code></a></td>
+<td>평형성 검사방법(66세만) ※ 2008년부터 적용</td>
+<td>Balance test method (age 66 only; from 2008)</td>
+<td>2018-2023</td>
+</tr>
+<tr>
+<td><a href="gj/eld_stf_sec/"><code>ELD_STF_SEC</code></a></td>
+<td>평형성 검사결과(초)(66세만)</td>
+<td>Balance test result in seconds (age 66 only)</td>
+<td>2018-2023</td>
+</tr>
+<tr>
+<td><a href="gj/bd_mthd/"><code>BD_MTHD</code></a></td>
+<td>골밀도검사방법 / (66세여성만)</td>
+<td>Bone density test method (women aged 66 only)</td>
+<td>2018-2023</td>
+</tr>
+<tr>
+<td><a href="gj/bd_rst/"><code>BD_RST</code></a></td>
+<td>골밀도 검사결과(66세 여성만)</td>
+<td>Bone density test result (women aged 66 only)</td>
+<td>2018-2023</td>
+</tr>
+<tr>
+<td><a href="gj/adl_1/"><code>ADL_1</code></a></td>
+<td>[노인문진3-1] 음식을 차려주면 남의 도움없이 혼자서 식사하십니까?</td>
+<td>[Older adult questionnaire 3-1] Do you eat on your own without help when food is served?</td>
+<td>2018-2023</td>
+</tr>
+<tr>
+<td><a href="gj/adl_2/"><code>ADL_2</code></a></td>
+<td>[노인문진3-2] 옷을 챙겨 입을 때 남의 도움없이 혼자서 하십니까?</td>
+<td>[Older adult questionnaire 3-2] Do you get dressed without help?</td>
+<td>2018-2023</td>
+</tr>
+<tr>
+<td><a href="gj/adl_3/"><code>ADL_3</code></a></td>
+<td>[노인문진3-3] 대소변을 보기위해 화장실 출입할 때 남의 도움 없이 혼자서 하십니까?</td>
+<td>[Older adult questionnaire 3-3] Do you go to the toilet without help?</td>
+<td>2018-2023</td>
+</tr>
+<tr>
+<td><a href="gj/adl_4/"><code>ADL_4</code></a></td>
+<td>[노인문진3-4] 목욕하실 때 남의 도움 없이 혼자서 하십니까?</td>
+<td>[Older adult questionnaire 3-4] Do you bathe without help?</td>
+<td>2018-2023</td>
+</tr>
+<tr>
+<td><a href="gj/adl_5/"><code>ADL_5</code></a></td>
+<td>[노인문진3-5] 식사 준비를 다른 사람의 도움 없이 혼자서 하십니까?</td>
+<td>[Older adult questionnaire 3-5] Do you prepare meals without help?</td>
+<td>2018-2023</td>
+</tr>
+<tr>
+<td><a href="gj/adl_6/"><code>ADL_6</code></a></td>
+<td>[노인문진3-6] 상점, 이웃, 병원, 관공서 등 걸어서 혼자 갔다 올 수 있는 곳의 외출을 다른 사람의 도움 없이 혼자서 하십니까?</td>
+<td>[Older adult questionnaire 3-6] Do you go out on foot without help to nearby places such as shops, neighbors, hospitals, or public offices?</td>
+<td>2018-2023</td>
+</tr>
+<tr>
+<td><a href="gj/fall/"><code>FALL</code></a></td>
+<td>[노인문진4] 낙상에 관한 질문입니다. 지난 6개월 간 넘어진 적이 있습니까?</td>
+<td>[Older adult questionnaire 4] About falls. Have you fallen in the past 6 months?</td>
+<td>2018-2023</td>
+</tr>
+<tr>
+<td><a href="gj/urn_dis/"><code>URN_DIS</code></a></td>
+<td>[노인문진5] 배뇨장애에 관한 질문입니다. 소변장애가 있거나 소변을 지릴 경우가 있습니까?</td>
+<td>[Older adult questionnaire 5] About urination. Do you have difficulty urinating or urinary leakage?</td>
+<td>2018-2023</td>
+</tr>
+<tr>
+<td><a href="gj/elec_smk_yn/"><code>ELEC_SMK_YN</code></a></td>
+<td>[문진5] 전자담배를 사용한 경험이 있습니까?</td>
+<td>[Questionnaire 5] Have you ever used e-cigarettes?</td>
+<td>2018</td>
+</tr>
+<tr>
+<td><a href="gj/elec_smk_amt/"><code>ELEC_SMK_AMT</code></a></td>
+<td>[문진5-1] 최근 한 달 동안 전자담배를 사용한 경험이 있습니까?</td>
+<td>[Questionnaire 5-1] Have you used e-cigarettes in the past month?</td>
+<td>2018</td>
+</tr>
+<tr>
+<td><a href="gj/smk_now_yn/"><code>SMK_NOW_YN</code></a></td>
+<td>[문진4-1] 현재 일반담배(궐련)을 피우십니까?</td>
+<td>[Questionnaire 4-1] Do you currently smoke conventional cigarettes?</td>
+<td>2018-2023</td>
+</tr>
+<tr>
+<td><a href="gj/smk_drt/"><code>SMK_DRT</code></a></td>
+<td>[문진4-1] 현재 일반담배(궐련)을 피우십니까?</td>
+<td>[Questionnaire 4-1] Do you currently smoke conventional cigarettes?</td>
+<td>2018-2023</td>
+</tr>
+<tr>
+<td><a href="gj/smk_amt/"><code>SMK_AMT</code></a></td>
+<td>[문진4-1-1] 현재 일반담배(궐련)을 피우십니까?</td>
+<td>[Questionnaire 4-1-1] Do you currently smoke conventional cigarettes?</td>
+<td>2018-2023</td>
+</tr>
+<tr>
+<td><a href="gj/stp_drt/"><code>STP_DRT</code></a></td>
+<td>[문진4-1-2] 현재 일반담배(궐련)을 피우십니까?</td>
+<td>[Questionnaire 4-1-2] Do you currently smoke conventional cigarettes?</td>
+<td>2018-2023</td>
+</tr>
+<tr>
+<td><a href="gj/hnbt_yn/"><code>HNBT_YN</code></a></td>
+<td>[문진5] 지금까지 궐련형 전자담배 (가열담배, 예)아이코스, 글로, 릴 등)을 피운적 있습니까?</td>
+<td>[Questionnaire 5] Have you ever used heated tobacco products (such as IQOS, glo, lil)?</td>
+<td>2018-2023</td>
+</tr>
+<tr>
+<td><a href="gj/hnbt_now_yn/"><code>HNBT_NOW_YN</code></a></td>
+<td>[문진5-1] 현재 궐련형 전자담배(가열담배) 피우십니까?</td>
+<td>[Questionnaire 5-1] Do you currently use heated tobacco products?</td>
+<td>2018-2023</td>
+</tr>
+<tr>
+<td><a href="gj/hnbt_drt/"><code>HNBT_DRT</code></a></td>
+<td>[문진5-1] 현재 궐련형 전자담배(가열담배) 피우십니까?</td>
+<td>[Questionnaire 5-1] Do you currently use heated tobacco products?</td>
+<td>2018-2023</td>
+</tr>
+<tr>
+<td><a href="gj/hnbt_amt/"><code>HNBT_AMT</code></a></td>
+<td>[문진5-1-1] 현재 궐련형 전자담배(가열담배) 피우십니까?</td>
+<td>[Questionnaire 5-1-1] Do you currently use heated tobacco products?</td>
+<td>2018-2023</td>
+</tr>
+<tr>
+<td><a href="gj/hnbt_stp_drt/"><code>HNBT_STP_DRT</code></a></td>
+<td>[문진5-1-2] 현재 궐련형 전자담배(가열담배) 피우십니까?</td>
+<td>[Questionnaire 5-1-2] Do you currently use heated tobacco products?</td>
+<td>2018-2023</td>
+</tr>
+<tr>
+<td><a href="gj/e_ciga_yn/"><code>E_CIGA_YN</code></a></td>
+<td>[문진6] 액상형 전자담배를 사용한 경험이 있습니까?</td>
+<td>[Questionnaire 6] Have you ever used liquid e-cigarettes?</td>
+<td>2018-2023</td>
+</tr>
+<tr>
+<td><a href="gj/e_ciga_amt/"><code>E_CIGA_AMT</code></a></td>
+<td>[문진6-1] 최근 한 달 동안 액상형 전자담배를 사용한 경험이 있습니까?</td>
+<td>[Questionnaire 6-1] Have you used liquid e-cigarettes in the past month?</td>
+<td>2018-2023</td>
+</tr>
+<tr>
+<td><a href="gj/drk_per/"><code>DRK_PER</code></a></td>
+<td>[문진6] ※지난 1년간 술을 마시는 횟수는 어느 정도 입니까?(1개만 응답)</td>
+<td>[Questionnaire 6] How often have you drunk alcohol in the past year? (one answer)</td>
+<td>2018-2023</td>
+</tr>
+<tr>
+<td><a href="gj/drk_frq/"><code>DRK_FRQ</code></a></td>
+<td>[문진6-0]일주일에,한달에,1년에 번</td>
+<td>[Questionnaire 6-0] Times per week, month, or year</td>
+<td>2018-2023</td>
+</tr>
+<tr>
+<td><a href="gj/drk_soju_shot/"><code>DRK_SOJU_SHOT</code></a></td>
+<td>[문진6-1-1]소주 잔</td>
+<td>[Questionnaire 6-1-1] Soju, glasses</td>
+<td>2018-2023</td>
+</tr>
+<tr>
+<td><a href="gj/drk_soju_btl/"><code>DRK_SOJU_BTL</code></a></td>
+<td>[문진6-1-2]소주 병</td>
+<td>[Questionnaire 6-1-2] Soju, bottles</td>
+<td>2018-2023</td>
+</tr>
+<tr>
+<td><a href="gj/drk_soju_can/"><code>DRK_SOJU_CAN</code></a></td>
+<td>[문진6-1-3]소주 캔</td>
+<td>[Questionnaire 6-1-3] Soju, cans</td>
+<td>2018-2023</td>
+</tr>
+<tr>
+<td><a href="gj/drk_soju_cc/"><code>DRK_SOJU_CC</code></a></td>
+<td>[문진6-1-4]소주 cc</td>
+<td>[Questionnaire 6-1-4] Soju, cc</td>
+<td>2018-2023</td>
+</tr>
+<tr>
+<td><a href="gj/drk_beer_shot/"><code>DRK_BEER_SHOT</code></a></td>
+<td>[문진6-1-5]맥주 잔</td>
+<td>[Questionnaire 6-1-5] Beer, glasses</td>
+<td>2018-2023</td>
+</tr>
+<tr>
+<td><a href="gj/drk_beer_btl/"><code>DRK_BEER_BTL</code></a></td>
+<td>[문진6-1-6]맥주 병</td>
+<td>[Questionnaire 6-1-6] Beer, bottles</td>
+<td>2018-2023</td>
+</tr>
+<tr>
+<td><a href="gj/drk_beer_can/"><code>DRK_BEER_CAN</code></a></td>
+<td>[문진6-1-7]맥주 캔</td>
+<td>[Questionnaire 6-1-7] Beer, cans</td>
+<td>2018-2023</td>
+</tr>
+<tr>
+<td><a href="gj/drk_beer_cc/"><code>DRK_BEER_CC</code></a></td>
+<td>[문진6-1-8]맥주 cc</td>
+<td>[Questionnaire 6-1-8] Beer, cc</td>
+<td>2018-2023</td>
+</tr>
+<tr>
+<td><a href="gj/drk_lqr_shot/"><code>DRK_LQR_SHOT</code></a></td>
+<td>[문진6-1-9]양주 잔</td>
+<td>[Questionnaire 6-1-9] Liquor, glasses</td>
+<td>2018-2023</td>
+</tr>
+<tr>
+<td><a href="gj/drk_lqr_btl/"><code>DRK_LQR_BTL</code></a></td>
+<td>[문진6-1-10]양주 병</td>
+<td>[Questionnaire 6-1-10] Liquor, bottles</td>
+<td>2018-2023</td>
+</tr>
+<tr>
+<td><a href="gj/drk_lqr_can/"><code>DRK_LQR_CAN</code></a></td>
+<td>[문진6-1-11]양주 캔</td>
+<td>[Questionnaire 6-1-11] Liquor, cans</td>
+<td>2018-2023</td>
+</tr>
+<tr>
+<td><a href="gj/drk_lqr_cc/"><code>DRK_LQR_CC</code></a></td>
+<td>[문진6-1-12]양주 cc</td>
+<td>[Questionnaire 6-1-12] Liquor, cc</td>
+<td>2018-2023</td>
+</tr>
+<tr>
+<td><a href="gj/drk_klqr_shot/"><code>DRK_KLQR_SHOT</code></a></td>
+<td>[문진6-1-13]막걸리 잔</td>
+<td>[Questionnaire 6-1-13] Makgeolli, glasses</td>
+<td>2018-2023</td>
+</tr>
+<tr>
+<td><a href="gj/drk_klqr_btl/"><code>DRK_KLQR_BTL</code></a></td>
+<td>[문진6-1-14]막걸리 병</td>
+<td>[Questionnaire 6-1-14] Makgeolli, bottles</td>
+<td>2018-2023</td>
+</tr>
+<tr>
+<td><a href="gj/drk_klqr_can/"><code>DRK_KLQR_CAN</code></a></td>
+<td>[문진6-1-15]막걸리 캔</td>
+<td>[Questionnaire 6-1-15] Makgeolli, cans</td>
+<td>2018-2023</td>
+</tr>
+<tr>
+<td><a href="gj/drk_klqr_cc/"><code>DRK_KLQR_CC</code></a></td>
+<td>[문진6-1-16]막걸리 cc</td>
+<td>[Questionnaire 6-1-16] Makgeolli, cc</td>
+<td>2018-2023</td>
+</tr>
+<tr>
+<td><a href="gj/drk_wine_shot/"><code>DRK_WINE_SHOT</code></a></td>
+<td>[문진6-1-18]와인 잔</td>
+<td>[Questionnaire 6-1-18] Wine, glasses</td>
+<td>2018-2023</td>
+</tr>
+<tr>
+<td><a href="gj/drk_wine_btl/"><code>DRK_WINE_BTL</code></a></td>
+<td>[문진6-1-19]와인 병</td>
+<td>[Questionnaire 6-1-19] Wine, bottles</td>
+<td>2018-2023</td>
+</tr>
+<tr>
+<td><a href="gj/drk_wine_can/"><code>DRK_WINE_CAN</code></a></td>
+<td>[문진6-1-20]와인 캔</td>
+<td>[Questionnaire 6-1-20] Wine, cans</td>
+<td>2018-2023</td>
+</tr>
+<tr>
+<td><a href="gj/drk_wine_cc/"><code>DRK_WINE_CC</code></a></td>
+<td>[문진6-1-21]와인 cc</td>
+<td>[Questionnaire 6-1-21] Wine, cc</td>
+<td>2018-2023</td>
+</tr>
+<tr>
+<td><a href="gj/drk_max_soju_shot/"><code>DRK_MAX_SOJU_SHOT</code></a></td>
+<td>[문진6-2-1]소주 잔</td>
+<td>[Questionnaire 6-2-1] Soju, glasses</td>
+<td>2018-2023</td>
+</tr>
+<tr>
+<td><a href="gj/drk_max_soju_btl/"><code>DRK_MAX_SOJU_BTL</code></a></td>
+<td>[문진6-2-2]소주 병</td>
+<td>[Questionnaire 6-2-2] Soju, bottles</td>
+<td>2018-2023</td>
+</tr>
+<tr>
+<td><a href="gj/drk_max_soju_can/"><code>DRK_MAX_SOJU_CAN</code></a></td>
+<td>[문진6-2-3]소주 캔</td>
+<td>[Questionnaire 6-2-3] Soju, cans</td>
+<td>2018-2023</td>
+</tr>
+<tr>
+<td><a href="gj/drk_max_soju_cc/"><code>DRK_MAX_SOJU_CC</code></a></td>
+<td>[문진6-2-4]소주 cc</td>
+<td>[Questionnaire 6-2-4] Soju, cc</td>
+<td>2018-2023</td>
+</tr>
+<tr>
+<td><a href="gj/drk_max_beer_shot/"><code>DRK_MAX_BEER_SHOT</code></a></td>
+<td>[문진6-2-5]맥주 잔</td>
+<td>[Questionnaire 6-2-5] Beer, glasses</td>
+<td>2018-2023</td>
+</tr>
+<tr>
+<td><a href="gj/drk_max_beer_btl/"><code>DRK_MAX_BEER_BTL</code></a></td>
+<td>[문진6-2-6]맥주 병</td>
+<td>[Questionnaire 6-2-6] Beer, bottles</td>
+<td>2018-2023</td>
+</tr>
+<tr>
+<td><a href="gj/drk_max_beer_can/"><code>DRK_MAX_BEER_CAN</code></a></td>
+<td>[문진6-2-7]맥주 캔</td>
+<td>[Questionnaire 6-2-7] Beer, cans</td>
+<td>2018-2023</td>
+</tr>
+<tr>
+<td><a href="gj/drk_max_beer_cc/"><code>DRK_MAX_BEER_CC</code></a></td>
+<td>[문진6-2-8]맥주 cc</td>
+<td>[Questionnaire 6-2-8] Beer, cc</td>
+<td>2018-2023</td>
+</tr>
+<tr>
+<td><a href="gj/drk_max_lqr_shot/"><code>DRK_MAX_LQR_SHOT</code></a></td>
+<td>[문진6-2-9]양주 잔</td>
+<td>[Questionnaire 6-2-9] Liquor, glasses</td>
+<td>2018-2023</td>
+</tr>
+<tr>
+<td><a href="gj/drk_max_lqr_btl/"><code>DRK_MAX_LQR_BTL</code></a></td>
+<td>[문진6-2-10]양주 병</td>
+<td>[Questionnaire 6-2-10] Liquor, bottles</td>
+<td>2018-2023</td>
+</tr>
+<tr>
+<td><a href="gj/drk_max_lqr_can/"><code>DRK_MAX_LQR_CAN</code></a></td>
+<td>[문진6-2-11]양주 캔</td>
+<td>[Questionnaire 6-2-11] Liquor, cans</td>
+<td>2018-2023</td>
+</tr>
+<tr>
+<td><a href="gj/drk_max_lqr_cc/"><code>DRK_MAX_LQR_CC</code></a></td>
+<td>[문진6-2-12]양주 cc</td>
+<td>[Questionnaire 6-2-12] Liquor, cc</td>
+<td>2018-2023</td>
+</tr>
+<tr>
+<td><a href="gj/drk_max_klqr_shot/"><code>DRK_MAX_KLQR_SHOT</code></a></td>
+<td>[문진6-2-13]막걸리 잔</td>
+<td>[Questionnaire 6-2-13] Makgeolli, glasses</td>
+<td>2018-2023</td>
+</tr>
+<tr>
+<td><a href="gj/drk_max_klqr_btl/"><code>DRK_MAX_KLQR_BTL</code></a></td>
+<td>[문진6-2-14]막걸리 병</td>
+<td>[Questionnaire 6-2-14] Makgeolli, bottles</td>
+<td>2018-2023</td>
+</tr>
+<tr>
+<td><a href="gj/drk_max_klqr_can/"><code>DRK_MAX_KLQR_CAN</code></a></td>
+<td>[문진6-2-15]막걸리 캔</td>
+<td>[Questionnaire 6-2-15] Makgeolli, cans</td>
+<td>2018-2023</td>
+</tr>
+<tr>
+<td><a href="gj/drk_max_klqr_cc/"><code>DRK_MAX_KLQR_CC</code></a></td>
+<td>[문진6-2-16]막걸리 cc</td>
+<td>[Questionnaire 6-2-16] Makgeolli, cc</td>
+<td>2018-2023</td>
+</tr>
+<tr>
+<td><a href="gj/drk_max_wine_shot/"><code>DRK_MAX_WINE_SHOT</code></a></td>
+<td>[문진6-2-18]와인 잔</td>
+<td>[Questionnaire 6-2-18] Wine, glasses</td>
+<td>2018-2023</td>
+</tr>
+<tr>
+<td><a href="gj/drk_max_wine_btl/"><code>DRK_MAX_WINE_BTL</code></a></td>
+<td>[문진6-2-19]와인 병</td>
+<td>[Questionnaire 6-2-19] Wine, bottles</td>
+<td>2018-2023</td>
+</tr>
+<tr>
+<td><a href="gj/drk_max_wine_can/"><code>DRK_MAX_WINE_CAN</code></a></td>
+<td>[문진6-2-20]와인 캔</td>
+<td>[Questionnaire 6-2-20] Wine, cans</td>
+<td>2018-2023</td>
+</tr>
+<tr>
+<td><a href="gj/drk_max_wine_cc/"><code>DRK_MAX_WINE_CC</code></a></td>
+<td>[문진6-2-21]와인 cc</td>
+<td>[Questionnaire 6-2-21] Wine, cc</td>
+<td>2018-2023</td>
+</tr>
+<tr>
+<td><a href="gj/pa_vd_frq/"><code>PA_VD_FRQ</code></a></td>
+<td>[문진7-1]평소1주일간숨이많이차게만드는고강도신체활동을며칠하십니까?주당 일 / *고강도 신체활동의 예)달리기,에어로빅,빠른속도로 자전거 타기,건설 현장 노동,계단으로 물건 나르기 등</td>
+<td>[Questionnaire 7-1] Days per week of vigorous physical activity that makes you very short of breath (for example running, aerobics, fast cycling, construction work, carrying loads upstairs)</td>
+<td>2018-2023</td>
+</tr>
+<tr>
+<td><a href="gj/pa_vd_hrs/"><code>PA_VD_HRS</code></a></td>
+<td>[문진7-2-1]평소하루에숨이많이차게만드는고강도신체활동을몇시간하십니까?하루에 시간</td>
+<td>[Questionnaire 7-2-1] Hours per day of vigorous physical activity that makes you very short of breath</td>
+<td>2018-2023</td>
+</tr>
+<tr>
+<td><a href="gj/pa_vd_mins/"><code>PA_VD_MINS</code></a></td>
+<td>[문진7-2-2]평소하루에숨이많이차게만드는고강도신체활동을몇시간하십니까?하루에 분</td>
+<td>[Questionnaire 7-2-2] Minutes per day of vigorous physical activity that makes you very short of breath</td>
+<td>2018-2023</td>
+</tr>
+<tr>
+<td><a href="gj/pa_md_frq/"><code>PA_MD_FRQ</code></a></td>
+<td>[문진8-1]평소1주일간,숨이약간차게만드는중강도신체활동을며칠하십니까?주당 일 *7번 응답에 관련된 신체활동은 제외하고 답해주십시오. * 중강도 신체활동의 예)빠르게 걷기, 복식테니스,보통 속도로 자전거 타기, 가벼운 물건 나르기, 청소 등</td>
+<td>[Questionnaire 8-1] Days per week of moderate physical activity that makes you slightly short of breath, excluding activities counted in question 7 (for example brisk walking, doubles tennis, cycling at normal speed, carrying light loads, cleaning)</td>
+<td>2018-2023</td>
+</tr>
+<tr>
+<td><a href="gj/pa_md_hrs/"><code>PA_MD_HRS</code></a></td>
+<td>[문진8-2-1]평소하루에숨이약간차게만드는중강도신체활동을몇시간하십니까?하루에 시간</td>
+<td>[Questionnaire 8-2-1] Hours per day of moderate physical activity that makes you slightly short of breath</td>
+<td>2018-2023</td>
+</tr>
+<tr>
+<td><a href="gj/pa_md_mins/"><code>PA_MD_MINS</code></a></td>
+<td>[문진8-2-2]평소하루에숨이약간차게만드는중강도신체활동을몇시간하십니까?하루에 분</td>
+<td>[Questionnaire 8-2-2] Minutes per day of moderate physical activity that makes you slightly short of breath</td>
+<td>2018-2023</td>
+</tr>
+<tr>
+<td><a href="gj/pa_musl_frq/"><code>PA_MUSL_FRQ</code></a></td>
+<td>[문진9]최근1주일동안팔굽혀펴기,윗몸일으키기,아령,역기,철봉등근력운동을한날은며칠입니까?주당 일</td>
+<td>[Questionnaire 9] Days in the past week of muscle-strengthening exercise such as push-ups, sit-ups, dumbbells, barbells, or pull-ups</td>
+<td>2018-2023</td>
+</tr>
+<tr>
+<td><a href="gj/lq_vcc_ifz/"><code>LQ_VCC_IFZ</code></a></td>
+<td>[노인문진1] 인플루엔자(독감) 예방접종을 매년 하십니까?</td>
+<td>[Older adult questionnaire 1] Do you get an influenza vaccination every year?</td>
+<td>2018-2023</td>
+</tr>
+<tr>
+<td><a href="gj/lq_vcc_pn/"><code>LQ_VCC_PN</code></a></td>
+<td>[노인문진2] 폐렴예방접종을 받으셨습니까?</td>
+<td>[Older adult questionnaire 2] Have you received a pneumococcal vaccination?</td>
+<td>2018-2023</td>
+</tr>
+</tbody>
+</table>
+<h2 id="lj">Life-transition health screening (LJ)<a class="headerlink" href="#lj" title="Permanent link">&para;</a></h2>
+<p>생애전환기건강진단</p>
+<ul>
+<li><strong>Files</strong> <code>NHIS_HEALS_LJ_0715</code>, <code>NHIS_HEALS_LJ_1617</code></li>
+<li><strong>Unit of observation</strong> Screening</li>
+<li><strong>Source</strong> <code>건강검진코호트DB 사용자 매뉴얼v2.3.hwp</code></li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Variable</th>
+<th>한글</th>
+<th>English</th>
+<th>Years</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="lj/hchk_year/"><code>HCHK_YEAR</code></a></td>
+<td>검진년도</td>
+<td>Year of screening</td>
+<td>2007-2017</td>
+</tr>
+<tr>
+<td><a href="lj/person_id/"><code>PERSON_ID</code></a></td>
+<td>개인일련번호</td>
+<td>Person identifier</td>
+<td>2007-2017</td>
+</tr>
+<tr>
+<td><a href="lj/ykiho_gubun_cd/"><code>YKIHO_GUBUN_CD</code></a></td>
+<td>검진기관종별코드</td>
+<td>Screening provider type code</td>
+<td>2007-2017</td>
+</tr>
+<tr>
+<td><a href="lj/hme_dt/"><code>HME_DT</code></a></td>
+<td>검진일자</td>
+<td>Screening date</td>
+<td>2007-2017</td>
+</tr>
+<tr>
+<td><a href="lj/bmi/"><code>BMI</code></a></td>
+<td>체질량지수</td>
+<td>Body mass index</td>
+<td>2007-2017</td>
+</tr>
+<tr>
+<td><a href="lj/waist/"><code>WAIST</code></a></td>
+<td>허리둘레</td>
+<td>Waist circumference</td>
+<td>2007-2017</td>
+</tr>
+<tr>
+<td><a href="lj/bp_high/"><code>BP_HIGH</code></a></td>
+<td>수축기혈압</td>
+<td>Systolic blood pressure</td>
+<td>2007-2017</td>
+</tr>
+<tr>
+<td><a href="lj/bp_lwst/"><code>BP_LWST</code></a></td>
+<td>이완기혈압</td>
+<td>Diastolic blood pressure</td>
+<td>2007-2017</td>
+</tr>
+<tr>
+<td><a href="lj/blds/"><code>BLDS</code></a></td>
+<td>식전혈당(공복혈당)</td>
+<td>Fasting glucose</td>
+<td>2007-2017</td>
+</tr>
+<tr>
+<td><a href="lj/tot_chole/"><code>TOT_CHOLE</code></a></td>
+<td>총콜레스테롤</td>
+<td>Total cholesterol</td>
+<td>2007-2017</td>
+</tr>
+<tr>
+<td><a href="lj/triglyceride/"><code>TRIGLYCERIDE</code></a></td>
+<td>트리글리세라이드</td>
+<td>Triglycerides</td>
+<td>2007-2017</td>
+</tr>
+<tr>
+<td><a href="lj/hdl_chole/"><code>HDL_CHOLE</code></a></td>
+<td>HDL콜레스테롤</td>
+<td>HDL cholesterol</td>
+<td>2007-2017</td>
+</tr>
+<tr>
+<td><a href="lj/ldl_chole/"><code>LDL_CHOLE</code></a></td>
+<td>LDL콜레스테롤</td>
+<td>LDL cholesterol</td>
+<td>2007-2017</td>
+</tr>
+<tr>
+<td><a href="lj/hmg/"><code>HMG</code></a></td>
+<td>혈색소</td>
+<td>Hemoglobin</td>
+<td>2007-2017</td>
+</tr>
+<tr>
+<td><a href="lj/olig_prote_cd/"><code>OLIG_PROTE_CD</code></a></td>
+<td>요단백</td>
+<td>Urine protein</td>
+<td>2007-2017</td>
+</tr>
+<tr>
+<td><a href="lj/creatinine/"><code>CREATININE</code></a></td>
+<td>혈청크레아티닌</td>
+<td>Serum creatinine</td>
+<td>2007-2017</td>
+</tr>
+<tr>
+<td><a href="lj/sgot_ast/"><code>SGOT_AST</code></a></td>
+<td>(혈청지오티)AST</td>
+<td>AST (SGOT)</td>
+<td>2007-2017</td>
+</tr>
+<tr>
+<td><a href="lj/sgpt_alt/"><code>SGPT_ALT</code></a></td>
+<td>(혈청지피티)ALT</td>
+<td>ALT (SGPT)</td>
+<td>2007-2017</td>
+</tr>
+<tr>
+<td><a href="lj/gamma_gtp/"><code>GAMMA_GTP</code></a></td>
+<td>감마지티피</td>
+<td>Gamma-GTP</td>
+<td>2007-2017</td>
+</tr>
+<tr>
+<td><a href="lj/eld_llfx_sec/"><code>ELD_LLFX_SEC</code></a></td>
+<td>하지기능: 일어나 3m돌아와 앉기(초) / (66세만)</td>
+<td>Lower limb function, rise, walk 3 m, return and sit (seconds) (age 66 only)</td>
+<td>2007-2017</td>
+</tr>
+<tr>
+<td><a href="lj/eld_llfx_yn/"><code>ELD_LLFX_YN</code></a></td>
+<td>하지기능: 보행장애유무 / (66세만)</td>
+<td>Lower limb function, walking impairment (age 66 only)</td>
+<td>2007-2017</td>
+</tr>
+<tr>
+<td><a href="lj/eld_stfx_mthd/"><code>ELD_STFX_MTHD</code></a></td>
+<td>평형성 검사방법 / (66세만) / ※ 2008년부터 적용</td>
+<td>Balance test method (age 66 only; from 2008)</td>
+<td>2007-2017</td>
+</tr>
+<tr>
+<td><a href="lj/eld_stf_sec/"><code>ELD_STF_SEC</code></a></td>
+<td>평형성 검사결과(초) / (66세만)</td>
+<td>Balance test result in seconds (age 66 only)</td>
+<td>2007-2017</td>
+</tr>
+<tr>
+<td><a href="lj/bd_mthd/"><code>BD_MTHD</code></a></td>
+<td>골밀도 검사방법 / (66세 여성만)</td>
+<td>Bone density test method (women aged 66 only)</td>
+<td>2007-2017</td>
+</tr>
+<tr>
+<td><a href="lj/bd_rst/"><code>BD_RST</code></a></td>
+<td>골밀도 검사결과 / (66세 여성만)</td>
+<td>Bone density test result (women aged 66 only)</td>
+<td>2007-2017</td>
+</tr>
+<tr>
+<td><a href="lj/hchk_apop_pmh_yn/"><code>HCHK_APOP_PMH_YN</code></a></td>
+<td>(본인)뇌졸중과거병력유무</td>
+<td>(Self) Past history of stroke</td>
+<td>2007-2017</td>
+</tr>
+<tr>
+<td><a href="lj/hchk_hdise_pmh_yn/"><code>HCHK_HDISE_PMH_YN</code></a></td>
+<td>(본인)심장병과거병력유무</td>
+<td>(Self) Past history of heart disease</td>
+<td>2007-2017</td>
+</tr>
+<tr>
+<td><a href="lj/hchk_hprts_pmh_yn/"><code>HCHK_HPRTS_PMH_YN</code></a></td>
+<td>(본인)고혈압과거병력유무</td>
+<td>(Self) Past history of hypertension</td>
+<td>2007-2017</td>
+</tr>
+<tr>
+<td><a href="lj/hchk_diabml_pmh_yn/"><code>HCHK_DIABML_PMH_YN</code></a></td>
+<td>(본인)당뇨병과거병력유무</td>
+<td>(Self) Past history of diabetes</td>
+<td>2007-2017</td>
+</tr>
+<tr>
+<td><a href="lj/hchk_hplpdm_pmh_yn/"><code>HCHK_HPLPDM_PMH_YN</code></a></td>
+<td>(본인)고지혈증(이상지질혈증)과거병력유무</td>
+<td>(Self) Past history of dyslipidemia</td>
+<td>2007-2017</td>
+</tr>
+<tr>
+<td><a href="lj/hchk_phss_pmh_yn/"><code>HCHK_PHSS_PMH_YN</code></a></td>
+<td>(본인)폐결핵과거병력유무 / ※ 2010년부터 적용</td>
+<td>(Self) Past history of pulmonary tuberculosis (from 2010)</td>
+<td>2007-2017</td>
+</tr>
+<tr>
+<td><a href="lj/hchk_etcdse_pmh_yn/"><code>HCHK_ETCDSE_PMH_YN</code></a></td>
+<td>(본인)기타(암포함)질환 과거병력유무</td>
+<td>(Self) Past history of other diseases, including cancer</td>
+<td>2007-2017</td>
+</tr>
+<tr>
+<td><a href="lj/fmly_apop_patien_yn/"><code>FMLY_APOP_PATIEN_YN</code></a></td>
+<td>(가족력)뇌졸중환자유무</td>
+<td>(Family history) Stroke</td>
+<td>2007-2017</td>
+</tr>
+<tr>
+<td><a href="lj/fmly_hdise_patien_yn/"><code>FMLY_HDISE_PATIEN_YN</code></a></td>
+<td>(가족력)심장병환자유무</td>
+<td>(Family history) Heart disease</td>
+<td>2007-2017</td>
+</tr>
+<tr>
+<td><a href="lj/fmly_hprts_patien_yn/"><code>FMLY_HPRTS_PATIEN_YN</code></a></td>
+<td>(가족력)고혈압환자유무</td>
+<td>(Family history) Hypertension</td>
+<td>2007-2017</td>
+</tr>
+<tr>
+<td><a href="lj/fmly_diabml_patien_yn/"><code>FMLY_DIABML_PATIEN_YN</code></a></td>
+<td>(가족력)당뇨병환자유무</td>
+<td>(Family history) Diabetes</td>
+<td>2007-2017</td>
+</tr>
+<tr>
+<td><a href="lj/fmly_cancer_patien_yn/"><code>FMLY_CANCER_PATIEN_YN</code></a></td>
+<td>(가족력)기타(암포함)환자유무 / ※ 2008년부터 기타→기타(암포함)으로 변경</td>
+<td>(Family history) Other diseases, including cancer (changed from other to other including cancer in 2008)</td>
+<td>2007-2017</td>
+</tr>
+<tr>
+<td><a href="lj/smk_stat_type_rsps_cd/"><code>SMK_STAT_TYPE_RSPS_CD</code></a></td>
+<td>흡연상태</td>
+<td>Smoking status</td>
+<td>2007-2017</td>
+</tr>
+<tr>
+<td><a href="lj/past_smk_term_rsps_cd/"><code>PAST_SMK_TERM_RSPS_CD</code></a></td>
+<td>(과거)흡연기간</td>
+<td>(Past smokers) Years smoked</td>
+<td>2007-2017</td>
+</tr>
+<tr>
+<td><a href="lj/past_dsqty_rsps_cd/"><code>PAST_DSQTY_RSPS_CD</code></a></td>
+<td>(과거)하루흡연량</td>
+<td>(Past smokers) Cigarettes per day</td>
+<td>2007-2017</td>
+</tr>
+<tr>
+<td><a href="lj/cur_smk_term_rsps_cd/"><code>CUR_SMK_TERM_RSPS_CD</code></a></td>
+<td>(현재)흡연기간</td>
+<td>(Current) Years smoked</td>
+<td>2007-2017</td>
+</tr>
+<tr>
+<td><a href="lj/cur_dsqty_rsps_cd/"><code>CUR_DSQTY_RSPS_CD</code></a></td>
+<td>(현재)하루흡연량</td>
+<td>(Current) Cigarettes per day</td>
+<td>2007-2017</td>
+</tr>
+<tr>
+<td><a href="lj/drnk_habit_rsps_cd/"><code>DRNK_HABIT_RSPS_CD</code></a></td>
+<td>음주습관</td>
+<td>Drinking habit</td>
+<td>2007-2017</td>
+</tr>
+<tr>
+<td><a href="lj/tm1_drkqty_rsps_cd/"><code>TM1_DRKQTY_RSPS_CD</code></a></td>
+<td>1회 음주량</td>
+<td>Alcohol per drinking occasion</td>
+<td>2007-2017</td>
+</tr>
+<tr>
+<td><a href="lj/mov20_wek_freq_id/"><code>MOV20_WEK_FREQ_ID</code></a></td>
+<td>1주_20분이상 / 격렬한 운동</td>
+<td>Days per week of vigorous exercise for 20 minutes or more</td>
+<td>2007-2017</td>
+</tr>
+<tr>
+<td><a href="lj/mov30_wek_freq_id/"><code>MOV30_WEK_FREQ_ID</code></a></td>
+<td>1주_30분이상 / 중간정도 운동</td>
+<td>Days per week of moderate exercise for 30 minutes or more</td>
+<td>2007-2017</td>
+</tr>
+<tr>
+<td><a href="lj/wlk30_wek_freq_id/"><code>WLK30_WEK_FREQ_ID</code></a></td>
+<td>1주_총30분이상 / 걷기 운동</td>
+<td>Days per week of walking for a total of 30 minutes or more</td>
+<td>2007-2017</td>
+</tr>
+<tr>
+<td><a href="lj/depr/"><code>DEPR</code></a></td>
+<td>우울증(기분상태)</td>
+<td>Depression (mood)</td>
+<td>2007-2017</td>
+</tr>
+<tr>
+<td><a href="lj/mood_a1/"><code>MOOD_A1</code></a></td>
+<td>최근기분상태/평소에는아무렇지도않던일들이괴롭고귀찮게느껴졌다.</td>
+<td>Recent mood, things that usually do not bother you felt distressing</td>
+<td>2007-2017</td>
+</tr>
+<tr>
+<td><a href="lj/mood_a2/"><code>MOOD_A2</code></a></td>
+<td>최근기분상태/먹고싶지않고,식욕이없었다.</td>
+<td>Recent mood, did not want to eat and had no appetite</td>
+<td>2007-2017</td>
+</tr>
+<tr>
+<td><a href="lj/mood_a3/"><code>MOOD_A3</code></a></td>
+<td>최근기분상태/어느누가도와준다하더라도,나의울적한기분을떨쳐버릴수없을것같았다.</td>
+<td>Recent mood, felt unable to shake off sadness even with help from others</td>
+<td>2007-2017</td>
+</tr>
+<tr>
+<td><a href="lj/mood_a4/"><code>MOOD_A4</code></a></td>
+<td>최근기분상태/상당히우울했다.</td>
+<td>Recent mood, felt quite depressed</td>
+<td>2007-2017</td>
+</tr>
+<tr>
+<td><a href="lj/mood_b1/"><code>MOOD_B1</code></a></td>
+<td>최근기분상태/요즈음 들어 활동량이나 의욕이 많이 떨어지셨습니까?</td>
+<td>Recent mood, have your activity and motivation dropped a lot lately?</td>
+<td>2007-2017</td>
+</tr>
+<tr>
+<td><a href="lj/mood_b2/"><code>MOOD_B2</code></a></td>
+<td>최근기분상태/지금의 내 자신이 아무 쓸데없는 사람이라고 느끼십니까?</td>
+<td>Recent mood, do you feel you are worthless?</td>
+<td>2007-2017</td>
+</tr>
+<tr>
+<td><a href="lj/mood_b3/"><code>MOOD_B3</code></a></td>
+<td>최근기분상태/지금 자신의 처지가 아무런 희망이 없다고 느끼십니까?</td>
+<td>Recent mood, do you feel your situation is hopeless?</td>
+<td>2007-2017</td>
+</tr>
+<tr>
+<td><a href="lj/kdsq_c/"><code>KDSQ_C</code></a></td>
+<td>인지기능검사</td>
+<td>Cognitive function test</td>
+<td>2007-2017</td>
+</tr>
+<tr>
+<td><a href="lj/kdsq_c_1/"><code>KDSQ_C_1</code></a></td>
+<td>인지기능/자신의 기억력이 친구나 동료들에 비해 못하다고 생각하십니까?</td>
+<td>Cognition, do you think your memory is worse than that of friends or colleagues?</td>
+<td>2007-2017</td>
+</tr>
+<tr>
+<td><a href="lj/kdsq_c_2/"><code>KDSQ_C_2</code></a></td>
+<td>인지기능/자신의 기억력이 1년전에 비해 더 나빠졌다고 생각하십니까?</td>
+<td>Cognition, do you think your memory is worse than a year ago?</td>
+<td>2007-2017</td>
+</tr>
+<tr>
+<td><a href="lj/kdsq_c_3/"><code>KDSQ_C_3</code></a></td>
+<td>인지기능/중요한 일을 하는데 있어서도 기억력이 문제가 되는 경우가 있습니까?</td>
+<td>Cognition, does memory cause problems even for important tasks?</td>
+<td>2007-2017</td>
+</tr>
+<tr>
+<td><a href="lj/kdsq_c_4/"><code>KDSQ_C_4</code></a></td>
+<td>인지기능/자신의 기억력이 떨어진 것을 남들도 알고 있습니까?</td>
+<td>Cognition, do others know that your memory has declined?</td>
+<td>2007-2017</td>
+</tr>
+<tr>
+<td><a href="lj/kdsq_c_5/"><code>KDSQ_C_5</code></a></td>
+<td>인지기능/잘해오던 일상적인 일을 하는데 예전보다 서툴어졌다고 생각하십니까?</td>
+<td>Cognition, have you become clumsier at everyday tasks you used to do well?</td>
+<td>2007-2017</td>
+</tr>
+<tr>
+<td><a href="lj/adl_1/"><code>ADL_1</code></a></td>
+<td>목욕하실 때 남의 도움없이 혼자서 하십니까?</td>
+<td>Do you bathe without help?</td>
+<td>2007-2017</td>
+</tr>
+<tr>
+<td><a href="lj/adl_2/"><code>ADL_2</code></a></td>
+<td>옷을 챙겨 입을 때 남의 도움없이 혼자서 하십니까?</td>
+<td>Do you get dressed without help?</td>
+<td>2007-2017</td>
+</tr>
+<tr>
+<td><a href="lj/adl_3/"><code>ADL_3</code></a></td>
+<td>음식을 차려주면 남의 도움없이 혼자서 식사 하십니까?</td>
+<td>Do you eat on your own without help when food is served?</td>
+<td>2007-2017</td>
+</tr>
+<tr>
+<td><a href="lj/adl_4/"><code>ADL_4</code></a></td>
+<td>대소변을 보기위해 화장실 출입시 남의 도움없이 혼자서 하십니까?</td>
+<td>Do you use the toilet without help?</td>
+<td>2007-2017</td>
+</tr>
+<tr>
+<td><a href="lj/adl_5/"><code>ADL_5</code></a></td>
+<td>식사 준비를 다른 사람의 도움없이 혼자서 하십니까?</td>
+<td>Do you prepare meals without help?</td>
+<td>2007-2017</td>
+</tr>
+<tr>
+<td><a href="lj/adl_6/"><code>ADL_6</code></a></td>
+<td>상점.이웃.병원.관공서 등 걸어서 갔다 올수 있는 곳의 외출을 다른사람의 도움없이 혼자서 하십니까?</td>
+<td>Do you go out on foot without help to nearby places such as shops, neighbors, hospitals, or public offices?</td>
+<td>2007-2017</td>
+</tr>
+<tr>
+<td><a href="lj/fall/"><code>FALL</code></a></td>
+<td>낙상/지난6개월간넘어진적이있습니까?</td>
+<td>Falls, have you fallen in the past 6 months?</td>
+<td>2007-2017</td>
+</tr>
+<tr>
+<td><a href="lj/urn_dis/"><code>URN_DIS</code></a></td>
+<td>배뇨장애/소변을 보는데 장애가 있거나 소변을 지릴 경우가 있습니까?</td>
+<td>Urination problems, do you have difficulty urinating or urinary leakage?</td>
+<td>2007-2017</td>
+</tr>
+</tbody>
+</table>
+<h2 id="go">Oral screening, general<a class="headerlink" href="#go" title="Permanent link">&para;</a></h2>
+<p>구강검진(일반)</p>
+<ul>
+<li><strong>Unit of observation</strong> Screening</li>
+<li><strong>Source</strong> <code>건강검진코호트DB 사용자 매뉴얼v2.3.hwp</code></li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Variable</th>
+<th>한글</th>
+<th>English</th>
+<th>Years</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="go/hchk_year/"><code>HCHK_YEAR</code></a></td>
+<td>검진년도</td>
+<td>Year of screening</td>
+<td>2002-2015</td>
+</tr>
+<tr>
+<td><a href="go/person_id/"><code>PERSON_ID</code></a></td>
+<td>개인일련번호</td>
+<td>Person identifier</td>
+<td>2002-2015</td>
+</tr>
+<tr>
+<td><a href="go/ykiho_gubun_cd/"><code>YKIHO_GUBUN_CD</code></a></td>
+<td>검진기관종별코드</td>
+<td>Screening provider type code</td>
+<td>2002-2015</td>
+</tr>
+<tr>
+<td><a href="go/hme_dt/"><code>HME_DT</code></a></td>
+<td>검진일자</td>
+<td>Screening date</td>
+<td>2002-2015</td>
+</tr>
+<tr>
+<td><a href="go/goe_crs_yn/"><code>GOE_CRS_YN</code></a></td>
+<td>치아우식증유무</td>
+<td>Dental caries</td>
+<td>2002-2008</td>
+</tr>
+<tr>
+<td><a href="go/goe_crs_up/"><code>GOE_CRS_UP</code></a></td>
+<td>우식증유(상)</td>
+<td>Teeth with caries (upper)</td>
+<td>2002-2008</td>
+</tr>
+<tr>
+<td><a href="go/goe_crs_lw/"><code>GOE_CRS_LW</code></a></td>
+<td>우식증유(하)</td>
+<td>Teeth with caries (lower)</td>
+<td>2002-2008</td>
+</tr>
+<tr>
+<td><a href="go/goe_tth_mss_yn/"><code>GOE_TTH_MSS_YN</code></a></td>
+<td>결손치(빠진치아)</td>
+<td>Missing teeth</td>
+<td>2002-2015</td>
+</tr>
+<tr>
+<td><a href="go/goe_tth_mss_up/"><code>GOE_TTH_MSS_UP</code></a></td>
+<td>결손치 (상)</td>
+<td>Missing teeth (upper)</td>
+<td>2002-2008</td>
+</tr>
+<tr>
+<td><a href="go/goe_tth_mss_lw/"><code>GOE_TTH_MSS_LW</code></a></td>
+<td>결손치 (하)</td>
+<td>Missing teeth (lower)</td>
+<td>2002-2008</td>
+</tr>
+<tr>
+<td><a href="go/goe_prod_yn/"><code>GOE_PROD_YN</code></a></td>
+<td>치주질환 유무</td>
+<td>Periodontal disease</td>
+<td>2002-2008</td>
+</tr>
+<tr>
+<td><a href="go/goe_prod_ggv_htr/"><code>GOE_PROD_GGV_HTR</code></a></td>
+<td>치주질환종류 치은비대</td>
+<td>Type of periodontal disease, gingival hypertrophy</td>
+<td>2002-2008</td>
+</tr>
+<tr>
+<td><a href="go/goe_ttr/"><code>GOE_TTR</code></a></td>
+<td>치석</td>
+<td>Dental calculus</td>
+<td>2002-2015</td>
+</tr>
+<tr>
+<td><a href="go/goe_prod_cyst/"><code>GOE_PROD_CYST</code></a></td>
+<td>치주질환종류 치주낭</td>
+<td>Type of periodontal disease, periodontal pocket</td>
+<td>2002-2008</td>
+</tr>
+<tr>
+<td><a href="go/goe_odt_trb/"><code>GOE_ODT_TRB</code></a></td>
+<td>치아마모증유무</td>
+<td>Tooth wear</td>
+<td>2002-2015</td>
+</tr>
+<tr>
+<td><a href="go/goe_wsdm_dis/"><code>GOE_WSDM_DIS</code></a></td>
+<td>제3대구치(사랑니) 이상</td>
+<td>Abnormal third molars (wisdom teeth)</td>
+<td>2002-2015</td>
+</tr>
+<tr>
+<td><a href="go/goe_sfts_dis/"><code>GOE_SFTS_DIS</code></a></td>
+<td>구강연조직이상유무</td>
+<td>Oral soft tissue abnormality</td>
+<td>2002-2015</td>
+</tr>
+<tr>
+<td><a href="go/goe_tmjt_dis/"><code>GOE_TMJT_DIS</code></a></td>
+<td>악관절이상유무</td>
+<td>Jaw joint abnormality</td>
+<td>2002-2008</td>
+</tr>
+<tr>
+<td><a href="go/goe_dntr_need_up/"><code>GOE_DNTR_NEED_UP</code></a></td>
+<td>의치상태필요(상)</td>
+<td>Dentures needed (upper)</td>
+<td>2002-2008</td>
+</tr>
+<tr>
+<td><a href="go/goe_dntr_need_lw/"><code>GOE_DNTR_NEED_LW</code></a></td>
+<td>의치상태필요(하)</td>
+<td>Dentures needed (lower)</td>
+<td>2002-2008</td>
+</tr>
+<tr>
+<td><a href="go/goe_dntr_yn_up/"><code>GOE_DNTR_YN_UP</code></a></td>
+<td>의치유무(상)</td>
+<td>Has dentures (upper)</td>
+<td>2002-2008</td>
+</tr>
+<tr>
+<td><a href="go/goe_dntr_yn_lw/"><code>GOE_DNTR_YN_LW</code></a></td>
+<td>의치유무(하)</td>
+<td>Has dentures (lower)</td>
+<td>2002-2008</td>
+</tr>
+<tr>
+<td><a href="go/goe_etc_mal/"><code>GOE_ETC_MAL</code></a></td>
+<td>기타상태 부정교합</td>
+<td>Other condition, malocclusion</td>
+<td>2002-2008</td>
+</tr>
+<tr>
+<td><a href="go/goe_jdg_q03/"><code>GOE_JDG_Q03</code></a></td>
+<td>치아우식증(충치)치료가필요합니다.</td>
+<td>Treatment of dental caries needed</td>
+<td>2002-2015</td>
+</tr>
+<tr>
+<td><a href="go/goe_jdg_q04/"><code>GOE_JDG_Q04</code></a></td>
+<td>치석제거(스케일링)를받아야합니다.</td>
+<td>Scaling needed</td>
+<td>2002-2015</td>
+</tr>
+<tr>
+<td><a href="go/goe_jdg_q05/"><code>GOE_JDG_Q05</code></a></td>
+<td>치주질환(잇몸병)치료가필요합니다.</td>
+<td>Treatment of periodontal (gum) disease needed</td>
+<td>2002-2015</td>
+</tr>
+<tr>
+<td><a href="go/goe_jdg_q09/"><code>GOE_JDG_Q09</code></a></td>
+<td>구강연조직에대한정밀한추가검사가필요합니다.</td>
+<td>Further detailed examination of oral soft tissue needed</td>
+<td>2002-2015</td>
+</tr>
+<tr>
+<td><a href="go/oq_vst_yn/"><code>OQ_VST_YN</code></a></td>
+<td>[문진1]지난 1년간 치과병(의)원에 가신 적이 있습니까?</td>
+<td>[Questionnaire 1] Have you visited a dental hospital or clinic in the past year?</td>
+<td>2002-2015</td>
+</tr>
+<tr>
+<td><a href="go/oq_scl_yn/"><code>OQ_SCL_YN</code></a></td>
+<td>[문진2]지난 1년간 치석제거(스케일링)를 받아 보신 적이 있습니까?</td>
+<td>[Questionnaire 2] Have you had a dental scaling in the past year?</td>
+<td>2002-2015</td>
+</tr>
+<tr>
+<td><a href="go/oq_q04/"><code>OQ_Q04</code></a></td>
+<td>[문진4]단 음식, 청량음료를 좋아하는 편 입니까?</td>
+<td>[Questionnaire 4] Do you tend to like sweet food and soft drinks?</td>
+<td>2002-2008</td>
+</tr>
+<tr>
+<td><a href="go/oq_q06/"><code>OQ_Q06</code></a></td>
+<td>[문진6]간식을 좋아하는 편 입니까?</td>
+<td>[Questionnaire 6] Do you tend to like snacks?</td>
+<td>2002-2008</td>
+</tr>
+<tr>
+<td><a href="go/oq_q07_1/"><code>OQ_Q07_1</code></a></td>
+<td>[문진7]하루 중 이를 닦는 때를 모두 표시 / 아침식사전</td>
+<td>[Questionnaire 7] Mark every time of day you brush your teeth, before breakfast</td>
+<td>2002-2008</td>
+</tr>
+<tr>
+<td><a href="go/oq_q07_2/"><code>OQ_Q07_2</code></a></td>
+<td>[문진7]아침식사후</td>
+<td>[Questionnaire 7] After breakfast</td>
+<td>2002-2008</td>
+</tr>
+<tr>
+<td><a href="go/oq_q07_3/"><code>OQ_Q07_3</code></a></td>
+<td>[문진7]점심식사후</td>
+<td>[Questionnaire 7] After lunch</td>
+<td>2002-2008</td>
+</tr>
+<tr>
+<td><a href="go/oq_q07_4/"><code>OQ_Q07_4</code></a></td>
+<td>[문진7]저녁식사후</td>
+<td>[Questionnaire 7] After dinner</td>
+<td>2002-2008</td>
+</tr>
+<tr>
+<td><a href="go/oq_q07_5/"><code>OQ_Q07_5</code></a></td>
+<td>[문진7]잠자기직전</td>
+<td>[Questionnaire 7] Right before bed</td>
+<td>2002-2008</td>
+</tr>
+<tr>
+<td><a href="go/oq_q07_6/"><code>OQ_Q07_6</code></a></td>
+<td>[문진7]간식섭취후</td>
+<td>[Questionnaire 7] After snacks</td>
+<td>2002-2008</td>
+</tr>
+<tr>
+<td><a href="go/oq_q09/"><code>OQ_Q09</code></a></td>
+<td>[문진9]찬음식을 먹을 때 이가 시리다</td>
+<td>[Questionnaire 9] Teeth are sensitive when eating cold food</td>
+<td>2002-2008</td>
+</tr>
+<tr>
+<td><a href="go/oq_q10/"><code>OQ_Q10</code></a></td>
+<td>[문진10]잇솔질을 할 때 이가 시리다</td>
+<td>[Questionnaire 10] Teeth are sensitive when brushing</td>
+<td>2002-2008</td>
+</tr>
+<tr>
+<td><a href="go/oq_q11/"><code>OQ_Q11</code></a></td>
+<td>[문진11]잇몸에서 피가 잘난다</td>
+<td>[Questionnaire 11] Gums bleed easily</td>
+<td>2002-2008</td>
+</tr>
+<tr>
+<td><a href="go/oq_q12/"><code>OQ_Q12</code></a></td>
+<td>[문진12]턱관절에서 소리가 난다</td>
+<td>[Questionnaire 12] Clicking sound from the jaw joint</td>
+<td>2002-2008</td>
+</tr>
+<tr>
+<td><a href="go/oq_q13/"><code>OQ_Q13</code></a></td>
+<td>[문진13]턱관절이 아프거나 입이 잘 안 벌어진다</td>
+<td>[Questionnaire 13] Jaw joint hurts or mouth does not open well</td>
+<td>2002-2008</td>
+</tr>
+<tr>
+<td><a href="go/oq_q14/"><code>OQ_Q14</code></a></td>
+<td>[문진14]입에서 냄새가 난다</td>
+<td>[Questionnaire 14] Bad breath</td>
+<td>2002-2008</td>
+</tr>
+<tr>
+<td><a href="go/oq_q15/"><code>OQ_Q15</code></a></td>
+<td>[문진15]이가 잘 부서지고 얇아진다</td>
+<td>[Questionnaire 15] Teeth break easily and are thinning</td>
+<td>2002-2008</td>
+</tr>
+<tr>
+<td><a href="go/goe_crs_crwn/"><code>GOE_CRS_CRWN</code></a></td>
+<td>(치아우식증)치관(머리부위)</td>
+<td>(Dental caries) Crown</td>
+<td>2009-2015</td>
+</tr>
+<tr>
+<td><a href="go/goe_crs_root/"><code>GOE_CRS_ROOT</code></a></td>
+<td>(치아우식증)치근(뿌리부위)</td>
+<td>(Dental caries) Root</td>
+<td>2009-2015</td>
+</tr>
+<tr>
+<td><a href="go/goe_ggvts/"><code>GOE_GGVTS</code></a></td>
+<td>치은염증정도</td>
+<td>Degree of gingival inflammation</td>
+<td>2009-2015</td>
+</tr>
+<tr>
+<td><a href="go/goe_prsth/"><code>GOE_PRSTH</code></a></td>
+<td>고정성 보철물상태</td>
+<td>Condition of fixed prosthesis</td>
+<td>2009-2015</td>
+</tr>
+<tr>
+<td><a href="go/goe_dntr/"><code>GOE_DNTR</code></a></td>
+<td>틀니상태</td>
+<td>Denture condition</td>
+<td>2009-2015</td>
+</tr>
+<tr>
+<td><a href="go/goe_jdg_q07/"><code>GOE_JDG_Q07</code></a></td>
+<td>이를해넣어야(의치보철이필요)합니다.</td>
+<td>Missing teeth need replacement (dentures needed)</td>
+<td>2009-2015</td>
+</tr>
+<tr>
+<td><a href="go/goe_jdg_q08/"><code>GOE_JDG_Q08</code></a></td>
+<td>의치보철물을수리하거나다시제작하여야합니다.</td>
+<td>Dentures need repair or remaking</td>
+<td>2009-2015</td>
+</tr>
+<tr>
+<td><a href="go/oq_brsh_frq/"><code>OQ_BRSH_FRQ</code></a></td>
+<td>[문진5]어제 하루 동안 치아를 닦은 횟수는?</td>
+<td>[Questionnaire 5] Number of times you brushed your teeth yesterday</td>
+<td>2009-2015</td>
+</tr>
+<tr>
+<td><a href="go/oq_brsh_slp_frq/"><code>OQ_BRSH_SLP_FRQ</code></a></td>
+<td>[문진6]지난 일주일 동안. 잠자기 직전에 칫솔질을 얼마나 자주 하였습니까?</td>
+<td>[Questionnaire 6] In the past week, how often did you brush your teeth right before going to bed?</td>
+<td>2009-2015</td>
+</tr>
+<tr>
+<td><a href="go/oq_flss_frq/"><code>OQ_FLSS_FRQ</code></a></td>
+<td>[문진7]지난 일주일 동안. 치아를 닦을 때 치실 혹은 치간솔을 얼마나 자주 이용하였습니까?</td>
+<td>[Questionnaire 7] In the past week, how often did you use floss or an interdental brush when cleaning your teeth?</td>
+<td>2009-2015</td>
+</tr>
+<tr>
+<td><a href="go/oq_tth_pain/"><code>OQ_TTH_PAIN</code></a></td>
+<td>[문진8]최근1년동안. 치아가 쑤시거나 욱신거리고 아픈 적이 있습니까?</td>
+<td>[Questionnaire 8] In the past year, have your teeth ached or throbbed?</td>
+<td>2009-2015</td>
+</tr>
+<tr>
+<td><a href="go/oq_ggv_bld/"><code>OQ_GGV_BLD</code></a></td>
+<td>[문진9]최근1년동안. 잇몸이 아프거나 피가 난 적이 있습니까?</td>
+<td>[Questionnaire 9] In the past year, have your gums hurt or bled?</td>
+<td>2009-2015</td>
+</tr>
+<tr>
+<td><a href="go/oq_tng_pain/"><code>OQ_TNG_PAIN</code></a></td>
+<td>[문진10]최근1년동안. 혀 또는 입 안쪽 뺨이 욱신거리고 아픈 적이 있습니까</td>
+<td>[Questionnaire 10] In the past year, has your tongue or the inside of your cheek throbbed or hurt?</td>
+<td>2009-2015</td>
+</tr>
+<tr>
+<td><a href="go/oq_hlts/"><code>OQ_HLTS</code></a></td>
+<td>[문진11]최근1년동안. 불쾌한 입냄새가 난 적이 있습니까?</td>
+<td>[Questionnaire 11] In the past year, have you had unpleasant breath?</td>
+<td>2009-2015</td>
+</tr>
+<tr>
+<td><a href="go/oq_tth_ache/"><code>OQ_TTH_ACHE</code></a></td>
+<td>[문진12]최근1년동안. 찬음식을 먹거나 치아를 닦을 때에 치아가 시린 적이 있습니까?</td>
+<td>[Questionnaire 12] In the past year, have your teeth been sensitive when eating cold food or brushing?</td>
+<td>2009-2015</td>
+</tr>
+<tr>
+<td><a href="go/oq_crk_jaw/"><code>OQ_CRK_JAW</code></a></td>
+<td>[문진13]최근1년동안. 턱관절에서 소리가 나거나 아프거나 입이 잘 안 벌어진 적이 있습니까?</td>
+<td>[Questionnaire 13] In the past year, has your jaw joint clicked, hurt, or failed to open well?</td>
+<td>2009-2015</td>
+</tr>
+<tr>
+<td><a href="go/oq_mstc_dys/"><code>OQ_MSTC_DYS</code></a></td>
+<td>[문진14]현재 치아나 틀니. 잇몸 등 입안의 문제로 음식을 씹는 데에 불편감을 느끼십니까?</td>
+<td>[Questionnaire 14] Do you have discomfort chewing food because of problems with your teeth, dentures, or gums?</td>
+<td>2009-2015</td>
+</tr>
+<tr>
+<td><a href="go/oq_arti_dis/"><code>OQ_ARTI_DIS</code></a></td>
+<td>[문진15]현재 치아나 틀니. 잇몸 등 입안의 문제로 명확히 발음을 하는 데에 어려움이나 물편감을 느끼십니까?</td>
+<td>[Questionnaire 15] Do you have difficulty or discomfort pronouncing clearly because of problems with your teeth, dentures, or gums?</td>
+<td>2009-2015</td>
+</tr>
+</tbody>
+</table>
+<h2 id="lo">Oral screening, life-transition<a class="headerlink" href="#lo" title="Permanent link">&para;</a></h2>
+<p>구강검진(생애)</p>
+<ul>
+<li><strong>Unit of observation</strong> Screening</li>
+<li><strong>Source</strong> <code>건강검진코호트DB 사용자 매뉴얼v2.3.hwp</code></li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Variable</th>
+<th>한글</th>
+<th>English</th>
+<th>Years</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="lo/hchk_year/"><code>HCHK_YEAR</code></a></td>
+<td>검진년도</td>
+<td>Year of screening</td>
+<td>2007-2015</td>
+</tr>
+<tr>
+<td><a href="lo/person_id/"><code>PERSON_ID</code></a></td>
+<td>개인일련번호</td>
+<td>Person identifier</td>
+<td>2007-2015</td>
+</tr>
+<tr>
+<td><a href="lo/ykiho_gubun_cd/"><code>YKIHO_GUBUN_CD</code></a></td>
+<td>검진기관종별코드</td>
+<td>Screening provider type code</td>
+<td>2007-2015</td>
+</tr>
+<tr>
+<td><a href="lo/hme_dt/"><code>HME_DT</code></a></td>
+<td>검진일자</td>
+<td>Screening date</td>
+<td>2007-2015</td>
+</tr>
+<tr>
+<td><a href="lo/loe_crs_yn/"><code>LOE_CRS_YN</code></a></td>
+<td>치아우식증유무</td>
+<td>Dental caries</td>
+<td>2007-2008</td>
+</tr>
+<tr>
+<td><a href="lo/loe_crs_up/"><code>LOE_CRS_UP</code></a></td>
+<td>우식증유(상)</td>
+<td>Teeth with caries (upper)</td>
+<td>2007-2008</td>
+</tr>
+<tr>
+<td><a href="lo/loe_crs_lw/"><code>LOE_CRS_LW</code></a></td>
+<td>우식증유(하)</td>
+<td>Teeth with caries (lower)</td>
+<td>2007-2008</td>
+</tr>
+<tr>
+<td><a href="lo/loe_prsth_up/"><code>LOE_PRSTH_UP</code></a></td>
+<td>의치보철(상)</td>
+<td>Dentures (upper)</td>
+<td>2007-2008</td>
+</tr>
+<tr>
+<td><a href="lo/loe_prsth_lw/"><code>LOE_PRSTH_LW</code></a></td>
+<td>의치보철(하)</td>
+<td>Dentures (lower)</td>
+<td>2007-2008</td>
+</tr>
+<tr>
+<td><a href="lo/loe_wsdm_dis_cnt/"><code>LOE_WSDM_DIS_CNT</code></a></td>
+<td>3세대구치사랑니이상갯수</td>
+<td>Number of abnormal third molars (wisdom teeth)</td>
+<td>2007-2008</td>
+</tr>
+<tr>
+<td><a href="lo/loe_odt_trb/"><code>LOE_ODT_TRB</code></a></td>
+<td>치아마모증유무</td>
+<td>Tooth wear</td>
+<td>2007-2015</td>
+</tr>
+<tr>
+<td><a href="lo/loe_ggv_htr/"><code>LOE_GGV_HTR</code></a></td>
+<td>치은출혈/비대</td>
+<td>Gingival bleeding or hypertrophy</td>
+<td>2007-2008</td>
+</tr>
+<tr>
+<td><a href="lo/loe_ttr/"><code>LOE_TTR</code></a></td>
+<td>치석</td>
+<td>Dental calculus</td>
+<td>2007-2015</td>
+</tr>
+<tr>
+<td><a href="lo/loe_plq_16/"><code>LOE_PLQ_16</code></a></td>
+<td>상악우측부(16번) 세균막 / ※ 2009년은 상악우측부15번 검사</td>
+<td>Dental plaque, upper right (tooth 16; tooth 15 examined in 2009)</td>
+<td>2007-2015</td>
+</tr>
+<tr>
+<td><a href="lo/loe_plq_11/"><code>LOE_PLQ_11</code></a></td>
+<td>상악중앙부(11번) 세균막 / ※ 2009년은 상악우측부13번 검사</td>
+<td>Dental plaque, upper center (tooth 11; upper right tooth 13 examined in 2009)</td>
+<td>2007-2015</td>
+</tr>
+<tr>
+<td><a href="lo/loe_plq_26/"><code>LOE_PLQ_26</code></a></td>
+<td>상악좌측부(26번) 세균막</td>
+<td>Dental plaque, upper left (tooth 26)</td>
+<td>2007-2015</td>
+</tr>
+<tr>
+<td><a href="lo/loe_plq_36/"><code>LOE_PLQ_36</code></a></td>
+<td>하악좌측부(36번) 세균막</td>
+<td>Dental plaque, lower left (tooth 36)</td>
+<td>2007-2015</td>
+</tr>
+<tr>
+<td><a href="lo/loe_plq_31/"><code>LOE_PLQ_31</code></a></td>
+<td>하악중앙부(31번) 세균막 / ※ 2009년은 상악우측부32번 검사</td>
+<td>Dental plaque, lower center (tooth 31); in 2009 tooth 32 in the upper right was examined</td>
+<td>2007-2015</td>
+</tr>
+<tr>
+<td><a href="lo/loe_plq_46/"><code>LOE_PLQ_46</code></a></td>
+<td>하악우측부(46번) 세균막 / ※ 2009년은 상악우측부44번 검사</td>
+<td>Dental plaque, lower right (tooth 46); in 2009 tooth 44 in the upper right was examined</td>
+<td>2007-2015</td>
+</tr>
+<tr>
+<td><a href="lo/loe_jdg_q03/"><code>LOE_JDG_Q03</code></a></td>
+<td>치아우식증(충치)치료가필요합니다.</td>
+<td>Treatment of dental caries needed</td>
+<td>2007-2015</td>
+</tr>
+<tr>
+<td><a href="lo/loe_jdg_q04/"><code>LOE_JDG_Q04</code></a></td>
+<td>치석제거(스케일링)를받아야합니다.</td>
+<td>Scaling needed</td>
+<td>2007-2015</td>
+</tr>
+<tr>
+<td><a href="lo/loe_jdg_q05/"><code>LOE_JDG_Q05</code></a></td>
+<td>치주질환(잇몸병)치료가필요합니다.</td>
+<td>Treatment of periodontal (gum) disease needed</td>
+<td>2007-2015</td>
+</tr>
+<tr>
+<td><a href="lo/loe_jdg_q06/"><code>LOE_JDG_Q06</code></a></td>
+<td>악관절질환치료가필요합니다.</td>
+<td>Treatment of jaw joint disease needed</td>
+<td>2007-2008</td>
+</tr>
+<tr>
+<td><a href="lo/loe_jdg_q07/"><code>LOE_JDG_Q07</code></a></td>
+<td>이를해넣어야(의치보철이필요)합니다.</td>
+<td>Missing teeth need replacement (dentures needed)</td>
+<td>2007-2015</td>
+</tr>
+<tr>
+<td><a href="lo/loe_jdg_q09/"><code>LOE_JDG_Q09</code></a></td>
+<td>구강연조직질환치료가필요합니다.</td>
+<td>Treatment of oral soft tissue disease needed</td>
+<td>2007-2008</td>
+</tr>
+<tr>
+<td><a href="lo/oq_vst_yn/"><code>OQ_VST_YN</code></a></td>
+<td>[문진1]지난 1년간 치과병(의)원에 가신 적이 있습니까?</td>
+<td>[Questionnaire 1] Have you visited a dental hospital or clinic in the past year?</td>
+<td>2007-2015</td>
+</tr>
+<tr>
+<td><a href="lo/oq_scl_yn/"><code>OQ_SCL_YN</code></a></td>
+<td>[문진2]지난 1년간 치석제거(스케일링)를 받아 보신 적이 있습니까?</td>
+<td>[Questionnaire 2] Have you had a dental scaling in the past year?</td>
+<td>2007-2015</td>
+</tr>
+<tr>
+<td><a href="lo/oq_ql04/"><code>OQ_QL04</code></a></td>
+<td>나열한 음식들을 얼마나 자주 드십니끼? 신선한 과일 혹은 야채</td>
+<td>How often do you eat the listed foods? Fresh fruits or vegetables</td>
+<td>2007-2008</td>
+</tr>
+<tr>
+<td><a href="lo/oq_ql05/"><code>OQ_QL05</code></a></td>
+<td>나열한 음식들을 얼마나 자주 드십니끼? 탄산 및 청량음료</td>
+<td>How often do you eat the listed foods? Carbonated and soft drinks</td>
+<td>2007-2008</td>
+</tr>
+<tr>
+<td><a href="lo/oq_ql06/"><code>OQ_QL06</code></a></td>
+<td>나열한 음식들을 얼마나 자주 드십니끼? 과자</td>
+<td>How often do you eat the listed foods? Snacks</td>
+<td>2007-2008</td>
+</tr>
+<tr>
+<td><a href="lo/oq_ql07_1/"><code>OQ_QL07_1</code></a></td>
+<td>어제하루동안치아를닦은때를모두표시해수십시오. / [문진7-1]아침식사 전</td>
+<td>Mark every time you brushed your teeth yesterday, [Questionnaire 7-1] before breakfast</td>
+<td>2007-2008</td>
+</tr>
+<tr>
+<td><a href="lo/oq_ql07_2/"><code>OQ_QL07_2</code></a></td>
+<td>[문진7-2]아침식사 후</td>
+<td>[Questionnaire 7-2] After breakfast</td>
+<td>2007-2008</td>
+</tr>
+<tr>
+<td><a href="lo/oq_ql07_3/"><code>OQ_QL07_3</code></a></td>
+<td>[문진7-3]점심식사 후</td>
+<td>[Questionnaire 7-3] After lunch</td>
+<td>2007-2008</td>
+</tr>
+<tr>
+<td><a href="lo/oq_ql07_4/"><code>OQ_QL07_4</code></a></td>
+<td>[문진7-4]저녁식사 후</td>
+<td>[Questionnaire 7-4] After dinner</td>
+<td>2007-2008</td>
+</tr>
+<tr>
+<td><a href="lo/oq_ql07_5/"><code>OQ_QL07_5</code></a></td>
+<td>[문진7-5]잠자기 직전</td>
+<td>[Questionnaire 7-5] Right before bed</td>
+<td>2007-2008</td>
+</tr>
+<tr>
+<td><a href="lo/oq_ql07_6/"><code>OQ_QL07_6</code></a></td>
+<td>[문진7-6]간식섭취 후</td>
+<td>[Questionnaire 7-6] After snacks</td>
+<td>2007-2008</td>
+</tr>
+<tr>
+<td><a href="lo/oq_ql08/"><code>OQ_QL08</code></a></td>
+<td>[문진8]치아를 닦을 때, 치실 혹은 치간솔을 이용 하십니까?</td>
+<td>[Questionnaire 8] Do you use floss or an interdental brush when cleaning your teeth?</td>
+<td>2007-2008</td>
+</tr>
+<tr>
+<td><a href="lo/oq_ql09/"><code>OQ_QL09</code></a></td>
+<td>[문진9]음식을 씹기 불편함</td>
+<td>[Questionnaire 9] Discomfort chewing food</td>
+<td>2007-2008</td>
+</tr>
+<tr>
+<td><a href="lo/oq_ql10/"><code>OQ_QL10</code></a></td>
+<td>[문진10]치아가 깨지거나 부러짐</td>
+<td>[Questionnaire 10] Chipped or broken teeth</td>
+<td>2007-2008</td>
+</tr>
+<tr>
+<td><a href="lo/oq_ql11/"><code>OQ_QL11</code></a></td>
+<td>[문진11]차갑고 뜨거운 음료 혹은 음식을 마시거나 먹을 때 치아가 아픔</td>
+<td>[Questionnaire 11] Teeth hurt when eating or drinking cold or hot food or drinks</td>
+<td>2007-2008</td>
+</tr>
+<tr>
+<td><a href="lo/oq_tth_pain/"><code>OQ_TTH_PAIN</code></a></td>
+<td>[문진8]최근1년동안. 치아가 쑤시거나 욱신거리고 아픈 적이 있습니까?</td>
+<td>[Questionnaire 8] In the past year, have your teeth ached or throbbed?</td>
+<td>2007-2015</td>
+</tr>
+<tr>
+<td><a href="lo/oq_ggv_bld/"><code>OQ_GGV_BLD</code></a></td>
+<td>[문진9]최근1년동안. 잇몸이 아프거나 피가 난 적이 있습니까?</td>
+<td>[Questionnaire 9] In the past year, have your gums hurt or bled?</td>
+<td>2007-2015</td>
+</tr>
+<tr>
+<td><a href="lo/oq_tng_pain/"><code>OQ_TNG_PAIN</code></a></td>
+<td>[문진10]최근1년동안. 혀 또는 입 안쪽 뺨이 욱신거리고 아픈 적이 있습니까</td>
+<td>[Questionnaire 10] In the past year, has your tongue or the inside of your cheek throbbed or hurt?</td>
+<td>2007-2015</td>
+</tr>
+<tr>
+<td><a href="lo/oq_hlts/"><code>OQ_HLTS</code></a></td>
+<td>[문진11]최근1년동안. 불쾌한 입냄새가 난 적이 있습니까?</td>
+<td>[Questionnaire 11] In the past year, have you had unpleasant breath?</td>
+<td>2007-2015</td>
+</tr>
+<tr>
+<td><a href="lo/oq_ql16/"><code>OQ_QL16</code></a></td>
+<td>[문진16]찬음식을 먹거나 치아를 닦을 때에 치아가 시림</td>
+<td>[Questionnaire 16] Teeth are sensitive when eating cold food or brushing</td>
+<td>2007-2008</td>
+</tr>
+<tr>
+<td><a href="lo/oq_ql17/"><code>OQ_QL17</code></a></td>
+<td>[문진17]턱관절에서 소리가 남</td>
+<td>[Questionnaire 17] Clicking sound from the jaw joint</td>
+<td>2007-2008</td>
+</tr>
+<tr>
+<td><a href="lo/oq_ql18/"><code>OQ_QL18</code></a></td>
+<td>[문진18]턱관절이 아프거나 입이 잘 안 벌어짐</td>
+<td>[Questionnaire 18] Jaw joint hurts or mouth does not open well</td>
+<td>2007-2008</td>
+</tr>
+<tr>
+<td><a href="lo/oq_ql66_19/"><code>OQ_QL66_19</code></a></td>
+<td>[문진19]음식을 씹기 힘드셨던 경험이 있으십니까?</td>
+<td>[Questionnaire 19] Have you had difficulty chewing food?</td>
+<td>2007-2008</td>
+</tr>
+<tr>
+<td><a href="lo/oq_ql66_20/"><code>OQ_QL66_20</code></a></td>
+<td>[문진]20]발음이 잘 안되어 불편했던 적이 있으십니까?</td>
+<td>[Questionnaire 20] Have you had discomfort because of unclear pronunciation?</td>
+<td>2007-2008</td>
+</tr>
+<tr>
+<td><a href="lo/loe_crs_crwn/"><code>LOE_CRS_CRWN</code></a></td>
+<td>치아우식증)치관(머리부위)</td>
+<td>Dental caries, crown</td>
+<td>2009-2015</td>
+</tr>
+<tr>
+<td><a href="lo/loe_crs_root/"><code>LOE_CRS_ROOT</code></a></td>
+<td>치아우식증)치근(뿌리부위)</td>
+<td>Dental caries, root</td>
+<td>2009-2015</td>
+</tr>
+<tr>
+<td><a href="lo/loe_tth_mss/"><code>LOE_TTH_MSS</code></a></td>
+<td>결손치(빠진치아)</td>
+<td>Missing teeth</td>
+<td>2009-2015</td>
+</tr>
+<tr>
+<td><a href="lo/loe_wsdm_dis/"><code>LOE_WSDM_DIS</code></a></td>
+<td>제3대구치(사랑니) 이상</td>
+<td>Abnormal third molars (wisdom teeth)</td>
+<td>2009-2015</td>
+</tr>
+<tr>
+<td><a href="lo/loe_ggvts/"><code>LOE_GGVTS</code></a></td>
+<td>치은염증정도</td>
+<td>Degree of gingival inflammation</td>
+<td>2009-2015</td>
+</tr>
+<tr>
+<td><a href="lo/loe_prsth/"><code>LOE_PRSTH</code></a></td>
+<td>고정성 보철물상태</td>
+<td>Condition of fixed prosthesis</td>
+<td>2009-2015</td>
+</tr>
+<tr>
+<td><a href="lo/loe_dntr/"><code>LOE_DNTR</code></a></td>
+<td>틀니상태</td>
+<td>Denture condition</td>
+<td>2009-2015</td>
+</tr>
+<tr>
+<td><a href="lo/loe_sfts_dis/"><code>LOE_SFTS_DIS</code></a></td>
+<td>구강연조직이상유무</td>
+<td>Oral soft tissue abnormality</td>
+<td>2009-2015</td>
+</tr>
+<tr>
+<td><a href="lo/loe_jdg_q08/"><code>LOE_JDG_Q08</code></a></td>
+<td>의치보철물을수리하거나다시제작하여야합니다.</td>
+<td>Dentures need repair or remaking</td>
+<td>2009-2015</td>
+</tr>
+<tr>
+<td><a href="lo/oq_brsh_frq/"><code>OQ_BRSH_FRQ</code></a></td>
+<td>[문진5]어제 하루 동안 치아를 닦은 횟수는?</td>
+<td>[Questionnaire 5] Number of times you brushed your teeth yesterday</td>
+<td>2009-2015</td>
+</tr>
+<tr>
+<td><a href="lo/oq_brsh_slp_frq/"><code>OQ_BRSH_SLP_FRQ</code></a></td>
+<td>[문진6]지난 일주일 동안. 잠자기 직전에 칫솔질을 얼마나 자주 하였습니까?</td>
+<td>[Questionnaire 6] In the past week, how often did you brush your teeth right before going to bed?</td>
+<td>2009-2015</td>
+</tr>
+<tr>
+<td><a href="lo/oq_flss_frq/"><code>OQ_FLSS_FRQ</code></a></td>
+<td>[문진7]지난 일주일 동안. 치아를 닦을 때 치실 혹은 치간솔을 얼마나 자주 이용하였습니까?</td>
+<td>[Questionnaire 7] In the past week, how often did you use floss or an interdental brush when cleaning your teeth?</td>
+<td>2009-2015</td>
+</tr>
+<tr>
+<td><a href="lo/oq_tth_ache/"><code>OQ_TTH_ACHE</code></a></td>
+<td>[문진12]최근1년동안. 찬음식을 먹거나 치아를 닦을 때에 치아가 시린 적이 있습니까?</td>
+<td>[Questionnaire 12] In the past year, have your teeth been sensitive when eating cold food or brushing?</td>
+<td>2009-2015</td>
+</tr>
+<tr>
+<td><a href="lo/oq_crk_jaw/"><code>OQ_CRK_JAW</code></a></td>
+<td>[문진13]최근1년동안. 턱관절에서 소리가 나거나 아프거나 입이 잘 안 벌어진 적이 있습니까?</td>
+<td>[Questionnaire 13] In the past year, has your jaw joint clicked, hurt, or failed to open well?</td>
+<td>2009-2015</td>
+</tr>
+<tr>
+<td><a href="lo/oq_mstc_dys/"><code>OQ_MSTC_DYS</code></a></td>
+<td>[문진14]현재 치아나 틀니. 잇몸 등 입안의 문제로 음식을 씹는 데에 불편감을 느끼십니까?</td>
+<td>[Questionnaire 14] Do you have discomfort chewing food because of problems with your teeth, dentures, or gums?</td>
+<td>2009-2015</td>
+</tr>
+<tr>
+<td><a href="lo/oq_arti_dis/"><code>OQ_ARTI_DIS</code></a></td>
+<td>[문진15]현재 치아나 틀니. 잇몸 등 입안의 문제로 명확히 발음을 하는 데에 어려움이나 물편감을 느끼십니까?</td>
+<td>[Questionnaire 15] Do you have difficulty or discomfort pronouncing clearly because of problems with your teeth, dentures, or gums?</td>
+<td>2009-2015</td>
+</tr>
+</tbody>
+</table>
+<h2 id="go2">Oral screening, general and life-transition combined<a class="headerlink" href="#go2" title="Permanent link">&para;</a></h2>
+<p>구강검진(일반+생애 통합)</p>
+<ul>
+<li><strong>Unit of observation</strong> Screening</li>
+<li><strong>Source</strong> <code>건강검진코호트DB 사용자 매뉴얼v2.3.hwp</code></li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Variable</th>
+<th>한글</th>
+<th>English</th>
+<th>Years</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="go2/person_id/"><code>PERSON_ID</code></a></td>
+<td>개인일련번호</td>
+<td>Person identifier</td>
+<td>2014-2023</td>
+</tr>
+<tr>
+<td><a href="go2/hchk_year/"><code>HCHK_YEAR</code></a></td>
+<td>검진연도</td>
+<td>Year of screening</td>
+<td>2014-2023</td>
+</tr>
+<tr>
+<td><a href="go2/ykiho_gubun_cd/"><code>YKIHO_GUBUN_CD</code></a></td>
+<td>검진기관종별코드</td>
+<td>Screening provider type code</td>
+<td>2014-2023</td>
+</tr>
+<tr>
+<td><a href="go2/hme_dt/"><code>HME_DT</code></a></td>
+<td>건강검진일자</td>
+<td>Screening date</td>
+<td>2014-2023</td>
+</tr>
+<tr>
+<td><a href="go2/oq_vst_yn/"><code>OQ_VST_YN</code></a></td>
+<td>[문진1] 지난 1년간 치과병(의)원에 가신 적이 있습니까?</td>
+<td>[Questionnaire 1] Have you visited a dental hospital or clinic in the past year?</td>
+<td>2014-2023</td>
+</tr>
+<tr>
+<td><a href="go2/oq_srh/"><code>OQ_SRH</code></a></td>
+<td>[문진7] 스스로 생각하실 때에 치아와 잇몸 등 귀하의 구강건강이 어떤 편이라고 생각하십니까?</td>
+<td>[Questionnaire 7] How would you rate your own oral health, including teeth and gums?</td>
+<td>2014-2023</td>
+</tr>
+<tr>
+<td><a href="go2/oq_smk_yn/"><code>OQ_SMK_YN</code></a></td>
+<td>[문진15] 담배를 피우십니까?</td>
+<td>[Questionnaire 15] Do you smoke?</td>
+<td>2014-2023</td>
+</tr>
+<tr>
+<td><a href="go2/oq_brsh_frq/"><code>OQ_BRSH_FRQ</code></a></td>
+<td>[문진9] 어제 하루 동안 치아를 닦은 횟수는?</td>
+<td>[Questionnaire 9] Number of times you brushed your teeth yesterday</td>
+<td>2014-2023</td>
+</tr>
+<tr>
+<td><a href="go2/oq_brsh_slp_frq/"><code>OQ_BRSH_SLP_FRQ</code></a></td>
+<td>[문진10] 지난 일주일 동안. 잠자기 직전에 칫솔질을 얼마나 자주 하였습니까?</td>
+<td>[Questionnaire 10] In the past week, how often did you brush your teeth right before going to bed?</td>
+<td>2014-2023</td>
+</tr>
+<tr>
+<td><a href="go2/oq_flss_frq/"><code>OQ_FLSS_FRQ</code></a></td>
+<td>[문진11] 지난 일주일 동안. 치아를 닦을 때 치실 혹은 치간솔을 얼마나 자주 이용하였습니까?</td>
+<td>[Questionnaire 11] In the past week, how often did you use floss or an interdental brush when cleaning your teeth?</td>
+<td>2014-2023</td>
+</tr>
+<tr>
+<td><a href="go2/oq_tth_pain/"><code>OQ_TTH_PAIN</code></a></td>
+<td>[문진5] 최근 3개월 동안 치아가 쑤시거나 욱신거리고 아픈 적이 있습니까?</td>
+<td>[Questionnaire 5] In the past 3 months, have your teeth ached or throbbed?</td>
+<td>2014-2023</td>
+</tr>
+<tr>
+<td><a href="go2/oq_ggv_bld/"><code>OQ_GGV_BLD</code></a></td>
+<td>[문진6] 최근 3개월 동안. 잇몸이 아프거나 피가 난 적이 있습니까?</td>
+<td>[Questionnaire 6] In the past 3 months, have your gums hurt or bled?</td>
+<td>2014-2023</td>
+</tr>
+<tr>
+<td><a href="go2/oq_dm_yn/"><code>OQ_DM_YN</code></a></td>
+<td>[문진2] 현재 당뇨병을 앓고 계십니까?</td>
+<td>[Questionnaire 2] Do you currently have diabetes?</td>
+<td>2014-2023</td>
+</tr>
+<tr>
+<td><a href="go2/oq_cvd_yn/"><code>OQ_CVD_YN</code></a></td>
+<td>[문진3] 현재 심혈관질환을 앓고 계십니까?</td>
+<td>[Questionnaire 3] Do you currently have cardiovascular disease?</td>
+<td>2014-2023</td>
+</tr>
+<tr>
+<td><a href="go2/oq_mstc_yn/"><code>OQ_MSTC_YN</code></a></td>
+<td>[문진4] 현재 3개월 동안, 치아나 잇몸 문제로 혹은 틀니 때문에 음식을 씹는데에 불편감을 느끼신 적이 있습니까?</td>
+<td>[Questionnaire 4] In the past 3 months, have you had discomfort chewing because of tooth or gum problems or dentures?</td>
+<td>2014-2023</td>
+</tr>
+<tr>
+<td><a href="go2/oq_lrnd_yn/"><code>OQ_LRND_YN</code></a></td>
+<td>[문진8] 치아닦는 방법을 치과나 보건소에서 배운 적이 있습니까?</td>
+<td>[Questionnaire 8] Have you learned how to brush your teeth at a dentist or public health center?</td>
+<td>2014-2023</td>
+</tr>
+<tr>
+<td><a href="go2/oq_pst_flrd/"><code>OQ_PST_FLRD</code></a></td>
+<td>[문진12] 현재 사용중인 치약에 불소가 들어있습니까?</td>
+<td>[Questionnaire 12] Does the toothpaste you currently use contain fluoride?</td>
+<td>2014-2023</td>
+</tr>
+<tr>
+<td><a href="go2/oq_snck_frq/"><code>OQ_SNCK_FRQ</code></a></td>
+<td>[문진13] 하루에 과자,사탕,케이크 등 달거나 치아에 끈끈하게 달라붙는 간식을 얼마나 먹습니까?</td>
+<td>[Questionnaire 13] How many sweet or sticky snacks such as cookies, candy, or cake does the child eat a day?</td>
+<td>2014-2023</td>
+</tr>
+<tr>
+<td><a href="go2/oq_soda_frq/"><code>OQ_SODA_FRQ</code></a></td>
+<td>[문진14] 하루에 탄산 및 청량음료(스포츠 음료,이온 음료,과일 주스 포함)을 얼마나 마십니까?</td>
+<td>[Questionnaire 14] How many carbonated or soft drinks (including sports drinks, ion drinks, and fruit juice) does the child drink a day?</td>
+<td>2014-2023</td>
+</tr>
+<tr>
+<td><a href="go2/goe_ggvts/"><code>GOE_GGVTS</code></a></td>
+<td>염증정도</td>
+<td>Degree of inflammation</td>
+<td>2014-2023</td>
+</tr>
+<tr>
+<td><a href="go2/goe_ttr/"><code>GOE_TTR</code></a></td>
+<td>치석</td>
+<td>Dental calculus</td>
+<td>2014-2023</td>
+</tr>
+<tr>
+<td><a href="go2/goe_plq_26/"><code>GOE_PLQ_26</code></a></td>
+<td>구강1차&lt;치면세균막(상악좌측1대구치(26번))&gt;</td>
+<td>Oral exam 1, dental plaque (upper left first molar, tooth 26)</td>
+<td>2014-2023</td>
+</tr>
+<tr>
+<td><a href="go2/goe_plq_36/"><code>GOE_PLQ_36</code></a></td>
+<td>구강1차&lt;치면세균막(하악좌측1대구치(36번))&gt;</td>
+<td>Oral exam 1, dental plaque (lower left first molar, tooth 36)</td>
+<td>2014-2023</td>
+</tr>
+<tr>
+<td><a href="go2/goe_plq_16/"><code>GOE_PLQ_16</code></a></td>
+<td>구강1차&lt;치면세균막(상악우측제1대구치(16번))&gt;</td>
+<td>Oral exam 1, dental plaque (upper right first molar, tooth 16)</td>
+<td>2014-2023</td>
+</tr>
+<tr>
+<td><a href="go2/goe_plq_11/"><code>GOE_PLQ_11</code></a></td>
+<td>구강1차&lt;치면세균막(상악우측중절치(11번))&gt;</td>
+<td>Oral exam 1, dental plaque (upper right central incisor, tooth 11)</td>
+<td>2014-2023</td>
+</tr>
+<tr>
+<td><a href="go2/goe_plq_31/"><code>GOE_PLQ_31</code></a></td>
+<td>구강1차&lt;치면세균막(하악좌측중절치(31번))&gt;</td>
+<td>Oral exam 1, dental plaque (lower left central incisor, tooth 31)</td>
+<td>2014-2023</td>
+</tr>
+<tr>
+<td><a href="go2/goe_plq_46/"><code>GOE_PLQ_46</code></a></td>
+<td>구강1차&lt;치면세균막(하악우측제1대구치(46번))&gt;</td>
+<td>Oral exam 1, dental plaque (lower right first molar, tooth 46)</td>
+<td>2014-2023</td>
+</tr>
+<tr>
+<td><a href="go2/goe_orl_phx/"><code>GOE_ORL_PHX</code></a></td>
+<td>(치과)병력 문제</td>
+<td>(Dental) Medical history problems</td>
+<td>2014-2023</td>
+</tr>
+<tr>
+<td><a href="go2/goe_hth_rcgn/"><code>GOE_HTH_RCGN</code></a></td>
+<td>구강건강인식도 문제</td>
+<td>Oral health awareness problem</td>
+<td>2014-2023</td>
+</tr>
+<tr>
+<td><a href="go2/goe_bhv_snt/"><code>GOE_BHV_SNT</code></a></td>
+<td>구강건강습관 문제-구강위생</td>
+<td>Oral health habit problem, oral hygiene</td>
+<td>2014-2023</td>
+</tr>
+<tr>
+<td><a href="go2/goe_bhv_flrd/"><code>GOE_BHV_FLRD</code></a></td>
+<td>구강건강습관 문제-불소이용</td>
+<td>Oral health habit problem, fluoride use</td>
+<td>2014-2023</td>
+</tr>
+<tr>
+<td><a href="go2/goe_bhv_sgr/"><code>GOE_BHV_SGR</code></a></td>
+<td>구강건강습관 문제-설탕섭취</td>
+<td>Oral health habit problem, sugar intake</td>
+<td>2014-2023</td>
+</tr>
+<tr>
+<td><a href="go2/goe_bhv_smk/"><code>GOE_BHV_SMK</code></a></td>
+<td>구강건강습관 문제-흡연</td>
+<td>Oral health habit problem, smoking</td>
+<td>2014-2023</td>
+</tr>
+<tr>
+<td><a href="go2/goe_orl_pain/"><code>GOE_ORL_PAIN</code></a></td>
+<td>구강병력및증상-치아통증</td>
+<td>Oral history and symptoms, tooth pain</td>
+<td>2014-2023</td>
+</tr>
+<tr>
+<td><a href="go2/goe_orl_cdx/"><code>GOE_ORL_CDX</code></a></td>
+<td>구강병력및증상-만성질환</td>
+<td>Oral history and symptoms, chronic disease</td>
+<td>2014-2023</td>
+</tr>
+<tr>
+<td><a href="go2/goe_orl_ggvts/"><code>GOE_ORL_GGVTS</code></a></td>
+<td>구강병력및증상-잇몸통증혹은출혈</td>
+<td>Oral history and symptoms, gum pain or bleeding</td>
+<td>2014-2023</td>
+</tr>
+<tr>
+<td><a href="go2/goe_crs/"><code>GOE_CRS</code></a></td>
+<td>치아검사-우식치아</td>
+<td>Dental exam, decayed teeth</td>
+<td>2014-2023</td>
+</tr>
+<tr>
+<td><a href="go2/goe_crs_prxm/"><code>GOE_CRS_PRXM</code></a></td>
+<td>치아검사-인접면우식치아 / (우식의심치아)</td>
+<td>Dental exam, proximal caries (suspected caries)</td>
+<td>2014-2023</td>
+</tr>
+<tr>
+<td><a href="go2/goe_rpr/"><code>GOE_RPR</code></a></td>
+<td>치아검사-수복치아</td>
+<td>Dental exam, restored teeth</td>
+<td>2014-2023</td>
+</tr>
+<tr>
+<td><a href="go2/goe_lss/"><code>GOE_LSS</code></a></td>
+<td>치아검사-상실치아</td>
+<td>Dental exam, missing teeth</td>
+<td>2014-2023</td>
+</tr>
+<tr>
+<td><a href="go2/goe_jdg/"><code>GOE_JDG</code></a></td>
+<td>종합판정</td>
+<td>Overall judgment</td>
+<td>2014-2023</td>
+</tr>
+<tr>
+<td><a href="go2/goe_edu_ntr/"><code>GOE_EDU_NTR</code></a></td>
+<td>필요구강교육-설탕섭취(영양)</td>
+<td>Oral health education needed, sugar intake (nutrition)</td>
+<td>2014-2023</td>
+</tr>
+<tr>
+<td><a href="go2/goe_edu_snt/"><code>GOE_EDU_SNT</code></a></td>
+<td>필요구강교육-구강위생</td>
+<td>Oral health education needed, oral hygiene</td>
+<td>2014-2023</td>
+</tr>
+<tr>
+<td><a href="go2/goe_edu_flrd/"><code>GOE_EDU_FLRD</code></a></td>
+<td>필요구강교육-불소이용</td>
+<td>Oral health education needed, fluoride use</td>
+<td>2014-2023</td>
+</tr>
+<tr>
+<td><a href="go2/goe_rcmd_dpth/"><code>GOE_RCMD_DPTH</code></a></td>
+<td>사후관리권고-정밀구강검진(방사선검사 등)</td>
+<td>Follow-up recommendation, detailed oral examination (radiography)</td>
+<td>2014-2023</td>
+</tr>
+<tr>
+<td><a href="go2/goe_rcmd_snt/"><code>GOE_RCMD_SNT</code></a></td>
+<td>사후관리권고-전문가 구강위생관리 및 치주관리(스케일링 등)</td>
+<td>Follow-up recommendation, professional oral hygiene and periodontal care (scaling)</td>
+<td>2014-2023</td>
+</tr>
+<tr>
+<td><a href="go2/goe_rcmd_tx_crs/"><code>GOE_RCMD_TX_CRS</code></a></td>
+<td>사후관리권고-치아우식치료필요</td>
+<td>Follow-up recommendation, caries treatment needed</td>
+<td>2014-2023</td>
+</tr>
+<tr>
+<td><a href="go2/goe_rcmd_tx_prod/"><code>GOE_RCMD_TX_PROD</code></a></td>
+<td>사후관리권고-치주치료필요</td>
+<td>Follow-up recommendation, periodontal treatment needed</td>
+<td>2014-2023</td>
+</tr>
+</tbody>
+</table>
+<h2 id="yk">Healthcare providers (YK)<a class="headerlink" href="#yk" title="Permanent link">&para;</a></h2>
+<p>요양기관 DB</p>
+<ul>
+<li><strong>Files</strong> <code>NHIS_HEALS_YK_0215</code>, <code>NHIS_HEALS_YK_1619</code>, <code>NHIS_HEALS_YK_2023</code></li>
+<li><strong>Unit of observation</strong> Provider and year</li>
+<li><strong>Source</strong> <code>건강검진코호트DB 사용자 매뉴얼v2.3.hwp</code></li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Variable</th>
+<th>한글</th>
+<th>English</th>
+<th>Years</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="yk/stnd_y/"><code>STND_Y</code></a></td>
+<td>기준년도</td>
+<td>Reference year</td>
+<td>2002-2023</td>
+</tr>
+<tr>
+<td><a href="yk/ykiho_id/"><code>YKIHO_ID</code></a></td>
+<td>요양기관식별대체번호</td>
+<td>Provider identifier</td>
+<td>2002-2023</td>
+</tr>
+<tr>
+<td><a href="yk/ykiho_gubun_cd/"><code>YKIHO_GUBUN_CD</code></a></td>
+<td>요양기관종별코드</td>
+<td>Provider type code</td>
+<td>2002-2023</td>
+</tr>
+<tr>
+<td><a href="yk/org_type/"><code>ORG_TYPE</code></a></td>
+<td>요양기관설립구분</td>
+<td>Provider ownership type</td>
+<td>2002-2023</td>
+</tr>
+<tr>
+<td><a href="yk/ykiho_sido/"><code>YKIHO_SIDO</code></a></td>
+<td>요양기관시도코드</td>
+<td>Province code of the provider</td>
+<td>2002-2023</td>
+</tr>
+<tr>
+<td><a href="yk/sickbed_cnt/"><code>SICKBED_CNT</code></a></td>
+<td>병상수</td>
+<td>Number of beds</td>
+<td>2002-2023</td>
+</tr>
+<tr>
+<td><a href="yk/dr_cnt/"><code>DR_CNT</code></a></td>
+<td>의사수</td>
+<td>Number of physicians</td>
+<td>2002-2023</td>
+</tr>
+<tr>
+<td><a href="yk/ct_yn/"><code>CT_YN</code></a></td>
+<td>CT유무</td>
+<td>CT scanner available</td>
+<td>2002-2023</td>
+</tr>
+<tr>
+<td><a href="yk/mri_yn/"><code>MRI_YN</code></a></td>
+<td>MRI유무</td>
+<td>MRI scanner available</td>
+<td>2002-2023</td>
+</tr>
+<tr>
+<td><a href="yk/pet_yn/"><code>PET_YN</code></a></td>
+<td>PET유무</td>
+<td>PET scanner available</td>
+<td>2002-2023</td>
+</tr>
+</tbody>
+</table>
+<h2 id="code-lists">Code lists<a class="headerlink" href="#code-lists" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th>List</th>
+<th>Entries</th>
+<th>Used by</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="codes/sido/">Province codes (SIDO)</a></td>
+<td>16</td>
+<td></td>
+</tr>
+<tr>
+<td><a href="codes/ykiho_sido/">Province codes of the provider (YKIHO_SIDO)</a></td>
+<td>16</td>
+<td></td>
+</tr>
+<tr>
+<td><a href="codes/ipsn_type_cd/">Insured type codes (IPSN_TYPE_CD)</a></td>
+<td>6</td>
+<td></td>
+</tr>
+<tr>
+<td><a href="codes/ctrb_pt_type_cd/">Premium decile codes (CTRB_PT_TYPE_CD)</a></td>
+<td>12</td>
+<td></td>
+</tr>
+<tr>
+<td><a href="codes/dfab_ptn_cd/">Disability type codes (DFAB_PTN_CD)</a></td>
+<td>9</td>
+<td></td>
+</tr>
+<tr>
+<td><a href="codes/form_cd/">Claim form codes (FORM_CD)</a></td>
+<td>14</td>
+<td></td>
+</tr>
+<tr>
+<td><a href="codes/dsbjt_cd/">Medical specialty codes (DSBJT_CD)</a></td>
+<td>48</td>
+<td></td>
+</tr>
+<tr>
+<td><a href="codes/clause_cd/">Clause (item group) codes (CLAUSE_CD)</a></td>
+<td>20</td>
+<td></td>
+</tr>
+<tr>
+<td><a href="codes/item_cd/">Item codes (ITEM_CD)</a></td>
+<td>2</td>
+<td></td>
+</tr>
+<tr>
+<td><a href="codes/div_type_cd/">Drug classification type codes (DIV_TYPE_CD)</a></td>
+<td>12</td>
+<td></td>
+</tr>
+<tr>
+<td><a href="codes/ykiho_gubun_cd/">Provider type codes (YKIHO_GUBUN_CD)</a></td>
+<td>5</td>
+<td></td>
+</tr>
+<tr>
+<td><a href="codes/org_type/">Provider type codes (ORG_TYPE)</a></td>
+<td>14</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+  <script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var labels=set.querySelector(".tabbed-labels");for(var tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>
+
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+      
+      <nav class="md-footer__inner md-grid" aria-label="Footer" >
+        
+          
+          <a href="../nsc/" class="md-footer__link md-footer__link--prev" aria-label="Previous: National Sample Cohort">
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              <div class="md-ellipsis">
+                National Sample Cohort
+              </div>
+            </div>
+          </a>
+        
+        
+          
+          <a href="../senior/" class="md-footer__link md-footer__link--next" aria-label="Next: Senior Cohort">
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              <div class="md-ellipsis">
+                Senior Cohort
+              </div>
+            </div>
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      Content licensed under CC BY 4.0. Not affiliated with the National Health Insurance Service.
+    </div>
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["navigation.tabs", "navigation.sections", "navigation.indexes", "navigation.top", "navigation.footer", "search.suggest", "search.highlight", "content.action.edit", "content.code.copy", "content.tabs.link", "toc.follow"], "search": "../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.d7400e89.min.js"></script>
+      
+    
+  </body>
+</html>
